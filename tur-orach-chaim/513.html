@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 513</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 513</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Lois sur l&#x27;œuf pondu à Yom Tov</div></header>
+<nav class="dafnav"><a href="512.html">&lsaquo; Siman 512</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="514.html">Siman 514 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Le statut de l&#x27;œuf pondu pendant Chabbat ou Yom Tov, sa consommation, son déplacement, et les règles liées à l&#x27;interdiction de hakhana (préparation).</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>hakhana</dt><dd>préparation (interdiction de ce qui se prépare d&#x27;un jour saint à un autre)</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>ביצה שנולדה בשבת וי&quot;ט אסור ליגע בה וכ&quot;ש שלא לאוכלה ואפילו ספק נולדה בי&quot;ט או בחול אסורה ואפי&#x27; נתערב באלף כולן אסורות ואבי העזרי אסר אפילו התבשיל שנעשה בספק ביצה שנולדה בי&quot;ט וכ&quot;כ הר&quot;ם מרוטנבורק ולפי מה שפי&#x27; ר&quot;ת דהא דאמרינן דבר שיש לו מתירין לא בטיל דוקא כשהוא בעין אבל טעמו בטל בס&#x27; היה נראה שהתבשיל מותר כיון שלא נתכוין לבטלה ומותר לכפות עליה כלי שלא תשבר ובלבד שלא יגע בה הכלי ובי&quot;ט שני מותרת בשני י&quot;ט של גליות אבל בשני י&quot;ט של ר&quot;ה או משבת לי&quot;ט של אחריו או מי&quot;ט שלפני השבת לשבת אסורה בשני: ביצה שיצא&#x27; רובה מעי&quot;ט וחזרה ויצאה בי&quot;ט מותרת דחשיב לידה משיצאה רובה הלכך אפילו בדק בקינה של תרנגולת מעי&quot;ט סמוך לחשיכה ולא מצא בה בצים ולמחר השכים ומצא בה בצים מותרות שתרנגולת אינה יולדת בלילה ובודאי מאתמול ילדה אף על פי שבדק אתמול ולא מצא בה אנו תולין שמאתמול יצא רובה וחזרה וכגון דאיכא זכר בהדה ואפילו עד ס&#x27; בתי ובלבד שלא יפסיק נהר שאין בו גשר שאז אינה יולדת בלילה אבל אי ליכא זכר בהדה לא שאז יולדת בלילה ואם לא בדק מעי&quot;ט אפילו אי ליכא זכר בהדה שריא דתלינן דמאתמול היתה שם דאף בלא זכר רובן יולדות ביום הלכך מותר ליקח בצים מן העו&quot;ג בליל ראשון של י&quot;ט דתלינן מעי&quot;ט ילדה וכן בליל ב&#x27; בשני י&quot;ט של גליות אבל לא בליל ב&#x27; של ר&quot;ה ולא בליל א&#x27; של י&quot;ט שאחר השבת דאימור מאתמול הוה: השוחט תרנגולת ומצא בה ביצים גמורות מותרות ואפילו בי&quot;ט שלאחר השבת: אפרוח שנולד בי&quot;ט יש מתירין והגאונים אוסרין וגם רי&quot;ף אוסר ואם נולדה בשבת כתב אחי ה&quot;ר יחיאל ז&quot;ל שאסור בי&quot;ט שלאחריו משום הכנה דודאי שייך ביה הכנה דבעודו בקליפתו לא היה ראוי לכלום:</p></div><div class="fr"><p>Un œuf qui a été pondu à Chabbat et à Yom Tov, il est interdit de le toucher et a fortiori de le manger, et même en cas de doute s&#x27;il a été pondu à Yom Tov ou un jour profane, il est interdit. Même s&#x27;il s&#x27;est mélangé à mille autres, tous sont interdits. L&#x27;Avi Haezri a interdit même le plat cuisiné avec un œuf douteux pondu à Yom Tov, et ainsi a écrit le Maharam de Rothenbourg. Mais selon l&#x27;explication de Rabbeinou Tam stipulant qu&#x27;une « chose qui a des permissibles » ne s&#x27;annule pas, cela concerne uniquement lorsqu&#x27;elle est intacte, mais son goût s&#x27;annule dans soixante ; il semblerait donc que le plat soit permis puisqu&#x27;on n&#x27;a pas eu l&#x27;intention de l&#x27;annuler. Il est permis de renverser un ustensile dessus pour qu&#x27;il ne se brise pas, à condition que l&#x27;ustensile ne le touche pas. Le deuxième jour de Yom Tov, il est permis (lors des deux jours de Yom Tov de l&#x27;exil), mais lors des deux jours de Roch Hachana, ou d&#x27;un Chabbat suivi d&#x27;un Yom Tov, ou d&#x27;un Yom Tov précédant le Chabbat, il est interdit le deuxième jour. Un œuf dont la majorité est sortie la veille de Yom Tov, puis est rentrée, et est ressortie à Yom Tov, est permis, car il est considéré comme né dès que sa majorité est sortie. Par conséquent, même s&#x27;il a vérifié le nid d&#x27;une poule la veille de Yom Tov juste avant la nuit sans y trouver d&#x27;œufs, et que le lendemain il s&#x27;est levé tôt et y a trouvé des œufs, ils sont permis car une poule ne pond pas la nuit et a certainement pondu la veille. Bien qu&#x27;il ait vérifié la veille sans en trouver, on présume que sa majorité est sortie la veille puis est rentrée, à condition qu&#x27;il y ait un coq avec elle (même jusqu&#x27;à soixante maisons de distance, pourvu qu&#x27;aucun fleuve sans pont ne sépare), car alors elle ne pond pas la nuit. Mais s&#x27;il n&#x27;y a pas de coq avec elle, non, car alors elle pond la nuit. Et s&#x27;il n&#x27;a pas vérifié la veille de Yom Tov, même s&#x27;il n&#x27;y a pas de coq avec elle, c&#x27;est permis car on présume qu&#x27;il y était depuis la veille, car même sans coq, la plupart pondent le jour. Par conséquent, il est permis de prendre des œufs à un non-Juif la première nuit de Yom Tov, en présumant qu&#x27;ils ont été pondus la veille. De même la deuxième nuit des deux jours de Yom Tov de l&#x27;exil. Mais pas la deuxième nuit de Roch Hachana ni la première nuit du Yom Tov suivant le Chabbat, de peur qu&#x27;ils ne datent de la veille. Celui qui abat une poule et y trouve des œufs complètement formés, ils sont permis, même le Yom Tov suivant le Chabbat. Un poussin qui naît à Yom Tov, certains le permettent, mais les Gueonim l&#x27;interdisent, ainsi que le Rif. S&#x27;il est né à Chabbat, mon frère le Rav Yehiel de mémoire bénie a écrit qu&#x27;il est interdit le Yom Tov suivant en raison de la hakhana, car la notion de préparation s&#x27;y applique certainement puisqu&#x27;alors qu&#x27;il était dans sa coquille, il n&#x27;était propre à rien.</p></div></div>
+<nav class="dafnav"><a href="512.html">&lsaquo; Siman 512</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="514.html">Siman 514 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 585</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 585</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Lois concernant la station debout, les bénédictions et l&#x27;ordre des sonneries</div></header>
+<nav class="dafnav"><a href="584.html">&lsaquo; Siman 584</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="586.html">Siman 586 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Lois relatives à l&#x27;obligation de sonner debout, aux bénédictions requises, au remplacement d&#x27;un sonneur défaillant, aux raisons des sonneries avant et pendant Moussaf, à l&#x27;interdiction de rémunérer le sonneur, et aux conséquences de l&#x27;omission du chofar.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>oness</dt><dd>contrainte</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>ועומד התוקע לתקוע שצריך שיתקע מעומד דכתיב יום תרועה יהיה לכם וילפינן מלכם דכתיב גבי עומר וספירת העומר מעומד דכתיב מהחל חרמש בקמה אל תקרי בקמה אלא בקומה וקודם שיתקע יברך לשמוע קול שופר ולא לתקוע דלאו בתקיעה תליא מילתא אלא בשומע כדתנן (כז:) התוקע לתוך הבור כו&#x27; לא יצא כתב א&quot;ה ויברך שהחיינו ויתקע תשר&quot;ת ג&quot;פ ותש&quot;ת ג&quot;פ ותר&quot;ת ג&quot;פ ואם התחיל ולא יכול להשלים כתב ר&quot;י דבר פשוט הוא שמשלים אחר ואפילו ג&#x27; וד&#x27; ודי בברכה שבירך הראשון כי הראשון מברך בשביל כל הצבור ותוקע ולמה יברך השני ואפילו אם בירך ולא יכול לתקוע כלל השני תוקע בלא ברכה וברכה לבטלה לא הוי כיון שיוצא בתקיעת השני אמר רבי יצחק למה תוקעין ומריעין כשהן יושבין וחוזרין ותוקעין ומריעין כשהן עומדין כדי לערבב השטן פירוש למה תוקעין מיושב קודם מוסף וחוזרין ותוקעין על סדר ברכות למה מקדימין לתקוע מיושב כדי לערבב השטן פי&#x27; כדי שיתערבב מיד בתקיעה ראשונה שלפני התפלה ולא יקטרג בשעת תפלה וי&quot;מ שמכח תקיעה ראשונה מתערבב בשנייה והכי איתא בירושלמי בלע המות לנצח וכתיב והיה ביום ההוא יתקע בשופר גדול כד שמע קול שופר חדא זימנא בהיל ולא בהיל אומר שמא ההיא זימנא דשופר גדול כד שמע תניינא אומר ודאי מטא זמניה ומירתת ומתערבב ולית ליה פנאי למיעבד קטיגוריא אבל לעולם עיקר תקיעה היא מעומד שהיא על סדר ברכות כדתנן העובר לפני התיבה בי&quot;ט של ר&quot;ה השני מתקיע פירוש מי שמתפלל תפלת מוסף מתקיע ודקדק רב האי מדקאמר מתקיע ולא אומר תוקע אלמא אחר תוקע ולא ש&quot;צ וכתב א&quot;א ז&quot;ל והטעם כי הא דתנן בפרק אין עומדין (ברכות לד.) העובר לפני התיבה לא יענה אמן אחר הכהנים מפני הטרוף פי&#x27; שמא יטרף דעתו בעניית אמן ואז לא ידע מהיכן יתחיל לחזור ואם אין שם כהן אלא הוא לא ישא את כפיו מזה הטעם עצמו ואם הוא בטוח שנושא כפיו וחוזר לתפלתו שאינו מתבלבל רשאי וכן הטעם בכאן דתקיעה ודאי לא הוי הפסק הלכך אם הוא מובטח שחוזר לתפלתו רשאי לתקוע וכ&quot;כ בעל העיטור מסתברא שאם ש&quot;צ יודע לתקוע הרשות בידו אלא מנהג הראשונים שהיו זריזין במצות ומחבבין אותן כל אחד ואחד נוטל חלקו כדי לקבל שכר וכ&quot;כ אחי ה&quot;ר יחיאל ז&quot;ל וכן עוד מנהג באשכנז שגדולי העיר מקדימין לתקוע כל מי שזריז בו יותר מה שאין כן בספרד שבורחים מן המצוה עד שצריכים לשכור אחד מן השוק לתקוע להם ולא ידעתי מאין מצאו היתר זה כי נ&quot;ל שאסור כדתניא (ב&quot;מ נח:) השוכר את הפועל לשמור הפרה והתינוק אין נותנין לו שכר שבת אלמא בהדיא קתני שאסור ליטול שכר שבת אלא ע&quot;י הבלעה כדמפרש בסיפא דברייתא ששכרו לשמור חדש משם יראה שיצא שכרו בהפסדו וע&quot;ז נאמר עבירה גוררת עבירה ע&quot;כ: וא&quot;ר יצחק כל שנה שאין תוקעין בה בתחלתה מריעין לה בסופה מ&quot;ט משום דלא מיערבב שטן ומפרש בה&quot;ג דלא דאקלע בשבתא אלא דאיתיליד אונסא ולא תקעו רמז לדבר אין שטן ואין פגע רע ראשי תיבות שופר פי&#x27; כשיש שופר אין פגע רע אע&quot;פ שאין שופר מפורש בתקיעות ר&quot;ה אנו לומדין אותו מיובל דכתיב בי&#x27; והעברת שופר תרוע&#x27; בחדש השביעי:</p></div><div class="fr"><p>Le sonneur se tient debout pour sonner, car la mitsva requiert la station debout, déduite par analogie avec le compte du Omer. Avant de sonner, il récite la bénédiction « entendre le son du chofar » (lichmoa kol chofar) et non « pour sonner » (litko&#x27;a), car l&#x27;essentiel de la mitsva réside dans l&#x27;écoute, comme on l&#x27;enseigne : celui qui sonne dans une fosse et n&#x27;entend que l&#x27;écho n&#x27;est pas quitte. L&#x27;Avi HaEzri écrit qu&#x27;on ajoute la bénédiction Cheheheyanou, puis on sonne trois fois TaChaRa&quot;T (Teki&#x27;a, Chevarim, Terou&#x27;a, Teki&#x27;a), trois fois TaCha&quot;T (Teki&#x27;a, Chevarim, Teki&#x27;a) et trois fois TaRa&quot;T (Teki&#x27;a, Terou&#x27;a, Teki&#x27;a). S&#x27;il a commencé mais ne peut terminer, Rabbeinou Yitshak précise qu&#x27;il est évident qu&#x27;un autre achève à sa place sans répéter la bénédiction, car le premier a béni pour toute l&#x27;assemblée. Même si le premier n&#x27;a pas pu sonner du tout après avoir béni, le second sonne sans bénir, et la bénédiction initiale n&#x27;est pas en vain puisqu&#x27;elle acquitte le second. Rabbi Yitshak demande : pourquoi sonne-t-on d&#x27;abord assis (avant Moussaf), puis on répète les sonneries debout (pendant Moussaf) ? Pour confondre le Satan, afin qu&#x27;il soit troublé dès la première sonnerie et n&#x27;accuse pas pendant la tefila. Le Talmud de Jérusalem explique qu&#x27;en entendant le chofar à deux reprises, le Satan panique, croyant qu&#x27;il s&#x27;agit du grand chofar de la délivrance. La sonnerie principale reste toutefois celle effectuée debout pendant l&#x27;ordre des bénédictions. La Michna enseigne que l&#x27;officiant fait généralement sonner une autre personne pour ne pas perdre le fil de sa propre prière. Mon maître mon père le Roch écrit que la raison est identique à celle interdisant à l&#x27;officiant de répondre Amen aux Cohanim, par crainte qu&#x27;il ne s&#x27;embrouille ; cependant, s&#x27;il est certain de ne pas s&#x27;égarer, il peut sonner lui-même. C&#x27;est aussi l&#x27;avis du Ba&#x27;al HaItour. Mon frère Rabbi Yéhiel écrit qu&#x27;en Achkénaze, la coutume est que les notables s&#x27;empressent d&#x27;accomplir cette mitsva avec zèle, contrairement à l&#x27;Espagne où l&#x27;on fuit la mitsva au point de devoir rémunérer un sonneur au marché. L&#x27;auteur désapprouve cette pratique, car l&#x27;interdiction de percevoir un salaire de Chabbat s&#x27;applique, à moins d&#x27;une rémunération globale (havla&#x27;a), et une faute en entraîne une autre. Rabbi Yitshak avertit : une année où l&#x27;on ne sonne pas à son début connaîtra l&#x27;adversité à sa fin. Le BaHaG précise que cela ne vise pas le cas où la fête tombe un Chabbat, mais lorsqu&#x27;une oness a empêché la sonnerie. Une allusion à cela : les initiales de l&#x27;expression « Ein Satan v&#x27;ein Pega Ra » (Il n&#x27;y a ni Satan ni mauvais fléau) forment le mot Chofar, dont l&#x27;usage pour Roch Hachana est déduit par analogie avec les lois du Yovel.</p></div></div>
+<nav class="dafnav"><a href="584.html">&lsaquo; Siman 584</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="586.html">Siman 586 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 131</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 131</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Néfilat apayim</div></header>
+<nav class="dafnav"><a href="130.html">&lsaquo; Siman 130</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="132.html">Siman 132 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Après la répétition de la tefila, on tombe sur le visage et l’on supplie. Posture (visage tenu au-dessus du sol ; gauche pour l’homme important, droite en Ashkenaz), interdiction rabbinique de la prosternation à même le dallage même sans étendre les membres, textes de tehina, caractère facultatif, on tombe chez l’endeuillé et non chez le marié, restriction pour l’homme important au tsibbour, « Veanahnu lo neda », kaddish, Ashré, Ouva leTsion ; usage d’ajouter Yaankha.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>néfilat apayim</dt><dd>chute sur le visage</dd></div><div class="gl"><dt>hishtahavaya</dt><dd>prosternation</dd></div><div class="gl"><dt>pishout yadayim veraglayim</dt><dd>extension des mains et des pieds</dd></div><div class="gl"><dt>reshut</dt><dd>facultatif (non obligatoire)</dd></div><div class="gl"><dt>midérabanan</dt><dd>d’après les Sages</dd></div><div class="gl"><dt>adam hashouv</dt><dd>homme important</dd></div><div class="gl"><dt>matslei atslouyei</dt><dd>s’incliner de côté</dd></div><div class="gl"><dt>hazzan</dt><dd>officiant</dd></div><div class="gl"><dt>beit haavel</dt><dd>maison du deuil</dd></div><div class="gl"><dt>beit hahatan</dt><dd>maison du marié</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>ולאחר שיסיים ש&quot;ץ חזרת תפלה נופלים על פניהם ומתחננין וז&quot;ל הרמב&quot;ם ז&quot;ל לאחר שישלים התפלה יפול על פניו ויטה מעט הוא וכל הציבור ויתחנן והוא נופל וישב ויגביה ראשו הוא ושאר העם ומתחנן מעט בקול רם מיושב ורב נטרונאי כתב וז&quot;ל הנופל על פניו צריך לתלות פניו למעלה מן הקרקע כדי שלא יהא נראה כמשתחוה לשלפניו ואדם חשוב לצד שמאל ומגביה צד ימין ובאשכנז נוהגין להטות על צד ימין והכי איתא במדרש במקרא דוימינו תחבקני ואיתמר נמי במגילה בפרק הקורא אמר רב חייא ב&quot;ר הונא חזינא לאביי ורבא דכי נפלו על אפייהו מצלי אצלויי פי&#x27; היו מטין על צדיהם ולא היו משתחוים על פניהם אפילו בלא פישוט ידים ורגלים אף על פי שמן התורה אין השתחויה אסורה על הרצפה אלא בפישוט ידים ורגלים מדרבנן אסור אף בלא פישוט ידים ורגלים ור&quot;ע כתב וז&quot;ל ונופלין ציבור על פניהם ומבקשים רחמים ושואל כל אחד בקשתו ואומר רבון כל העולמים ואדוני האדונים האל הגדול הגבור והנורא רחם עלינו שאנחנו עבדיך ומעשה ידי בשר ודם עפר רמה ותולעה מה אנו מה חיינו מה חסדנו מה צדקינו מה גבורתנו מה נאמר לפניך ה&#x27; או&quot;א הלא כל הגבורים כאין לפניך ואנשי השם כלא היו וחכמים כבלי מדע ונבונים כבלי השכל כי כל מעשיהם תוהו וימי חייהם הבל לפניך מה נאמר לפניך ה&#x27; אלהינו כי אנחנו העוינו והרשענו ואין לנו כהן לעשות חובותינו ולא כהן גדול שיכפר על חטאתינו ולא מזבח להקריב עליו קרבן ולא בית קדשי הקדשים להתפלל שם ולכן יר&quot;מ שתהא תפלתנו שאנו מתפללין לפניך מקובלת ותחשב לפניך כפרים וכבשים כאילו הקרבנו אותם ע&quot;ג המזבח ותרצנו וכו&#x27; ואית דבעו מימר הא דר&#x27; ינאי דאמר כד ניעור משנתיה לימא רבוני חטאתי לפניך יר&quot;מ ה&#x27; או&quot;א שתתן לי לב טוב וחלק טוב ורוח נמוכה ונפש שפלה ושכל טוב ואל יתחלל שמך בנו ואל תעשנו שיחה בפי הבריות ואל תהי אחריתנו להכרית ותקותנו למפח נפש ואל תצריכנו למתנת ב&quot;ו שמתנתם מעוטה וחרפתם מרובה ותן חלקנו בתורתך עם עושי רצונך ובנה עירך וביתך והיכלך ומקדשך במהרה בימינו מהר עננו ופדנו מכל גזירות קשות והושיעה ברחמיך הרבים משיח צדקך ועמך ועומד החזן ואומר א&quot;מ חננו ועננו כי אין בנו מעשים עשה עמנו צדקה והושיענו למען שמך ואנחנו לא נדע וכו&#x27; ורב נטרונאי כתב נפילת אפים בציבור על פניהם אחר התפלה רשות היא ונופלים בבית האבל ואין נופלין בבית החתן א&quot;ר אלעזר אין אדם חשוב רשאי ליפול על פניו אא&quot;כ נענה כיהושע בן נון פירוש אא&quot;כ הוא בטוח שיענה כיהושע. ומפרש בירושלמי דוקא כשמתפלל בציבור על הציבור דכסיפא ליה מילתא שמהרהרין אחריו שאינו ראוי ליענות אבל בינו לבין עצמו שפיר דמי. ואומר ש&quot;צ ואנחנו לא נדע וגו&#x27; והטעם לפי שהתפללנו בכל ענין שיוכל אדם להתפלל בישיבה ובעמידה ובנפילת אפים כאשר עשה משה רבינו דכתיב ואשב בהר וכתיב ואנכי עמדתי בהר וגו&#x27; ואתנפל לפני ה&#x27; ומאחר שאין בנו כח להתפלל בענין אחר אנו אומרים ואנחנו לא נדע. ואומר ש&quot;צ קדיש ואח&quot;כ אומר אשרי יושבי ביתך וכתב רב עמרם ואח&quot;כ אומר ובא לציון ואני זאת בריתי ואתה קדוש וכ&quot;כ הרמב&quot;ם ז&quot;ל ולא הזכירו למנצח מזמור לדוד יענך ה&#x27; ביום צרה ונוהגין עתה לומר אשרי יושבי ויענך ה&#x27; ביום צרה לפי שיש בו מענין הישועה:</p></div><div class="fr"><p>Après que le chalia&#x27;h tsibbour a achevé la répétition de la tefila, on tombe sur le visage et l’on supplie.
+Voici le langage du Rambam, de mémoire bénie : après qu’il a achevé la tefila, il tombe sur son visage et s’incline un peu, lui et tout le tsibbour, et il supplie tandis qu’il est à terre ; puis il s’assied et relève la tête, lui et le reste du peuple, et il supplie un peu à voix haute, assis.
+Rav Natronaï a écrit, et voici son langage : celui qui tombe sur son visage doit tenir son visage au-dessus du sol, afin de ne pas paraître se prosterner devant ce qui est devant lui. Un homme important s’incline du côté gauche et relève le côté droit.
+En Ashkenaz, on a l’usage de s’incliner du côté droit ; et ainsi se trouve-t-il dans le Midrash, au verset « et sa droite m’étreint ». Il a aussi été dit dans Méguila, au chapitre « Celui qui lit » : Rav Hiya fils de Rav Houna a dit : « J’ai vu Abayé et Rava : lorsqu’ils tombaient sur leur visage, ils s’inclinaient de côté. » C’est-à-dire qu’ils s’inclinaient sur le flanc et ne se prosternaient pas à plat visage, même sans étendre les mains et les pieds. Bien que, d’après la Torah, la prosternation sur le dallage ne soit interdite que lorsqu’on étend les mains et les pieds, d’après les Sages elle est interdite même sans étendre les mains et les pieds.
+Rav Amram a écrit, et voici son langage : le tsibbour tombe sur le visage, implore la miséricorde, et chacun formule sa requête, et l’on dit : « Maître de tous les mondes et Seigneur des seigneurs, Dieu grand, fort et redoutable, aie pitié de nous, car nous sommes Tes serviteurs et l’ouvrage de mains de chair et de sang, poussière, vermine et ver. Que sommes-nous, que sont nos vies, que sont nos bontés, que sont nos justices, que sont nos forces ? Que dirons-nous devant Toi, ה&#x27; notre Dieu et Dieu de nos pères ? Tous les forts ne sont-ils pas comme néant devant Toi, les hommes de renom comme s’ils n’avaient pas été, les sages comme dépourvus de science et les intelligents comme dépourvus d’entendement, car toutes leurs œuvres sont chaos et les jours de leur vie vanité devant Toi. Que dirons-nous devant Toi, ה&#x27; notre Dieu, car nous avons commis l’iniquité et la méchanceté. Nous n’avons pas de kohen pour accomplir nos devoirs, ni de kohen gadol qui expie nos fautes, ni d’autel pour y offrir un sacrifice, ni de Maison du Saint des saints où prier. C’est pourquoi, que telle soit Ta volonté : que notre tefila, que nous prions devant Toi, soit agréée et Te soit comptée comme taureaux et agneaux, comme si nous les avions offerts sur l’autel, et agrée-nous, etc. »
+Certains veulent réciter le texte de Rabbi Yannaï, qui a dit : lorsqu’il s’éveille de son sommeil, qu’il dise : « Mon Maître, j’ai fauté devant Toi. Que telle soit Ta volonté, ה&#x27; notre Dieu et Dieu de nos pères, de me donner un cœur bon, une part bonne, un esprit humble, une âme basse et une intelligence bonne. Que Ton Nom ne soit pas profané par nous ; ne fais pas de nous un sujet de propos dans la bouche des créatures ; que notre fin ne soit pas l’extermination ni notre espoir une déception de l’âme ; ne nous rends pas tributaires du don de la chair et du sang, dont le don est mince et la honte grande. Donne notre part dans Ta Torah avec ceux qui font Ta volonté ; bâtis Ta ville, Ta Maison, Ton Hékhal et Ton Sanctuaire bientôt de nos jours. Hâte-Toi de nous répondre et rachète-nous de tous les durs décrets ; et sauve, par Tes nombreuses miséricordes, le Mashia&#x27;h de Ta justice et Ton peuple. »
+Le hazzan se lève et dit : « Notre Père, notre Roi, fais-nous grâce et réponds-nous, car il n’y a pas en nous d’œuvres ; use envers nous de charité et sauve-nous pour l’amour de Ton Nom. Et nous, nous ne savons pas, etc. »
+Rav Natronaï a écrit : la néfilat apayim en tsibbour, sur le visage, après la tefila, est facultative. On tombe sur le visage dans la maison du deuil, et l’on ne tombe pas dans la maison du marié.
+A dit Rabbi Elazar : un homme important n’a pas le droit de tomber sur son visage, à moins d’être exaucé comme Yehoshoua ben Noun — c’est-à-dire à moins d’être sûr d’être exaucé comme Yehoshoua. Le Yeroushalmi explique : seulement lorsqu’il prie en tsibbour pour le tsibbour, car la chose lui fait honte — on murmurerait derrière lui qu’il n’est pas digne d’être exaucé ; mais entre lui et lui-même, cela convient.
+Le chalia&#x27;h tsibbour dit : « Et nous, nous ne savons pas, etc. » La raison en est que nous avons prié de toutes les manières dont un homme peut prier — assis, debout et en néfilat apayim — comme l’a fait Moshé notre maître, ainsi qu’il est écrit : « Je m’assis sur la montagne », et il est écrit : « Et moi, je me tins debout sur la montagne, etc. », et « je tombai devant ה&#x27; ». Puisque nous n’avons plus la force de prier d’une autre manière, nous disons : « Et nous, nous ne savons pas. »
+Le chalia&#x27;h tsibbour dit le kaddish, puis il dit Ashré, « Heureux ceux qui habitent Ta Maison ». Rav Amram a écrit : ensuite on dit Ouva leTsion, « Il viendra à Tsion », « Et Moi, voici Mon alliance », et « Toi, le Saint ». Le Rambam, de mémoire bénie, a écrit de même. Ils n’ont pas mentionné Lamnatséah, « Au chef de chœur, psaume de David : que ה&#x27; te réponde au jour de détresse ». On a maintenant l’usage de dire Ashré, « Heureux ceux qui habitent », et « Que ה&#x27; te réponde au jour de détresse », parce qu’il y est question de salut.</p></div></div>
+<nav class="dafnav"><a href="130.html">&lsaquo; Siman 130</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="132.html">Siman 132 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

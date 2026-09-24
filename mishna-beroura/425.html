@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 425</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 425</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Lois de Roch Hodech qui tombe un Chabbat</div></header>
+<nav class="dafnav"><a href="424.html">&lsaquo; Siman 424</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/425.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="426.html">Siman 426 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Tefila de sept bénédictions avec Yaalé véyavo ; deux sefarim ; haftarot selon les cas (Hachamayim kissi, Aniya soara, Chimou, Ma&#x27;har &#x27;hodech) ; mariage le Chabbat de Roch Hodech ; formulation de Moussaf et conclusion de la bénédiction.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>maftir</dt><dd>dernier appelé, qui lit aussi la haftara</dd></div><div class="gl"><dt>haftara</dt><dd>lecture du Prophète</dd></div><div class="gl"><dt>cheva dene&#x27;hemata</dt><dd>les sept haftarot de consolation (après Ticha beAv)</dd></div><div class="gl"><dt>&#x27;hatan</dt><dd>fiancé / jeune marié</dd></div><div class="gl"><dt>siddour</dt><dd>livre de prières</dd></div><div class="gl"><dt>lekhathila</dt><dd>a priori</dd></div><div class="gl"><dt>bediavad</dt><dd>après coup</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) ואינו מזכיר וכו&#x27; - שהרי כבר הזכיר שבת בברכה רביעית:</p></div><div class="fr"><p>Et il ne mentionne pas, etc. - Car il a déjà mentionné Chabbat dans la quatrième bénédiction.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) שבעה בסדר היום - דלכתחלה אין מפטיר עולה למנין שבעה וכדלעיל סי&#x27; רפ&quot;ב ס&quot;ד:</p></div><div class="fr"><p>Sept selon l&#x27;ordre du jour - Car lekhathila (a priori) le maftir ne compte pas dans les sept, comme ci-dessus siman 282 seif 4.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) ובשני קורא - ומניחין ספר שני אצל ספר ראשון ואומר חצי קדיש על שניהם:</p></div><div class="fr"><p>Et dans le second on lit - On pose le second sefer à côté du premier et l&#x27;on dit un demi-kaddish sur les deux.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) ומפטירין השמים וכו&#x27; - ששם נזכר מענין ר&quot;ח ואם שכח וקרא בהפטרה של שבוע קורא אחריה השמים כסאי ואם נזכר אחר שכבר בירך ברכות אחרונות קורא אותה בלי ברכה:</p></div><div class="fr"><p>Et l&#x27;on lit la haftara Hachamayim, etc. - Car là est mentionné le sujet de Roch Hodech. Si l&#x27;on a oublié et lu la haftara de la semaine, on lit ensuite Hachamayim kissi. Si l&#x27;on s&#x27;en est souvenu après avoir déjà béni les bénédictions finales, on la lit sans berakha.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) שמפטירין עניה וכו&#x27; - מפני שאין לדלג ז&#x27; דנחמתא עיין לקמן סי&#x27; תכ&quot;ח ס&quot;ח:</p></div><div class="fr"><p>Que l&#x27;on lit la haftara Aniya, etc. - Parce qu&#x27;on ne doit pas sauter [l&#x27;une] des sept [haftarot] de consolation ; voir plus bas siman 428 seif 8.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) וי&quot;א השמים וכו&#x27; - דבהפטרה זו יש בה תרתי זכרון ר&quot;ח ונחמות ירושלים:</p></div><div class="fr"><p>Et certains disent Hachamayim, etc. - Car dans cette haftara il y a deux [thèmes] : le souvenir de Roch Hodech et les consolations de Jérusalem.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) וכן נוהגים - וכתבו האחרונים דאעפ&quot;כ אין לדלג אחת מז&#x27; דנחמתא וע&quot;כ כשיפטירו בפ&#x27; תצא ברני עקרה יסיימו גם בעניה סוערה הכתובה אחריה:</p></div><div class="fr"><p>Et tel est l&#x27;usage - Les A&#x27;haronim ont écrit que néanmoins on ne saute aucune des sept de consolation ; aussi, lorsqu&#x27;on lit la haftara de parashat Ki Tétsé, « Roni aqara », on terminera aussi par « Aniya soara » qui est écrite à sa suite.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) וכן עיקר במקום שאין מנהג - ועיין בביאור הגר&quot;א שדחה סברא זו מהלכה ופסק כדעה ראשונה דמפטירין שמעו:</p></div><div class="fr"><p>Et c&#x27;est l&#x27;essentiel là où il n&#x27;y a pas d&#x27;usage - Voir le Béour du Gra, qui écarte cette raison de la halakha et tranche comme le premier avis : on lit Chimou.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) ולא שמעו - כתב המג&quot;א דאגב שיטפא הזכיר זאת בהג&quot;ה דלעולם לא חל ר&quot;ח אב באחד בשבת:</p></div><div class="fr"><p>Et non Chimou - Le Maguen Avraham écrit que c&#x27;est en passant qu&#x27;il l&#x27;a mentionné dans la glose, car Roch Hodech Av ne tombe jamais un dimanche.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(י) מפטירין השמים כסאי - דס&quot;ד דיום ב&#x27; דר&quot;ח הוא עיקר ונפטיר בשבת מחר חודש:</p></div><div class="fr"><p>On lit Hachamayim kissi - Car on aurait pu penser que le second jour de Roch Hodech est l&#x27;essentiel, et que l&#x27;on lirait le Chabbat « Ma&#x27;har &#x27;hodech ».</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יא) רק הפטרת ר&quot;ח - ולא מסיימים בפסוקי דהפטרת מחר חודש:</p></div><div class="fr"><p>Seulement la haftara de Roch Hodech - Et l&#x27;on ne termine pas par les versets de la haftara « Ma&#x27;har &#x27;hodech ».</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יב) אם היה חתונה בר&quot;ח - ר&quot;ל דמנהג הוא בשבת שיש חתן לדחות הפטרת השבוע ולקרות הפטרת שוש אשיש שהוא מענינא כדמבואר לקמן בסוף סימן תכ&quot;ח ומבואר שם דכ&quot;ז הוא בשבתות דעלמא שאין הפטרה שלהם מוזכרת בש&quot;ס אבל בהפטרות שנזכרים בש&quot;ס ומדרשים אין דוחין אותן מפני חתונה שאין זה אלא מנהג בעלמא וגם אחר שקראום אין לקרות שוש אשיש מפני שאין מדלגין מנביא לנביא וע&quot;ז אשמעי&#x27; כאן בהג&quot;ה דעכ&quot;פ במקום שהם בנביא אחד כגון בשבת ר&quot;ח שקורין השמים כסאי שהוא בנביא אחד עם הפטרות שוש אשיש אז אין לדחות שוש אשיש לגמרי ויש לקרות מקצת ממנה אחר שיסיים השמים כסאי:</p></div><div class="fr"><p>S&#x27;il y avait un mariage à Roch Hodech - C&#x27;est-à-dire qu&#x27;il est d&#x27;usage, un Chabbat où il y a un &#x27;hatan, de reculer la haftara de la semaine et de lire « Soss assiss », qui est du sujet, comme exposé plus bas à la fin du siman 428. Il y est exposé que tout cela vaut pour les Chabbats ordinaires, dont la haftara n&#x27;est pas mentionnée dans le Talmud ; mais les haftarot mentionnées dans le Talmud et les Midrashim, on ne les recule pas pour un mariage, car ce n&#x27;est qu&#x27;un usage. Et même après les avoir lues, on ne lira pas « Soss assiss », parce qu&#x27;on ne saute pas d&#x27;un prophète à un autre. Sur ce point la glose nous enseigne ici qu&#x27;en tout cas, lorsqu&#x27;elles sont dans un même prophète — comme le Chabbat de Roch Hodech où l&#x27;on lit Hachamayim kissi, qui est dans le même prophète que Soss assiss — on ne reculera pas Soss assiss entièrement, et l&#x27;on en lira une partie après avoir terminé Hachamayim kissi.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יג) או בשאר שבתות - כגון הני המוזכרים סוף סימן תכ&quot;ח עיי&quot;ש:</p></div><div class="fr"><p>Ou les autres Chabbats - Comme ceux mentionnés à la fin du siman 428, voir là-bas.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יד) כולל במוסף וכו&#x27; - בסידורים כתוב בשבת ר&quot;ח ובשאר ימים טובים אחר שמסיים קרבן שבת יסיים זה קרבן שבת וקרבן היום כאמור וכן כתב בסידור רב עמרם אכן כמה פוסקים כתבו דהוי יתור לשון וקמי שמים גליא והוי הפסק ולכן כתבו שאין לאומרו:</p></div><div class="fr"><p>Il inclut dans Moussaf, etc. - Dans les siddourim il est écrit qu&#x27;à Chabbat Roch Hodech et aux autres Yom Tov, après avoir terminé le sacrifice de Chabbat, on termine : « zeh qorban Chabbat veqorban hayom kaamour ». Ainsi a écrit le siddour de Rav Amram. Mais plusieurs décisionnaires ont écrit que c&#x27;est une redondance, et « le Ciel le sait » que c&#x27;est une interruption ; ils ont donc écrit de ne pas le dire.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(טו) מקדש השבת וכו&#x27; - ואם חתם בשל שבת לבד יצא בדיעבד:</p></div><div class="fr"><p>Qui sanctifie le Chabbat, etc. - Et si l&#x27;on a conclu par [la mention de] Chabbat seulement, on est quitte bediavad (après coup).</p></div></div>
+<nav class="dafnav"><a href="424.html">&lsaquo; Siman 424</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/425.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="426.html">Siman 426 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

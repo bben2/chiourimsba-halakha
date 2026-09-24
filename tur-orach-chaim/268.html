@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 268</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 268</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Amida du vendredi soir, Vayekhoulou et berakha mééine chéva</div></header>
+<nav class="dafnav"><a href="267.html">&lsaquo; Siman 267</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="269.html">Siman 269 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Les trois premières berakhot comme en semaine, sans l’ajout de Rav Amram. Au milieu : Ata kidashta, de préférence avec Vayekhoulou. En cas d’erreur vers l’amida de semaine, on achève la berakha commencée puis on passe à celle du Chabbat. On redit Vayekhoulou en tsibbour, debout et à voix haute. Le chaliah tsibbour dit la berakha mééine chéva (Magen avot) ; le yahid ne la dit pas. On ne parle pas pendant Vayekhoulou ni Magen avot. Controverse des Guéonim si cette berakha acquitte qui a oublié le Chabbat ou n’a pas prié.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>אבות</dt><dd>première berakha de l’amida (Magen Avraham)</dd></div><div class="gl"><dt>גבורות</dt><dd>deuxième berakha de l’amida (Mehayé hametim)</dd></div><div class="gl"><dt>קדושת השם</dt><dd>troisième berakha de l’amida (Ata kadoch)</dd></div><div class="gl"><dt>מגן</dt><dd>la berakha Magen Avraham</dd></div><div class="gl"><dt>אתה קדשת</dt><dd>formulaire du milieu de l’amida du vendredi soir</dd></div><div class="gl"><dt>ויכולו</dt><dd>verset « Les cieux et la terre furent achevés » (Béréchit 2,1)</dd></div><div class="gl"><dt>אתה חונן</dt><dd>quatrième berakha de l’amida de semaine</dd></div><div class="gl"><dt>אתה בחרתנו</dt><dd>formulaire du milieu de l’amida de Yom Tov</dd></div><div class="gl"><dt>מעין שבע</dt><dd>berakha « à la manière des sept », résumé des sept berakhot de l’amida de Chabbat</dd></div><div class="gl"><dt>מגן אבות בדברו</dt><dd>ouverture de la berakha mééine chéva</dd></div><div class="gl"><dt>מזיקין</dt><dd>êtres nuisibles</dd></div><div class="gl"><dt>תיבה</dt><dd>pupitre de l’officiant</dd></div><div class="gl"><dt>אבי העזרי</dt><dd>Avi HaEzri (R. Eliézer ben Yoel HaLévi, le Raavyah)</dd></div><div class="gl"><dt>בה״ג</dt><dd>Baal Halakhot Guedolot</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>ועומדין להתפלל ואומרים אבות וגבורות וקדושת השם כבימות החול בלא תוספת ובלא גירוע ודלא כרב עמרם שכתב בשבת בין בערבית ושחרית ומוסף ומנחה מזכיר במגן כך רצה והנחל שבת לבניהם למנוחה למען שמו באהבה מלך עוזר ומושיע ומגן וכו&#x27; ושלש אחרונות ומזכיר של שבת באמצעה וזה נוסחו אתה קדשת את יום השביעי לשמך תכלית מעשה שמים וארץ וברכתו מכל הימים וקדשתו מכל הזמנים וכן כתוב בתורתך ויכולו וגו&#x27; ויכל אלהים ויש סידורים שאין כתוב בהם ויכולו אלא כתוב וברכתו מכל הימים וקדשתו מכל הזמנים וכן כתוב בתורתך ויברך אלהים את יום השביעי ויקדש אותו ויותר נכון לאומרו דגרסינן בפרק כל כתבי (שבת קיט:) אמר רב ואיתימא רבי יהושע בן לוי אפי&#x27; יחיד המתפלל צריך לומר ויכולו ואמר רב המנונא כל המתפלל ואומר ויכולו מעלה עליו הכתוב כאילו נעשה שותף להקב&quot;ה במעשה בראשית שנאמר ויכולו אל תקרי ויכולו אלא ויכלו פירוש הקב&quot;ה והוא אלמא שהעיקר לומר ויכולו שמורה כאילו נעשה שותף ומה שאומרים וכ&quot;כ בתורתך ויכולו אינו חוזר על וברכתו שלפניו אלא על שלפני פניו תכלית מעשה שמים וארץ וכ&quot;כ ויכולו וברכתו מכל הימים כדכתיב ויברך ואם טעה והתחיל תפלת החול גומר אותה ברכה שנזכר בה שטעה ומתחיל של שבת לא שנא נזכר בברכת אתה חונן לא שנא נזכר בברכה אחת משאר הברכות בין בערבית שחרית ומוסף ומנחה וחוזרים ואומרים ויכולו בציבור משום י&quot;ט שחל להיות בשבת שאין אומרים אותו בתפילה שמתפללין אתה בחרתנו ואז צריך לאומרו מפני שלא אמרוהו בתפלה ואגב זה תיקנו לומר בכל השבתות וגם להוציא מי שאינו יודע אותו וי&quot;א שנהגו לומר אותו בקול רם ומעומד משום שהוא עדות להקב&quot;ה על מעשה בראשית וכתיב ועמדו ב&#x27; האנשים ודרשינן (שבועות ל) אלו העדים שצריכים להעיד ביחד ומעומד ולכן צריך שיעמדו ויאמרו אותו ביחד ואומר ש&quot;ץ ברכה אחת מעין שבע והיא מגן אבות בדברו ואלהינו ואלהי אבותינו רצה נא במנוחתנו וחותם בא&quot;י מקדש השבת: וכתב אבי העזרי שאין ליחיד לומר אותה שלא נתקנה אלא משום סכנת מזיקין שבתי כנסיות שלהם היו בשדות ותקנו אותה בשביל בני אדם שמאחרין לבא שיסיימו תפלתם בעוד שש&quot;ץ מאריך כדאיתא בפ&#x27; במה מדליקין (שבת כד:) י&quot;ט שחל להיות בשבת ש&quot;ץ היורד לפני התיבה ערבית אינו מזכיר של י&quot;ט בברכת מעין שבע ומסיק טעמא משום בדין הוא דאפילו בשבת לא בעי למימריה ורבנן הוא דתקון משום סכנה מאי דתקון תקון ומאי דלא תקון לא תקון אלמא שאין להוסיף על מאי דתקון ולא נתקנה אלא בציבור כדמשמע לישנא דש&quot;ץ היורד לפני התיבה ערבית אלמא שלא נתקנה אלא לש&quot;ץ ותו אנן דלית לן סכנה לא אמרינן לה אלא משום מנהג אבותינו: בספר חסידים מעשה בחסיד אחד שראה לחסיד אחר במותו ופניו מוריקות א&quot;ל למה פניך מוריקות אמר לו מפני שהייתי מדבר בויכולו בשעה שהציבור היו אומרים אותו ובברכת מגן אבות בדברו וביתגדל כתב רב עמרם טעה ולא הזכיר של שבת בערבית מחזירין אותו ורב משה גאון כתב יחיד שטעה ולא הזכיר אתה קדשת בליל שבת אם שמע מש&quot;ץ מגן אבות בדברו שהיא ברכת מעין שבע מראש ועד סוף יצא ידי חובתו (ורב נטרונאי כתב אפי&#x27; לא התפלל ז&#x27; ברכות כלל ושמע מפי ש&quot;ץ מגן אבות מראש ועד סוף יצא י&quot;ח) ותימא הוא כיון שמחזירין אותו אם לא הזכיר של שבת היאך יוצא בברכה אחת מעין שבע ולא דמי למה שכתב בה&quot;ג יחיד שלא הזכיר של ר&quot;ח ושמע מש&quot;ץ התפלה מראש ועד סוף שיצא דשאני התם ששומע כל התפלה אבל הכא היאך יוצא בברכת מעין שבע במקום שבע וקשיא טפי לרב נטרונאי שאומר שיוצא בו אפילו אם לא התפלל כלל דלא קי&quot;ל כרבן גמליאל דאמר (ראש השנה לה.) ש&quot;ץ פוטר היחיד אלא בראש השנה ויום הכיפורים אבל בשאר ימות השנה לא:</p></div><div class="fr"><p>On se lève pour prier. On dit Avot, Guevourot et Kedouchat Hachem comme les jours de semaine, sans ajout ni retranchement — et non comme Rav Amram, qui a écrit qu’au Chabbat, à Arvit, à Shaharit, à Moussaf et à Minha, on mentionne le Chabbat dans la berakha Magen ainsi : « Il a voulu et a donné en héritage le Chabbat à leurs enfants pour le repos, pour Son Nom, avec amour, Roi qui aide, qui sauve et qui protège, etc. », et dans les trois dernières. On mentionne le Chabbat au milieu de l’amida, et voici son formulaire : « Tu as sanctifié le septième jour pour Ton Nom, aboutissement de l’œuvre des cieux et de la terre ; Tu l’as béni plus que tous les jours et Tu l’as sanctifié plus que tous les temps ; et ainsi est-il écrit dans Ta Torah : Vayekhoulou, etc., Vayekhal Elohim. » Il y a des sidourim où Vayekhoulou n’est pas écrit, mais : « Tu l’as béni plus que tous les jours et Tu l’as sanctifié plus que tous les temps ; et ainsi est-il écrit dans Ta Torah : Vayvarekh Elohim et yom hachevi’i vaykadech oto. » Il est plus correct de le dire, car on lit au chapitre Kol Kitvei (Chabbat 119b) : Rav — et d’aucuns disent Rabbi Yehoshoua ben Levi — a dit : même un yahid qui prie doit dire Vayekhoulou. Et Rav Hamnouna a dit : quiconque prie et dit Vayekhoulou, l’Écriture le considère comme s’il était devenu associé au Saint, béni soit-Il, dans l’œuvre de la Création, ainsi qu’il est dit « Vayekhoulou » — ne lis pas vayekhoulou mais vaykhalou, c’est-à-dire le Saint, béni soit-Il, et lui. Donc l’essentiel est de dire Vayekhoulou, qui indique qu’on est comme devenu associé. Ce qu’on dit « et ainsi est-il écrit dans Ta Torah : Vayekhoulou » ne se rapporte pas à « Tu l’as béni » qui précède, mais à ce qui précède encore : « aboutissement de l’œuvre des cieux et de la terre », et ainsi est-il écrit Vayekhoulou ; et « Tu l’as béni plus que tous les jours », comme il est écrit « Vayvarekh ». S’il s’est trompé et a commencé l’amida de semaine, il achève cette berakha dans laquelle il s’est souvenu de son erreur, puis il commence celle du Chabbat — qu’il se soit souvenu dans Ata honen ou dans l’une des autres berakhot, que ce soit à Arvit, Shaharit, Moussaf ou Minha. On redit ensuite Vayekhoulou en tsibbour, à cause du Yom Tov qui tombe un Chabbat, où l’on ne le dit pas dans l’amida puisqu’on prie Ata behartamou, et alors il faut le dire parce qu’on ne l’a pas dit dans l’amida ; et à cette occasion on a institué de le dire tous les Chabbats, et aussi pour acquitter celui qui ne le sait pas. Certains disent qu’on a pris l’habitude de le dire à voix haute et debout, parce que c’est un témoignage rendu au Saint, béni soit-Il, sur l’œuvre de la Création, et il est écrit « les deux hommes se tiendront debout », et l’on expliquera (Chevouot 30a) : ce sont les témoins, qui doivent témoigner ensemble et debout ; c’est pourquoi il faut qu’ils se tiennent debout et le disent ensemble. Le chaliah tsibbour dit une berakha unique mééine chéva, qui est Magen avot bidvaro et Elohénou vElohé avoténou retse na bimenouhaténou, et il clôt : Baroukh ata ה&#x27; mekadech haChabbat. Avi HaEzri a écrit que le yahid ne doit pas la dire : elle n’a été instituée qu’à cause du danger des êtres nuisibles, car leurs batei knesset étaient dans les champs, et on l’a instituée pour ceux qui arrivent en retard, afin qu’ils achèvent leur amida pendant que le chaliah tsibbour s’attarde, comme il est dit au chapitre Bameh madlikin (Chabbat 24b). Un Yom Tov qui tombe un Chabbat : le chaliah tsibbour qui descend devant la teiva à Arvit ne mentionne pas le Yom Tov dans la berakha mééine chéva ; et l’on conclut que la raison en est : en droit, même le Chabbat on n’aurait pas dû la dire, et ce sont les Sages qui l’ont instituée à cause du danger ; ce qu’ils ont institué, ils l’ont institué, et ce qu’ils n’ont pas institué, ils ne l’ont pas institué. D</p></div></div>
+<nav class="dafnav"><a href="267.html">&lsaquo; Siman 267</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="269.html">Siman 269 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

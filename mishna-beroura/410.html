@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 410</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 410</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Loi de celui qui s&#x27;est mis en route pour acquérir la chevita</div></header>
+<nav class="dafnav"><a href="409.html">&lsaquo; Siman 409</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/410.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="411.html">Siman 411 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Qui a commencé le chemin vers un lieu connu pour y fixer sa chevita l&#x27;acquiert même s&#x27;il n&#x27;y est pas parvenu, surtout s&#x27;il est pauvre ou déjà en voyage.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>hehzik ba-derekh</dt><dd>s&#x27;est mis en route, a commencé le chemin</dd></div><div class="gl"><dt>chevita</dt><dd>résidence shabbatique, lieu d&#x27;où se mesurent les deux mille amot</dd></div><div class="gl"><dt>téhoum</dt><dd>limite des deux mille amot autour du lieu de chevita</dd></div><div class="gl"><dt>ba ba-derekh</dt><dd>venant en chemin</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) במקום ידוע - היינו שאותו המקום מסויים כגון אילן או גדר וכנ&quot;ל בסימן הקודם:</p></div><div class="fr"><p>En un lieu connu - C&#x27;est-à-dire que ce lieu est délimité, tel un arbre ou une clôture, comme ci-dessus au siman précédent.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) ויקנה בו שביתה - המחבר סתם כדעת הרמב&quot;ם אמנם דעת הרבה פוסקים דדוקא אם יציאתו היתה שלא ע&quot;מ לערב ורק ללכת למקום אחר בסוף ד&#x27; אלפים מכאן זה נחשב לבא בדרך ואמרינן אף שהחזירו חבירו ללון אצלו כיון דאנן סהדי דבעי למיזל להתם אע&quot;ג דלא אמר שביתתי במקום פלוני כמאן דאמר דמי וקנה שם שביתה באותו מקום שרגיל תמיד לקנות שביתה שם דבודאי נתכוין לקנות שביתה שם כדי שיוכל לילך למחר לשם אבל ביצא כדי לערב לא חשיב כבא בדרך ורק כיושב בביתו דלא הוי עירוב באמירתו לבד:</p></div><div class="fr"><p>Et y acquérir la chevita - On a tranché comme le Rambam. Toutefois beaucoup de décisionnaires tiennent que c&#x27;est seulement si sa sortie n&#x27;était pas pour faire un érouv, mais seulement pour aller en un autre lieu à quatre mille amot d&#x27;ici : cela compte comme « venant en chemin ». On dit alors que même si son compagnon l&#x27;a fait revenir coucher chez lui, puisque nous sommes témoins qu&#x27;il voulait s&#x27;y rendre, bien qu&#x27;il n&#x27;ait pas dit « ma chevita est en tel lieu », c&#x27;est comme s&#x27;il l&#x27;avait dit ; il y acquiert la chevita, au lieu où il a coutume de l&#x27;acquérir, car à coup sûr il a eu l&#x27;intention d&#x27;y acquérir la chevita afin de pouvoir s&#x27;y rendre le lendemain. Mais s&#x27;il est sorti pour faire un érouv, on ne le compte pas comme « venant en chemin », seulement comme assis chez lui, et son dire seul ne fait pas érouv.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) אע&quot;פ שלא הגיע - והוא שהיה באפשר להגיע כבסימן הקודם:</p></div><div class="fr"><p>Bien qu&#x27;il n&#x27;y soit pas parvenu - À condition qu&#x27;il ait pu y parvenir, comme au siman précédent.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) שחזר מעצמו ללון - היינו שמתחלה לא נתכוין לזה כי יצא ע&quot;מ לחשוך שם ולקנות שם שביתה ברגליו ואח&quot;כ נמלך לחזור וללון בביתו ולמחר לילך לשם. ואם נמלך לגמרי בודאי נעקר למפרע מה שהיה בדעתו לקנות שביתה שם והרי הוא כבני עירו:</p></div><div class="fr"><p>Qu&#x27;il est revenu de lui-même coucher - C&#x27;est-à-dire qu&#x27;au départ il n&#x27;en avait pas l&#x27;intention : il était sorti pour y passer la tombée de la nuit et y acquérir la chevita par ses pieds, puis il s&#x27;est ravisé pour rentrer coucher chez lui et s&#x27;y rendre le lendemain. S&#x27;il s&#x27;est ravisé tout à fait, à coup sûr est déracinée rétroactivement l&#x27;intention qu&#x27;il avait d&#x27;y acquérir la chevita, et il est comme les gens de sa ville.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) והחזיק בדרך - דחשבינן ליה בזה כבא בדרך בסימן הקודם:</p></div><div class="fr"><p>Et il s&#x27;est mis en route - On le compte alors comme « venant en chemin » au siman précédent.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) במה דברים אמורים בעני וכו&#x27; - ר&quot;ל בעני שאין לו מזון שתי סעודות להניח עירוב ולהטריחו שילך ויערב ברגליו לא רצו חכמים ע&quot;כ מותר לומר בביתו שביתתי במקום פלוני ובהחזיק בדרך אף בעשיר יכול לומר שביתתי במקום פלוני ומש&quot;כ או ברחוק כגון שהיה בא בדרך כבר ביאר מתחלה דבהחזיק בדרך הקילו כאלו בא ממש בדרך ועיין בבה&quot;ל שהבאנו דעת כמה פוסקים שסוברין דאף בעני לא הקילו לומר שביתתי במקום פלוני כשהוא בביתו כ&quot;א כשהחזיק כבר בדרך וכן פסק הח&quot;א:</p></div><div class="fr"><p>Dans quels cas a-t-on dit cela : pour un pauvre, etc. - C&#x27;est-à-dire : pour un pauvre qui n&#x27;a pas la nourriture de deux repas pour poser un érouv, et qu&#x27;on ne voulait pas contraindre à aller faire l&#x27;érouv par ses pieds, les Sages ont permis de dire chez soi « ma chevita est en tel lieu ». Et s&#x27;il s&#x27;est mis en route, même un riche peut dire « ma chevita est en tel lieu ». Quant à « ou au loin, par exemple s&#x27;il venait en chemin », il a déjà expliqué d&#x27;abord qu&#x27;en s&#x27;étant mis en route on a allégé comme s&#x27;il venait vraiment en chemin. Voir le Béour Halakha où nous avons rapporté l&#x27;avis de plusieurs décisionnaires : même pour un pauvre on n&#x27;a allégé de dire « ma chevita est en tel lieu » que lorsqu&#x27;il s&#x27;est déjà mis en route, non lorsqu&#x27;il est chez lui ; ainsi a tranché le Hayé Adam.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) א&quot;צ לומר שביתתי במקום פלוני וכו&#x27; - ויש חולקין דדוקא במי שיש לו שני בתים בשני תחומי שבת דהתם אמרינן אף דהחזירו חבירו מ&quot;מ היה דעתו לקנות שביתה כדי שיוכל אח&quot;כ לילך לשם אבל בלא&quot;ה לא דאמרינן דנמלך הוא שלא לילך לשם עוד אם לא שאמר בפירוש שביתתי במקום פלוני [ב&quot;ח ובית מאיר]:</p></div><div class="fr"><p>Il n&#x27;est pas besoin de dire « ma chevita est en tel lieu », etc. - Certains contestent : seulement s&#x27;il a deux maisons dans deux téhoum de Chabbat ; alors on dit que même si son compagnon l&#x27;a fait revenir, son intention était d&#x27;acquérir la chevita afin de pouvoir ensuite s&#x27;y rendre. Sinon, non : on dit qu&#x27;il s&#x27;est ravisé de n&#x27;y plus aller, à moins qu&#x27;il n&#x27;ait dit explicitement « ma chevita est en tel lieu » [Ba&#x27;h et Beit Méir].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) כיון שגמר בלבו - לשם שביתה:</p></div><div class="fr"><p>Puisqu&#x27;il a décidé dans son cœur - Pour y fixer la chevita.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) והוא קנה שם עירוב וכו&#x27; - עיין מה שכתבנו לעיל בסק&quot;ב:</p></div><div class="fr"><p>Et lui a acquis là un érouv, etc. - Voir ce que nous avons écrit ci-dessus au seif katan 2.</p></div></div>
+<nav class="dafnav"><a href="409.html">&lsaquo; Siman 409</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/410.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="411.html">Siman 411 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

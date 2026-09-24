@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 91</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 91</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Qu’il ceigne ses reins et se couvre la tête à l’heure de la tefila</div></header>
+<nav class="dafnav"><a href="090.html">&lsaquo; Siman 90</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/091.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="092.html">Siman 92 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Tenue exigée pour prier : couvrir le cœur et le corps, ceinture qui sépare le cœur de la nudité, couvre-chef honorable, vêtements comme devant un grand ; après coup, la couverture de la nudité suffit.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>azor / izor</dt><dd>ceinture (celle qu’on met pour la tefila)</dd></div><div class="gl"><dt>avnet</dt><dd>ceinture du pantalon qui sépare le cœur de la nudité</dd></div><div class="gl"><dt>erva</dt><dd>nudité</dd></div><div class="gl"><dt>hekhon likrat Elokekha</dt><dd>« Prépare-toi à aller à la rencontre de ton Dieu, Israël » (Amos 4, 12)</dd></div><div class="gl"><dt>Shekhina</dt><dd>Présence divine</dd></div><div class="gl"><dt>afunda</dt><dd>ceinture creuse servant de bourse</dd></div><div class="gl"><dt>kapotin</dt><dd>casaque / veste d’intérieur</dd></div><div class="gl"><dt>schlafrock</dt><dd>robe de chambre</dd></div><div class="gl"><dt>schlafmütze</dt><dd>bonnet de nuit</dd></div><div class="gl"><dt>hentshikh</dt><dd>gants de voyage</dd></div><div class="gl"><dt>stiefel</dt><dd>bottes hautes</dd></div><div class="gl"><dt>midat hasidut</dt><dd>conduite de piété allant au-delà de la stricte obligation</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) עד וכו&#x27; - דצריך הוא לראות את עצמו כאלו עומד לפני המלך ומדבר באימה:</p></div><div class="fr"><p>Jusqu’à, etc. - Car il doit se voir comme s’il se tenait devant le roi et parlait avec crainte.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) שיכסה לבו - והוא הדין כל גופו [ב&quot;ח]:</p></div><div class="fr"><p>Qu’il couvre son cœur - Et il en est de même de tout son corps [Ba’h].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) הואיל וכו&#x27; - ר&quot;ל אפי&#x27; הי&#x27; ממתניו ולמעלה ערום יצא:</p></div><div class="fr"><p>Puisqu’il a, etc. - C’est-à-dire que même s’il était nu de la ceinture vers le haut, il s’est acquitté.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) צריך - בדיעבד אם התפלל בלא אזור יצא וי&quot;א עוד דדוקא מי שרגיל כל היום בחגורה אבל מי שהולך כל היום בלא חגורה גם בשעת תפלה א&quot;צ לחגור. ומיהו מדת חסידות אף בכה&quot;ג [מג&quot;ג]:</p></div><div class="fr"><p>Il faut - Bediavad (après coup), s’il a prié sans ceinture, il s’est acquitté ; et certains disent encore que cela ne vise que celui qui porte habituellement une ceinture toute la journée, mais celui qui va toute la journée sans ceinture n’a pas non plus à se ceindre à l’heure de la tefila. Toutefois, une conduite de piété l’exige même dans ce cas [Maguen Guiborim].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) אבנט - ר&quot;ל אבנט של מכנסים המפסיק בין לבו לערוה:</p></div><div class="fr"><p>Avnet - C’est-à-dire la ceinture du pantalon qui sépare le cœur de la nudité.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) משום הכון לקראת וגו&#x27; - איתא בזוהר ואתחנן מאן דקאים בצלותא בעי לכסויי רישיה ועינוי בגין דלא יסתכל בשכינתא. [והיינו בטלית של מצוה וכן נוהגין כהיום לכסות ראש עד עינים בטלית מצוה בשעת תפלת י&quot;ח. פמ&quot;ג] מאן דפקח עינוי בשעת צלותיה מקדים עליה מה&quot;מ וכו&#x27; ועיין בסי&#x27; צ&quot;ה במ&quot;ב סק&quot;ה:</p></div><div class="fr"><p>À cause de « Prépare-toi à aller à la rencontre, etc. » - Il est dit dans le Zohar Vaeth’anan : celui qui se tient en tefila doit se couvrir la tête et les yeux afin de ne pas contempler la Shekhina. [C’est-à-dire avec un talit de mitsva ; et c’est ainsi que l’on a coutume aujourd’hui de se couvrir la tête jusqu’aux yeux avec le talit de mitsva pendant la tefila des Dix-huit. Péri Meguadim.] Celui qui ouvre les yeux pendant sa tefila, l’ange de la mort le précède, etc. Voir au siman 95, Michna Beroura seif katan 5.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) שאר ברכות - וה&quot;ה ק&quot;ש דלא שייך הכון לקראת אלקיך כ&quot;א כשעומד לפני המלך:</p></div><div class="fr"><p>Les autres berakhot - Et il en est de même du Chema, car « Prépare-toi à la rencontre de ton Dieu » ne s’applique que lorsqu’on se tient devant le Roi.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) מכנסים - וה&quot;ה אם בגדיו מונחים דבוקים ממש על הבטן ומפסיקים בין לבו לערוה:</p></div><div class="fr"><p>Un pantalon - Et il en est de même si ses vêtements sont posés, collés à même le ventre, et séparent le cœur de la nudité.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) בגילוי הראש - ועיין בבה&quot;ל:</p></div><div class="fr"><p>La tête découverte - Voir le Biour Halakha.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(י) לא חשיב וכו&#x27; - דהראש והיד חד גוף אינון ואין הגוף יכול לכסות עצמו. וכתב הב&quot;ח מיהו נוהגין להמשיך הבית יד של הבגד על היד ומכסה בו ראשו ושפיר חשיב כיסוי:</p></div><div class="fr"><p>Cela n’est pas considéré, etc. - Car la tête et la main sont un même corps, et le corps ne peut se couvrir lui-même. Le Ba’h a écrit : toutefois on a coutume de tirer la manche du vêtement sur la main et d’en couvrir la tête, et cela compte bien comme un couvre-chef.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יא) באפונדתו - הוא איזור חלול שמשימין בו מעות ואיננו דרך כבוד לעמוד כן לפני הש&quot;י. וכן אין נכון להתפלל בקאפטין ובגד התחתון או בשלאף ראק. [ח&quot;א]:</p></div><div class="fr"><p>Avec son afunda - C’est une ceinture creuse où l’on met de l’argent ; ce n’est pas une façon honorable de se tenir ainsi devant ה&#x27;. De même, il n’est pas convenable de prier en kapotin et vêtement de dessous, ou en schlafrock [‘Hayé Adam].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יב) מגולה - ובזמנינו צריך להשים בעת התפלה כובע בראשו כדרך שהולך ברחוב ולא בכובע הקטן שתחת הכובע כי אין דרך לעמוד כן לפני אנשים חשובים וכ&quot;ש שלאף מיץ. אין להתפלל בבתי שוקיים של פשתן לבד דגנאי הוא לעמוד כן לפני גדולים ומכ&quot;ש כשלובשין סנדל והעקב מגולה. גם אין ללבוש בעת התפלה בתי ידים שקורין הענטשי&quot;ך כדרך עוברי דרכים וקורא אני עליהם אל תבואני רגל גאוה ויד רשעים אל תנידני [ב&quot;ח] ומהח&quot;א דלעיל משמע דאפילו בבתי שוקיים של צמר לבד ג&quot;כ אין נכון והכל תלוי לפי מנהג המקומות. הרמ&quot;מ תיקן שלא לכנס לבהכ&quot;נ במנעלים ארוכים והיינו שטיוויל ואם דרך אותו המקום לעמוד כך בפני גדולים מותר [פמ&quot;ג]:</p></div><div class="fr"><p>Découverte - De notre temps, il faut poser sur la tête, à l’heure de la tefila, un chapeau comme on en porte dans la rue, et non le petit bonnet qui est sous le chapeau, car ce n’est pas ainsi que l’on se tient devant des gens importants, et à plus forte raison un schlafmütze. On ne priera pas avec de seules chaussettes de lin, car c’est une indignité de se tenir ainsi devant les grands, et à plus forte raison lorsqu’on porte des sandales et que le talon est découvert. On ne mettra pas non plus, à l’heure de la tefila, des gants qu’on appelle hentshikh, à la manière des voyageurs ; je lis sur eux : « Que le pied de l’orgueil ne m’atteigne pas, et que la main des méchants ne m’ébranle pas » [Ba’h]. Du ‘Hayé Adam cité plus haut, il ressort que même de seules chaussettes de laine ne sont pas convenables ; tout dépend de l’usage des lieux. Le Rama&quot;m a institué de ne pas entrer au beit haknesset avec de longues chaussures, c’est-à-dire des stiefel ; mais si c’est l’usage du lieu de se tenir ainsi devant les grands, c’est permis [Péri Meguadim].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יג) מגולים - מיהו אם הבגד ארוך שחופה את הרגלים או בארצות החמין מאוד שעומדי&#x27; שם ג&quot;כ בפני גדולים יחף אין לחוש אפילו הבגדים קצרים ונראין הרגלים:</p></div><div class="fr"><p>Découverts - Toutefois, si le vêtement est long et couvre les jambes, ou dans les pays très chauds où l’on se tient aussi pieds nus devant les grands, il n’y a pas à s’inquiéter, même si les vêtements sont courts et que les jambes se voient.</p></div></div>
+<nav class="dafnav"><a href="090.html">&lsaquo; Siman 90</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/091.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="092.html">Siman 92 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

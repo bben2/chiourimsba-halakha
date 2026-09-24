@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 413</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 413</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Loi de celui qui fait un érouv pour le public</div></header>
+<nav class="dafnav"><a href="412.html">&lsaquo; Siman 412</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/413.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="414.html">Siman 414 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On peut faire un érouv de téhoumin pour les gens de la ville avec la nourriture de deux repas par personne, après zikkouy et information de son vivant du jour. La beréra opère : on peut conditionner l&#x27;érouv à l&#x27;arrivée d&#x27;un sage ou au choix d&#x27;une direction.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>zikkouy</dt><dd>faire acquérir l&#x27;érouv à autrui par l&#x27;intermédiaire d&#x27;un tiers</dd></div><div class="gl"><dt>beréra</dt><dd>clarification rétroactive du choix</dd></div><div class="gl"><dt>bediavad</dt><dd>après coup</dd></div><div class="gl"><dt>lifetan</dt><dd>accompagnement, condiment</dd></div><div class="gl"><dt>érouveï hatsérot</dt><dd>érouv des cours</dd></div><div class="gl"><dt>téhoumin</dt><dd>limites des deux mille amot</dd></div><div class="gl"><dt>chevita</dt><dd>résidence shabbatique</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) לרבים משלו אומר וכו&#x27; - וגם בנתנו כ&quot;א בפ&quot;ע כשמניח אחד בשבילם צריך לומר בשעה שמניח שהוא מניח לשם עירוב לכל בני העיר וכדלעיל בסימן ת&quot;ט ס&quot;ח במ&quot;ב אלא דכשנותן עירוב משלו בשביל כולם צריך לזכות מתחלה ע&quot;י אחר בשבילם קודם שמניחו:</p></div><div class="fr"><p>Pour le public, de ce qui lui appartient, il dit, etc. - Même si chacun a donné séparément, lorsque l&#x27;un dépose pour eux, il doit dire au moment où il dépose qu&#x27;il dépose en tant qu&#x27;érouv pour tous les gens de la ville, comme plus haut au siman 409 seif 8 dans le MB. Seulement, lorsqu&#x27;il donne un érouv de ce qui lui appartient pour tous, il doit d&#x27;abord leur en faire acquérir par un autre, avant de le déposer.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) מזון שתי סעודות - ואפילו בלפתן למזון שתי סעודות סגי וכדלעיל בסימן ת&quot;ט סעיף ז&#x27;:</p></div><div class="fr"><p>Nourriture de deux repas - Même avec du lifetan pour la nourriture de deux repas, cela suffit, comme plus haut au siman 409 seif 7.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) לכל אחד - ולא דמי לעירובי חצרות דבמזון שתי סעודות לכולם סגי דשם העירוב הוא משום דאחד אוסר ע&quot;ח ועי&quot;ז הם כמעורבין משא&quot;כ בתחומין אין שייך אחד לחבירו וכל אחד כשרוצה לילך חוץ לאלפים שלו צריך לקנות שביתה לעצמו לכך צריך מזון שתי סעודות לכל אחד:</p></div><div class="fr"><p>Pour chacun - Ce n&#x27;est pas comparable aux érouveï hatsérot, où la nourriture de deux repas pour tous suffit : là, l&#x27;érouv est parce que l&#x27;un interdit à l&#x27;autre, et par là ils sont comme mêlés. Ce n&#x27;est pas ainsi pour les téhoumin : l&#x27;un n&#x27;a pas de rapport avec l&#x27;autre, et chacun, quand il veut aller hors de ses deux mille, doit acquérir la chevita pour lui-même ; aussi faut-il la nourriture de deux repas pour chacun.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) וע&quot;ל בסימן שס&quot;ו - דשם נתבאר מי הוא הראוי לזכות על ידו. ולענין מי הוא שראוי להעשות שליח להנחת העירוב נתבאר בסימן ת&quot;ט ס&quot;ח:</p></div><div class="fr"><p>Et voir plus haut au siman 366 - Là est exposé qui est apte à faire acquérir par son intermédiaire. Quant à qui est apte à être envoyé pour le dépôt de l&#x27;érouv, cela a été exposé au siman 409 seif 8.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) וצריך להודיעם - משום דעי&quot;ז הלא מפסיד תחום של צד השני ודלמא לא ניחא ליה:</p></div><div class="fr"><p>Et il faut les informer - Parce que par là il perd le téhoum du côté opposé, et peut-être cela ne lui convient-il pas.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) מבעוד יום - ואפילו בין השמשות סגי בדיעבד כ&quot;כ הפמ&quot;ג ועיין ביאור הלכה:</p></div><div class="fr"><p>De son vivant du jour - Et même pendant le bein hachemashot cela suffit bediavad (après coup) ; ainsi a écrit le Pri Megadim, et voir le Béour Halakha.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) אפילו לא גמר בלבו וכו&#x27; - דאמרינן הוברר הדבר שקודם זמן קניית העירוב דעתו לכך היה כיון שידע מתחלה משא&quot;כ בשלא הודיעוהו מבע&quot;י לא שייך לומר דהוברר כיון שלא ידע כלל מבעוד יום:</p></div><div class="fr"><p>Même s&#x27;il n&#x27;a pas décidé dans son cœur, etc. - Car nous disons que la chose s&#x27;est clarifiée : avant le moment d&#x27;acquisition de l&#x27;érouv, telle était déjà son intention, puisqu&#x27;il savait dès le départ. Ce n&#x27;est pas ainsi si on ne l&#x27;a pas informé de son vivant du jour : on ne peut dire que la chose s&#x27;est clarifiée, puisqu&#x27;il ne savait rien de son vivant du jour.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) יכול לסמוך עליו - והוא נמי משום דאמרינן הוברר הדבר דקודם בין השמשות דעתו היה לכך וכל זה הוא כפי מה דקי&quot;ל דלענין מלתא דרבנן יש ברירה. ופשוט דכל זה אם בלילה לא הלך מביתו לצד השני:</p></div><div class="fr"><p>Il peut s&#x27;appuyer sur lui - Et cela aussi parce que nous disons que la chose s&#x27;est clarifiée : avant le bein hachemashot, telle était déjà son intention. Tout cela selon ce que nous tenons : pour une matière rabbinique, il y a beréra. Et il est évident que tout cela n&#x27;est que s&#x27;il n&#x27;est pas allé de nuit de chez lui vers le côté opposé.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) לרוח שבא לו החכם קנה - ולא מיבעיא אם כבר בא החכם קודם בין השמשות לאותו רוח אלא שהוא לא היה יודע להיכן בא עד למחר שנשמע לו בודאי קנה לאותו רוח דגילוי מלתא בעלמא הוא דאיגלאי מלתא השתא דההוא עירוב קנה אלא אפילו היה החכם רחוק משם ביה&quot;ש בתוך התחום [של סוף ד&#x27; אלפים שלו] וא&quot;כ אפשר שלא גמר אז החכם בדעתו כלל לבוא לתוך ד&#x27; אלפים שלו [דדלמא אז היה בדעתו שלא לזוז כלל ממקומו וממילא לא קנה עירובו של זה] אפ&quot;ה אמרינן דמהני תנאו משום ברירה דאמרינן הוברר למפרע דלאותו צד שבא החכם היה מאתמול עומד לכך [גמרא]:</p></div><div class="fr"><p>Pour la direction d&#x27;où lui est venu le sage, il a acquis - Et non seulement si le sage était déjà venu avant le bein hachemashot dans cette direction, mais qu&#x27;il ne savait pas où il était venu jusqu&#x27;au lendemain où cela lui a été entendu : à coup sûr il a acquis pour cette direction, car ce n&#x27;est qu&#x27;une révélation de la chose, il s&#x27;est clarifié maintenant que cet érouv-là a acquis. Mais même si le sage était loin de là pendant le bein hachemashot, dans le téhoum [de la fin de ses quatre mille], et qu&#x27;ainsi il est possible que le sage n&#x27;eût alors aucunement décidé de venir dans ses quatre mille [peut-être avait-il alors l&#x27;intention de ne pas bouger du tout de sa place, et dès lors l&#x27;érouv de celui-ci n&#x27;aurait pas acquis], néanmoins nous disons que sa condition est valable à cause de la beréra : nous disons qu&#x27;il s&#x27;est clarifié rétroactivement que, du côté où le sage est venu, il était dès la veille destiné à cela [Guemara].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(י) הוי עירוב - דאמרינן כיון שרצה עכשיו מסתמא בין השמשות שהוא זמן קניית העירוב היה ג&quot;כ דעתיה להאי:</p></div><div class="fr"><p>C&#x27;est un érouv - Car nous disons : puisqu&#x27;il le veut maintenant, selon toute vraisemblance pendant le bein hachemashot, moment d&#x27;acquisition de l&#x27;érouv, telle était aussi son intention.</p></div></div>
+<nav class="dafnav"><a href="412.html">&lsaquo; Siman 412</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/413.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="414.html">Siman 414 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

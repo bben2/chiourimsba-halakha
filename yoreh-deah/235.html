@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Choulhan Aroukh Yoré Déa — Siman 235</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">שולחן ערוך, יורה דעה</div>
+<h1>Choulhan Aroukh — Yoré Déa, siman 235</h1>
+<div class="sub">Rabbi Yossef Karo · Rema : Rabbi Moche Isserles · Celui qui interdit à sa femme les rapports, ou d’aller chez son père, et cas semblables</div></header>
+<nav class="dafnav"><a href="234.html">&lsaquo; Siman 234</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="236.html">Siman 236 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Qui interdit à sa femme les rapports la garde sept jours puis la renvoie avec ketouba. Lui interdire de bénéficier de lui : le vœu ne prend pas, car il lui est tenu. Divers interdits de parure, d’aliment ou de visite, rattachés aux rapports : sept jours puis divorce. Si c’est elle qui a voué et qu’il n’a pas annulé, il renvoie aussitôt. Conditions honteuses à l’annulation : divorce avec ketouba. Vœu qui lui fait mauvaise réputation : elle sort sans ketouba. Formule mal construite pour interdire la maison du père : nulle.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>konam</dt><dd>formule de vœu qui consacre l’objet comme offrande interdite</dd></div><div class="gl"><dt>ketouba</dt><dd>contrat de mariage et somme due à la femme</dd></div><div class="gl"><dt>pourvoyeur</dt><dd>parnass, tiers chargé de nourrir la femme aux frais du mari</dd></div><div class="gl"><dt>fête de pèlerinage</dt><dd>règèl</dd></div><div class="gl"><dt>affaires entre lui et elle</dt><dd>devarim shebeino leveina</dd></div><div class="gl"><dt>mortification</dt><dd>inouy néfech</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>המדיר אשתו מתשמיש או שלא תלך לבית אביה ודומיו. ובו ו&#x27; סעיפים:המדיר את אשתו מתשמיש המטה שאמר [קונם] תשמישך עלי יקיים אותה שבעה ימים בין שהדירה בפירוש לשבעה ימים או יותר או שהדירה סתם ולאחר שבעה ימים יוציא ויתן כתובתה:</p></div><div class="fr"><p>Celui qui interdit à sa femme les rapports conjugaux, en disant « konam, tes rapports me sont [interdits] », la garde sept jours — qu’il l’ait interdite expressément pour sept jours ou davantage, ou sans précision. Après sept jours, il la renvoie et lui donne sa ketouba.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>הדירה שלא תהנה ממנו אינו חל שהרי הוא משועבד לה ואם אמר לה צאי [מעשה] ידיך במזונותיך והיא מספקת בהם לדברים גדולים ואינה מספקת לדברים קטנים אם כל משפחתה רגילין באותם דברים קטנים אינו חל שהרי הוא משועבד לה גם בהם ואם אין כל משפחתה רגילים בהם אלא העשירים ואביה עשיר ורגיל בהם ובעלה אינו עשיר ואינו רגיל בהם חל הנדר שהרי אינו חייב לה בהם ומכל מקום כיון שהדירה ממנו והיא חזרה לבית אביה הוא מתחייב לה עתה בהם הילכך עד ל&#x27; יום יפרנסנה באלו הדברים הקטנים על ידי פרנס שיאמר כל הזן אינו מפסיד ויזון אותה אחר ויקח מהבעל לא שנא הדירה שלשים [יום] או יותר או שהדירה סתם אחר שלשים יום יוציא ויתן כתובה:</p></div><div class="fr"><p>S’il lui a interdit de bénéficier de lui, le vœu ne prend pas, car il lui est tenu. S’il lui a dit : « Sors, que le produit de tes mains soit pour tes aliments », et qu’elle y suffit pour les gros besoins mais non pour les menus : si toute sa famille a l’habitude de ces menus besoins, le vœu ne prend pas, car il lui est tenu aussi en cela. Si toute sa famille n’en a pas l’habitude, mais seulement les riches, que son père est riche et en a l’habitude, et que son mari n’est pas riche et n’en a pas l’habitude, le vœu prend, car il ne lui en est pas tenu. Toutefois, puisqu’il l’a interdite de lui et qu’elle est retournée chez son père, il lui en devient maintenant tenu. Dès lors, jusqu’à trente jours, il la pourvoit de ces menus besoins par un pourvoyeur, qui dira : « Quiconque nourrit ne perd pas » ; un autre la nourrit et prend [le remboursement] du mari. Qu’il l’ait interdite trente jours ou davantage, ou sans précision : après trente jours, il la renvoie et donne la ketouba.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>הדירה שלא תתקשט או שלא תאכל אחד מהמינים אפילו הוא רע ולא טעמתו מעולם ותלאו בתשמיש שאמר קונם תשמישך עלי אם תתקשטי או תאכלי מין פלוני או שאמר קונם הנאת תשמישך עלי אם תלכי לבית אביך יותר מחדש אם הוא דר עמה בעיר או יותר מרגל אם הוא דר בעיר אחרת יקיים ז&#x27; ימים ואז יוציא ויתן כתובה ואם היא נדרה שאמרה קונם מין פלוני עלי או קונם שלא אתקשט בקישוט פלוני או שאמרה יאסר תשמישך עלי אם אוכל מין פלוני או אתקשט בקישוט פלוני או אם אלך לבית אבי והוא שמע ולא הפר לה יוציא מיד ויתן כתובה ולהרמב&quot;ם בנדרה היא וקיים לה הוא אם רוצה לישב ולא תאכל מאותו המין תשב ואם הוא אומר אי איפשי באשה נדרנית יוציא ויתן כתובה והוא הדין אם נדרה שלא תלך לבית אביה שאמרה קונם תשמישך עלי אם אלך לבית אבי ושמע הבעל ולא הפר וכן אם אמרה קונם תשמישך עלי אם אלך לבית האבל או לבית המשתה ושמע ולא הפר לה והוא הדין אם אמרה קונם תשמישך עלי אם אעשה שום מלאכה ושמע ולא הפר לה והוא הדין אם אמרה קונם תשמישך עלי אם אשאל משכני כלום או אם אשאיל כלי ושמע ולא הפר:</p></div><div class="fr"><p>S’il lui a interdit de se parer ou de manger l’une des espèces, même mauvaise et qu’elle n’en a jamais goûté, et qu’il l’a rattaché aux rapports, en disant « konam, tes rapports me sont [interdits] si tu te pares ou si tu manges telle espèce », ou « konam, le bénéfice de tes rapports m’est [interdit] si tu vas chez ton père plus d’un mois » — s’il habite avec elle dans la ville — « ou plus d’une fête de pèlerinage » — s’il habite dans une autre ville : il la garde sept jours, puis la renvoie et donne la ketouba. Si c’est elle qui a voué, en disant « konam, telle espèce m’est [interdite] », ou « konam que je ne me pare pas de telle parure », ou « tes rapports me seront interdits si je mange telle espèce, ou si je me pare de telle parure, ou si je vais chez mon père », et qu’il a entendu et n’a pas annulé : il la renvoie aussitôt et donne la ketouba. Selon le Rambam, si c’est elle qui a voué et qu’il lui a confirmé : s’il veut rester [marié] et qu’elle ne mange pas de cette espèce, elle reste ; s’il dit « je ne veux pas d’une femme voueuse », il la renvoie et donne la ketouba. Il en est de même si elle a voué de ne pas aller chez son père, en disant « konam, tes rapports me sont [interdits] si je vais chez mon père », et que le mari a entendu et n’a pas annulé. De même si elle a dit « konam, tes rapports me sont [interdits] si je vais à la maison de deuil ou à la maison de festin », et qu’il a entendu et n’a pas annulé. De même si elle a dit « konam, tes rapports me sont [interdits] si je fais un travail quelconque », et qu’il a entendu et n’a pas annulé. De même si elle a dit « konam, tes rapports me sont [interdits] si j’emprunte quoi que ce soit à ma voisine, ou si je prête un ustensile », et qu’il a entendu et n’a pas annulé.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>נדרה נדר מדברים שבינו לבינה או של עינוי נפש והפר לה על מנת שתאמר לפלוני דבר של קלון או שתהא מתהפכת אחר התשמיש כדי שלא תתעבר או שתהא ממלאה עשרה כדי מים ותשפכם לאשפה והיא אינה רוצה לעשות אחד מאלו הדברים ונתקיים הנדר יוציא ויתן כתובה:</p></div><div class="fr"><p>Elle a voué un vœu touchant les affaires entre lui et elle ou de mortification, et il l’a annulé à condition qu’elle dise à un tel une chose honteuse, ou qu’elle se retourne après les rapports afin de ne pas concevoir, ou qu’elle remplisse dix cruches d’eau et les verse au dépotoir, et qu’elle ne veut faire aucune de ces choses, et que le vœu s’est maintenu : il la renvoie et donne la ketouba.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>אסרה כלי שכניה עליה כדי שלא תשאל מהם או שנדרה שלא לארוג בגדים נאים לבנה אינו יכול להפר ואסורה לשאול משכניה ולארוג בגדים הילכך תצא בלא כתובה שמשיאו שם רע בשכניו:</p></div><div class="fr"><p>Elle s’est interdit les ustensiles de ses voisines afin de ne pas leur emprunter, ou elle a voué de ne pas tisser de beaux vêtements pour son fils : il ne peut pas annuler ; il lui est interdit d’emprunter à ses voisines et de tisser des vêtements. Dès lors elle sort sans ketouba, car elle lui fait une mauvaise réputation chez ses voisins.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>בעל שאמר לאשתו אוסר אני [עליך] שלא תלך לבית אביך או שאמר לה קונם עליך בית אביך אינו כלום. (ועיין חילוקי דינים שבסימן זה בא&quot;ה סימן ע&quot;ד):</p></div><div class="fr"><p>Un mari qui a dit à sa femme : « Je t’interdis de ne pas aller chez ton père », ou « konam sur toi la maison de ton père », cela n’est rien.
+Rema : Voir les distinctions de ce siman dans Even Haézer, siman 74.</p></div></div>
+<nav class="dafnav"><a href="234.html">&lsaquo; Siman 234</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="236.html">Siman 236 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

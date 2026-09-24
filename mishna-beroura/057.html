@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 57</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 57</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Loi de Barkhou et de sa réponse</div></header>
+<nav class="dafnav"><a href="056.html">&lsaquo; Siman 56</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/057.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="058.html">Siman 58 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>L’officiant dit Barkhou à voix haute ; l’assemblée répond Baroukh ה&#x27; hamevorakh leolam vaed, et l’officiant le répète. Usages pendant que l’officiant prolonge Barkhou ; on ne parle pas entre kaddish-Barkhou et Yotser Or.</p><div class="pratique"><p class="warn">Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.</p><div class="pgrid"><div class="pbox sujet"><b>SUJET</b>Barkhou : l’officiant le dit à voix haute ; l’assemblée répond Baroukh ה&#x27; hamevorakh leolam vaed ; l’officiant le répète. Usages pendant l’air ; on ne parle pas entre kaddish–Barkhou et Yotser Or</div><div class="pbox faire"><b>À FAIRE</b>Voix haute<br>L’officiant dit Barkhou pour que tout le peuple entende et réponde Baroukh ה&#x27; hamevorakh leolam vaed</div><div class="pbox faire"><b>À FAIRE</b>Répétition de l’officiant<br>Il répète Baroukh ה&#x27; hamevorakh leolam vaed pour s’inclure parmi ceux qui bénissent</div><div class="pbox faire"><b>À FAIRE</b>Amen du public<br>Le public peut répondre amen après la répétition de l’officiant ; celui qui se tient où l’on n’interrompt pas ne le dira pas</div><div class="pbox eviter"><b>À ÉVITER</b>Parler entre Barkhou et Yotser<br>C’est comme si l’officiant avait déjà commencé Yotser Or</div><div class="pbox eviter"><b>À ÉVITER</b>Parler pendant les mots<br>Pendant l’air de Barkhou seulement on a des usages ; dès qu’il dit les mots, on se tait. S’il ne prolonge pas, mieux vaut se taire et viser pour répondre leolam vaed</div><div class="pbox eviter"><b>À ÉVITER</b>Amen de l’officiant après le public<br>Erreur : dès qu’il dit aussitôt Baroukh ה&#x27; etc., il n’a pas besoin de dire amen</div><div class="pbox eviter"><b>À ÉVITER</b>« Et ה&#x27; ton Dieu tu craindras » sur le mot « et » de Barkhou<br>Le Maharshal : cela n’est pas reçu et ne vient pas du fondement de la sagesse</div><div class="pbox oui"><b>OUI</b>N’a entendu que l’assemblée<br>Il répond avec eux leolam vaed</div><div class="pbox oui"><b>OUI</b>N’a entendu que l’officiant<br>Quand l’officiant dit leolam vaed, il ne répond pas avec lui : il répond amen à ses paroles (Eliya Rabba, Derekh haHayim)</div><div class="pbox non"><b>NON</b>Pas dix hors de l’officiant<br>S’il n’a pas répondu avec eux, il n’est pas acquitté de son devoir (Magen Avraham au nom de l’Agouda)</div><div class="pbox rema"><b>REMA</b>Hayei Adam et Pri Megadim : le public n’a pas besoin de redire amen après avoir déjà dit leolam vaed ; liberté de le dire si l’on veut. Le MB trouve difficile l’idée que l’officiant ne soit pas acquitté dès qu’il y a dix hors de lui.</div></div><div class="psynth">Barkhou se dit à voix haute, le public répond Baroukh ה&#x27; hamevorakh leolam vaed, l’officiant le répète. On ne parle pas entre kaddish–Barkhou et Yotser. Qui n’a entendu que le public répond avec lui ; qui n’a entendu que l’officiant répond amen à sa répétition.</div></div></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Barkhou</dt><dd>« Bénissez », appel de l’officiant avant les berakhot du Chema ou la lecture de la Torah</dd></div><div class="gl"><dt>Baroukh ה&#x27; hamevorakh leolam vaed</dt><dd>« Béni soit ה&#x27; le Béni à jamais », réponse de l’assemblée à Barkhou</dd></div><div class="gl"><dt>Yotser Or</dt><dd>première berakha du Chema du matin</dd></div><div class="gl"><dt>Yitbarakh veyichtabah</dt><dd>formule de louange que certains disent pendant que l’officiant prolonge Barkhou</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) אומר ש&quot;ץ - בקול רם כדי שישמעו כל העם ויענו ברוך ד&#x27; הל&quot;ו:</p></div><div class="fr"><p>L’officiant dit — À voix haute, afin que tout le peuple entende et réponde Baroukh ה&#x27; hamevorakh leolam vaed.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) ועונין אחריו - ואם לא שמע אחד מהש&quot;ץ כשאמר ברכו רק שמע מהקהל שאמרו ברוך ד&#x27; הל&quot;ו עונה עמהם ג&quot;כ ביהל&quot;ו אבל אם שמע מהש&quot;ץ לבד כשעונה ביהל&quot;ו לא יענה עמו רק יענה אמן על דבריו [א&quot;ר ודה&quot;ח דלא כמ&quot;א]:</p></div><div class="fr"><p>Et l’on répond après lui — Si l’un n’a pas entendu de l’officiant lorsqu’il a dit Barkhou, mais a seulement entendu de l’assemblée qu’ils ont dit Baroukh ה&#x27; hamevorakh leolam vaed, il répond aussi avec eux leolam vaed. Mais s’il a entendu de l’officiant seulement, lorsqu’il répond leolam vaed il ne répondra pas avec lui : il répondra amen à ses paroles [Eliya Rabba et Derekh haHayim, non comme le Magen Avraham].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) וחוזר ש&quot;ץ - כדי שיכלול את עצמו ג&quot;כ בכלל המברכים. ואם אין שם עשרה בלא הוא אם לא ענה עמהם לא יצא ידי חובתו. מ&quot;א בשם אגודה [קשה לי אפי&#x27; יש עשרה בלתו ג&quot;כ לא יצא ידי חובת עצמו כיון שלא ענה עמהם ולענין השאר לכאו&#x27; דיוצאים בכל גוני דלא גרע מאם היה אחד מתפלל או ישן דקי&quot;ל לעיל סי&#x27; נ&quot;ה ס&quot;ו דמצטרף]:</p></div><div class="fr"><p>Et l’officiant répète — Afin de s’inclure lui aussi au nombre de ceux qui bénissent. S’il n’y a pas dix hors de lui, s’il n’a pas répondu avec eux, il n’est pas acquitté de son devoir. Le Magen Avraham au nom de l’Agouda. [Cela m’est difficile : même s’il y a dix hors de lui, il n’est pas non plus acquitté de son propre devoir puisqu’il n’a pas répondu avec eux ; et pour le reste, apparemment ils sont acquittés en tout cas, cela n’étant pas moindre que si l’un priait ou dormait, dont nous tenons plus haut siman 55 seif 6 qu’il s’ajoute.]</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) ואומר ברוך ה&#x27; המבורך - כתב בספר ש&quot;א [אצל דיני בה&quot;ת וה&quot;ה בזה] קצת שלוחי צבור כשהצבור אומרים ברוך ד&#x27; המבורך וכו&#x27; עונה אחריהם אמן וחוזר ואומר ברוך ד&#x27; וכו&#x27; וטעות הוא בידם שכיון שאומרים מיד ברוך ד&#x27; וכו&#x27; א&quot;צ לומר אמן [וכן כתב הפמ&quot;ג בסימן קצ&quot;ח והח&quot;א] אבל הצבור יאמרו אמן אחר הש&quot;ץ אף שאמרו מתחלה ברוך ד&#x27; המבורך וכו&#x27; אבל הח&quot;א כתב שאין צריכין לומר אמן וכ&quot;כ הפמ&quot;ג בסי&#x27; נ&quot;ז וקצ&quot;ח דכיון דכבר אמרו ביהל&quot;ו למה יאמרו פעם שניה אמן ומאמין הרי כבר אמרו כן. ומ&quot;מ הכריע לבסוף דרשות הוא ביד הצבור אם ירצו עונין ע&quot;ז אמן. ועכ&quot;פ מי שהוא עומד במקום שאסור להפסיק לא יענה אמן זה:</p></div><div class="fr"><p>Et il dit Baroukh ה&#x27; hamevorakh — Il est écrit dans le livre Shaar Efrayim [à propos des lois de la lecture de la Torah, et de même ici] que quelques officiants, lorsque le public dit Baroukh ה&#x27; hamevorakh etc., répondent amen après eux puis reprennent et disent Baroukh ה&#x27; etc. : c’est une erreur de leur part, car dès qu’ils disent aussitôt Baroukh ה&#x27; etc., il n’est pas besoin de dire amen [ainsi ont écrit le Pri Megadim au siman 198 et le Hayei Adam]. Mais le public dira amen après l’officiant, bien qu’ils aient d’abord dit Baroukh ה&#x27; hamevorakh etc. Toutefois le Hayei Adam a écrit qu’ils n’ont pas besoin de dire amen, et de même le Pri Megadim aux simanim 57 et 198 : puisqu’ils ont déjà dit leolam vaed, pourquoi diraient-ils une seconde fois amen, alors qu’ils l’ont déjà dit. Néanmoins il a tranché à la fin que le public a la liberté, s’ils veulent, d’y répondre amen. En tout cas, celui qui se tient en un lieu où il est interdit d’interrompre ne répondra pas cet amen.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) בעוד שהוא מאריך - דוקא בשעת הניגון אבל בשעה שאומר התיבות לא יאמר כלום ואם אין החזן מאריך בברכו מוטב שישתוק ויכוין מה שאומר הש&quot;ץ כדי שיענה ביהל&quot;ו [אחרונים]. הנוהגין לומר את ד&#x27; אלהיך תירא כשיגיע הש&quot;ץ לאת כתב רש&quot;ל שאינו מקבלה ואינו מיסוד החכמה:</p></div><div class="fr"><p>Tandis qu’il prolonge — Précisément pendant l’air ; mais à l’heure où il dit les mots, on ne dira rien. Si le hazzan ne prolonge pas Barkhou, mieux vaut se taire et avoir l’intention de ce que dit l’officiant, afin de répondre leolam vaed [Aharonim]. Ceux qui ont l’usage de dire « Et ה&#x27; ton Dieu, tu craindras » lorsque l’officiant parvient au mot « et » de Barkhou : le Maharshal a écrit que cela n’est pas reçu et ne vient pas du fondement de la sagesse.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) טועים - דהרי הוא כאלו כבר התחיל ביוצר אור:</p></div><div class="fr"><p>Ils se trompent — Car c’est comme s’il avait déjà commencé Yotser Or.</p></div></div>
+<nav class="dafnav"><a href="056.html">&lsaquo; Siman 56</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/057.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="058.html">Siman 58 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

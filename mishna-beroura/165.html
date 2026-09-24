@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 165</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 165</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Loi de celui qui a fait ses besoins et veut manger</div></header>
+<nav class="dafnav"><a href="164.html">&lsaquo; Siman 164</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/165.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="166.html">Siman 166 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Combiner Asher Yatsar et Al netilat yadayim sans interruption ; deux versements ou un seul ; ordre du plus grand à table ; éviter attente et parole avant hamotsi.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Asher Yatsar</dt><dd>bénédiction après les besoins naturels</dd></div><div class="gl"><dt>Al netilat yadayim</dt><dd>bénédiction de l&#x27;ablution des mains avant le repas</dd></div><div class="gl"><dt>hamotsi</dt><dd>bénédiction sur le pain</dd></div><div class="gl"><dt>réviit</dt><dd>mesure d&#x27;eau requise pour la netilat yadayim</dd></div><div class="gl"><dt>gavil letora</dt><dd>préparer le fourrage du bœuf : acte permis entre berakha et repas car au service du repas</dd></div><div class="gl"><dt>hagadol</dt><dd>le plus grand / le plus distingué des convives</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) העושה צרכיו - כתב בשל&quot;ה דכל אדם יבדוק עצמו לפנות קודם הנטילה וכ&quot;כ בספר סדר היום [א&quot;ר]:</p></div><div class="fr"><p>Celui qui fait ses besoins - Le Chel&quot;a écrit que chacun doit s&#x27;examiner afin de se soulager avant la netilat yadayim ; de même dans le Seder Hayom [Elya Rabba].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) יטול ב&#x27; פעמים וכו&#x27; - דאם יטול פ&quot;א ויברך מתחלה אשר יצר ואח&quot;כ על נט&quot;י הוי הפסק בין הנטילה לברכתה ואם יברך מתחלה ענט&quot;י ואח&quot;כ אשר יצר הוי הפסק בין ברכת נטילה להמוציא ולהניח מלברך ברכת אשר יצר עד אחר ברכת המוציא ג&quot;כ אין נכון שחיובה חל עליו מיד כשעשה צרכיו ואין לאחרה כ&quot;כ וכתבו האחרונים דצריך ליזהר שלא ליטול בפעם הראשון נטילה גמורה ורק מעט משום נקיות דאל&quot;ה הרי נטהרו ידיו בפעם הראשון ואין שייך לברך עוד על נטילה שניה וכנ&quot;ל בסימן קנ&quot;ח ס&quot;ז. ודע דיש כמה פוסקים שס&quot;ל דאשר יצר לא הוי הפסק בין ברכת נטילה להמוציא משום דהכל לצורך טהרת ידים והוי כמו גביל לתורא בסימן קס&quot;ז וע&quot;כ אם בדיעבד נטל נטילה אחת כדין לשם נטילה לאכילה יברך מתחלה ענט&quot;י ואח&quot;כ אשר יצר דיש לסמוך על הפוסקים אלו וה&quot;ה לכתחלה אם היה קשה לו ליטול שתי נטילות מדוחק מים וכי&quot;ב יטול אחת ויברך ענט&quot;י ואח&quot;כ א&quot;י =אשר יצר=. כתב מ&quot;א דהעושה צרכיו באמצע הסעודה לכו&quot;ע נוטל רק פ&quot;א ומברך ענט&quot;י ואח&quot;כ אשר יצר כיון דאין צריך לברך המוציא כדלקמן בסימן קע&quot;ח א&quot;כ אין כאן הפסק ועיין מש&quot;כ בסי&#x27; קס&quot;ד ס&quot;ב במ&quot;ב:</p></div><div class="fr"><p>Il lavera deux fois etc. - S&#x27;il ne lave qu&#x27;une fois et bénit d&#x27;abord Asher Yatsar puis Al netilat yadayim, il y a interruption entre la netila et sa berakha. S&#x27;il bénit d&#x27;abord Al netilat yadayim puis Asher Yatsar, il y a interruption entre la berakha de la netila et hamotsi. Retarder Asher Yatsar jusqu&#x27;après hamotsi n&#x27;est pas non plus correct, car son obligation prend effet dès qu&#x27;il a fait ses besoins et l&#x27;on ne la retarde pas tant. Les Aharonim écrivent qu&#x27;il faut prendre garde, au premier versement, de ne pas faire une netila complète, mais seulement un peu d&#x27;eau pour la propreté ; sinon les mains seraient déjà pures dès le premier versement et l&#x27;on ne pourrait plus bénir sur la seconde netila, comme plus haut au siman 158 seif 7. Sache qu&#x27;il y a plusieurs décisionnaires pour qui Asher Yatsar n&#x27;est pas une interruption entre la berakha de la netila et hamotsi, parce que tout cela sert à la pureté des mains, à l&#x27;instar de « gavil letora » au siman 167. Aussi, bediavad (après coup), s&#x27;il n&#x27;a fait qu&#x27;une netila régulière en vue de manger, il bénira d&#x27;abord Al netilat yadayim puis Asher Yatsar, en s&#x27;appuyant sur ces avis. De même lekhathila (a priori), s&#x27;il lui est difficile de faire deux netilot par manque d&#x27;eau ou similaire, il fera une seule netila, bénira Al netilat yadayim puis Asher Yatsar. Le Maguen Avraham écrit que celui qui fait ses besoins au milieu du repas ne lave, de l&#x27;avis de tous, qu&#x27;une fois, bénit Al netilat yadayim puis Asher Yatsar, puisqu&#x27;il n&#x27;a pas à bénir hamotsi (voir plus bas siman 178) : il n&#x27;y a donc pas d&#x27;interruption. Voir ce que nous avons écrit au siman 164 seif 2 dans le MB.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) לאחר ששפך וכו&#x27; - ר&quot;ל דאומר ברכת אשר יצר קודם שהגיע זמן ברכת ענט&quot;י היינו לאחר ששפך רק פעם אחת על ידיו בפחות מרביעית ושפשף ידיו זו בזו דעדיין לא נגמר הנטילה ואח&quot;כ שופך פעם שניה על ידיו לטהר המים הראשונים ואז מברך ענט&quot;י ומנגבן. ואף דמבואר לעיל בסימן קס&quot;ב דהמשפשף ידיו אחר מים ראשונים נטמאו ידיו זה מזה ואין מועיל אח&quot;כ המים שניים י&quot;ל דהכא מיירי שנשפך על שתי ידיו כאחת דאז חשיבי כיד אחת ומותר לשפשפם וכדלעיל בסימן קס&quot;ב סעיף ה&#x27; וכתבו האחרונים דלדידן דנהיגן ליטול רביעית בב&quot;א על כל יד ויד א&quot;כ נגמר תיכף טהרת ידים וראוי לברך ענט&quot;י וא&quot;כ ברכת אשר יצר הוי הפסק בין נטילה לברכה ויותר טוב לעשות כאופן הראשון המוזכר בשו&quot;ע ועיין מה שכתבנו לעיל בס&quot;ק ב&#x27;:</p></div><div class="fr"><p>Après qu&#x27;il a versé etc. - C&#x27;est-à-dire qu&#x27;il dit Asher Yatsar avant que vienne le moment de la berakha Al netilat yadayim : après n&#x27;avoir versé qu&#x27;une fois sur les mains moins d&#x27;une réviit et s&#x27;être frotté les mains l&#x27;une contre l&#x27;autre, la netila n&#x27;est pas encore achevée ; ensuite il verse une seconde fois pour purifier les premières eaux, puis bénit Al netilat yadayim et s&#x27;essuie. Bien qu&#x27;il soit exposé plus haut au siman 162 que celui qui frotte les mains après les premières eaux les rend impures l&#x27;une par l&#x27;autre et que les secondes eaux n&#x27;y remédient plus, on peut dire qu&#x27;ici il s&#x27;agit d&#x27;un versement sur les deux mains à la fois, auquel cas elles comptent comme une seule main et le frottement est permis, comme au siman 162 seif 5. Les Aharonim écrivent que selon notre usage de verser une réviit d&#x27;un seul coup sur chaque main, la pureté des mains est immédiatement achevée et il convient de bénir Al netilat yadayim ; Asher Yatsar constitue alors une interruption entre la netila et sa berakha. Mieux vaut donc suivre le premier mode mentionné dans le Choulhan Aroukh. Voir ce que nous avons écrit plus haut au seif katan 2.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) הגדול נוטל וכו&#x27; - דכן הוא כבודו:</p></div><div class="fr"><p>Le plus grand lave etc. - Car tel est son honneur.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) והרא&quot;ש היה רגיל וכו&#x27; - ס&quot;ל דשאני בזמן התלמוד שהיה לכל אחד מהמסובין שלחן בפ&quot;ע והיה אוכל מיד שנטל ידיו אבל עכשיו ששלחן אחד לכל ומתחילין לאכול ביחד [דהיינו שלאחר שנטלו כולם ידיהם הגדול מברך ומוציא כולם בברכתו] טוב יותר ליטול באחרונה כדי שלא יבוא לידי הפסק ודיבור בינתים. והנה המחבר בסימן קס&quot;ו הסכים דטוב ליזהר מלהפסיק ומלדבר [ועי&quot;ש במ&quot;ב] וכן נהגו כל העולם להחמיר בזה ואפילו בשהיה הרבה מחמירין וכדברי הרמ&quot;א שם וא&quot;כ בסעודות גדולות שיש הרבה מסובין אם ימתינו כל המסובין עד שיטול הגדול ישהו הרבה מאד וגם יבואו לידי דיבור בינתים וע&quot;כ מן הנכון שהגדול יטול תחלה כבזמן הש&quot;ס ולא יוציאם בברכת המוציא אלא יברך לעצמו וכן כאו&quot;א מן המסובין יטלו ידיהם ויברך כאו&quot;א לעצמו ולא יצטרכו לשהות כלל:</p></div><div class="fr"><p>Et le Roch avait l&#x27;habitude etc. - Il estime que l&#x27;époque du Talmud était différente : chacun des convives avait sa propre table et mangeait dès qu&#x27;il avait lavé les mains. Aujourd&#x27;hui, une seule table pour tous et l&#x27;on commence à manger ensemble (c&#x27;est-à-dire qu&#x27;après que tous ont lavé, le plus grand bénit et acquitte les autres par sa berakha) : mieux vaut donc laver en dernier pour ne pas en venir à une interruption et à de la parole entre-temps. Or le Mé&#x27;haber au siman 166 a convenu qu&#x27;il est bon de se garder d&#x27;interrompre et de parler [voir là-bas dans le MB], et tout le monde a coutume d&#x27;être strict là-dessus, même pour une longue attente, conformément au Rema là-bas. Aussi, dans les grands repas où il y a beaucoup de convives, si tous attendent que le plus grand lave, ils attendront très longtemps et en viendront aussi à parler entre-temps. Il convient donc que le plus grand lave d&#x27;abord, comme au temps du Talmud, et n&#x27;acquitte pas les autres par hamotsi, mais bénisse pour lui-même ; chacun des convives lavera et bénira pour soi, sans avoir à attendre.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) שלא להפסיק - היינו בשהיה מרובה וכדלקמן בסי&#x27; קס&quot;ו:</p></div><div class="fr"><p>Afin de ne pas interrompre - C&#x27;est-à-dire par une longue attente, comme plus bas au siman 166.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) ושלא לדבר - היינו אפילו שיחה מועטת:</p></div><div class="fr"><p>Et afin de ne pas parler - Même une brève conversation.</p></div></div>
+<nav class="dafnav"><a href="164.html">&lsaquo; Siman 164</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/165.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="166.html">Siman 166 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

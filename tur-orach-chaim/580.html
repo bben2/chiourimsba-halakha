@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 580</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 580</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Les jours de jeûne établis par la tradition et les Sages</div></header>
+<nav class="dafnav"><a href="579.html">&lsaquo; Siman 579</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="581.html">Siman 581 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Liste détaillée des dates funestes du calendrier hébraïque instituées comme jours de jeûne à travers l&#x27;histoire.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Behag</dt><dd>Baal Halakhot Gedolot (auteur médiéval)</dd></div><div class="gl"><dt>Sgan</dt><dd>Adjoint du Grand Prêtre</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>כתב בה&quot;ג אלו הימים שמתענין בהם מן התורה והמתענה בהם לא יאכל בהן ולא ישתה עד הערב באחד בניסן מתו בני אהרן בי&#x27; בו מתה מרים ונסתלק הבאר בכ&quot;ו בו מת יהושע בן נון בי&#x27; באייר מת עלי הכהן ושני בניו ונשבה ארון הברית בכ&quot;ח בו מת שמואל הנביא וספדוהו כל ישראל בכ&quot;ג בסיון בטלו הבכורים מלעלות לירושלים בימי ירבעם בן נבט בכ&quot;ה נהרג רשב&quot;ג ורבי ישמעאל ור&quot;ח סגן הכהנים בכ&quot;ז בו נשרף ר&quot;ח בן תרדיון וס&quot;ת עמו בי&quot;ז בתמוז נשתברו הלוחות ובטל התמיד והובקעה העיר ושרף אפוסטמוס התורה והעמיד דמות ע&quot;ג בהיכל באחד באב מת אהרן הכהן בט&quot;ב נגזרה גזרה על אבותינו שלא יכנסו לארץ ונחרב הבית ראשונה ושנייה בי&quot;ח כבה נר מערבי בימי אחז בי&quot;ז באלול מתו מוציאי דבת הארץ במגפה בג&#x27; בתשרי מת גדליה בן אחיקם והיהודים אשר עמו במצפה בה&#x27; בו מתו כ&#x27; איש מישראל ונחבש ר&quot;ע בן יוסף בבית האסורין ומת בז&#x27; בו נגזרה גזירה על אבותינו שימותו בחרב וברעב ובדבר מפני מעשה העגל בז&#x27; במרחשון עיורו עיני צדקיהו ושחטו בניו לעיניו בכ&quot;ח בכסליו שרף יהויקים את המגילה אשר כתב ברוך מפי ירמיה בח&#x27; בטבת היה מעשה דתלמי המלך בט&#x27; בו לא כתבו רבותינו על מה הוא בי&#x27; בו סמך מלך בבל על ירושלים להחריבה בה&#x27; בשבט מתו הזקנים שהיו בימי יהושע בן נון בכ&quot;ג בו נתקבצו כל ישראל על שבט בנימין על ענין הפלגש ועל פסל מיכה בז&#x27; באדר מת מרע&quot;ה בט&#x27; בו גזרו תענית על שנחלקו ב&quot;ש וב&quot;ה זה על זה אלו ימי תעניות קבלו ישראל מן התורה ועוד גזרו רז&quot;ל שיהו מתענין מפני שלשה דברים בב&#x27; וה&#x27; על חורבן הבית ועל התורה שנשרפה ועל חרפת ה&#x27; ולע&quot;ל הקב&quot;ה עתיד להפכם לששון ולשמחה דכתיב והפכתי אבלם לששון ונחמתים ושמחתים מיגונם וכן יה&quot;ר במהרה בימינו אמן:</p></div><div class="fr"><p>Le Behag a écrit : Voici les jours où l&#x27;on jeûne selon la Torah (la tradition antique), et celui qui y jeûne ne mangera ni ne boira jusqu&#x27;au soir. Le 1er Nissan, les fils d&#x27;Aaron moururent. Le 10 de ce mois, Myriam mourut et le puits disparut. Le 26 de ce mois, Josué fils de Noun mourut. Le 10 Iyar, Eli le kohen et ses deux fils moururent, et l&#x27;Arche d&#x27;Alliance fut capturée. Le 28 de ce mois, Samuel le prophète mourut et tout Israël le pleura. Le 23 Sivan, les prémices cessèrent de monter à Jérusalem aux jours de Jéroboam fils de Nebat. Le 25, Rabban Chimon ben Gamliel, Rabbi Yichmael et Rabbi Hanina le Sgan des kohanim furent tués. Le 27 de ce mois, Rabbi Hanina ben Teradion fut brûlé avec un sefer Torah. Le 17 Tamouz, les Tables de la Loi furent brisées, le sacrifice perpétuel cessa, la muraille de la ville fut percée, Apostomos brûla la Torah et érigea une idole dans le Sanctuaire. Le 1er Av, Aaron le kohen mourut. Le 9 Av, il fut décrété contre nos pères qu&#x27;ils n&#x27;entreraient pas dans le Pays d&#x27;Israël, et le Temple fut détruit pour la première et la deuxième fois. Le 18, la lampe occidentale s&#x27;éteignit aux jours d&#x27;Ahaz. Le 17 Eloul, les explorateurs qui avaient colporté des médisances sur le Pays moururent par la peste. Le 3 Tichri, Guedalia fils d&#x27;Ahikam mourut, ainsi que les Juifs qui étaient avec lui à Mitspa. Le 5 de ce mois, vingt hommes d&#x27;Israël moururent, et Rabbi Akiva fils de Yossef fut jeté en prison où il mourut. Le 7 de ce mois, un décret fut prononcé contre nos pères pour qu&#x27;ils meurent par l&#x27;épée, la famine et la peste à cause de la faute du Veau d&#x27;Or. Le 7 Marhechvan, les yeux de Sédécias furent crevés, et ses fils furent égorgés sous ses yeux. Le 28 Kislev, Yehoyakim brûla le rouleau que Baroukh avait écrit sous la dictée de Jérémie. Le 8 Tévet, eut lieu l&#x27;affaire du roi Ptolémée. Le 9 de ce mois, nos maîtres n&#x27;ont pas consigné ce qui s&#x27;y est passé. Le 10 de ce mois, le roi de Babylone mit le siège devant Jérusalem pour la détruire. Le 5 Chevat, les Anciens qui vivaient aux jours de Josué fils de Noun moururent. Le 23 de ce mois, tout Israël se rassembla contre la tribu de Benjamin au sujet de la concubine, et à cause de l&#x27;idole de Mikha. Le 7 Adar, Moïse notre maître mourut. Le 9 de ce mois, un jeûne fut décrété car la maison de Chamaï et la maison de Hillel se sont divisées. Ces jours de jeûne, Israël les a acceptés selon la tradition. Et de plus, nos Sages de mémoire bénie ont décrété que l&#x27;on jeûne pour trois événements les lundis et jeudis : pour la destruction du Temple, pour la Torah qui a été brûlée, et pour la profanation du nom de ה&#x27;. Et dans l&#x27;avenir, le Saint béni soit-Il les transformera en joie et allégresse, comme il est écrit : &#x27;Je changerai leur deuil en allégresse, Je les consolerai et les réjouirai de leur chagrin&#x27;. Qu&#x27;il en soit ainsi de Sa volonté, promptement et de nos jours, amen.</p></div></div>
+<nav class="dafnav"><a href="579.html">&lsaquo; Siman 579</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="581.html">Siman 581 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

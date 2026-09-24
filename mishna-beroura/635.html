@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 635</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 635</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Loi de la souka de Ganvakh et de Rakvash</div></header>
+<nav class="dafnav"><a href="634.html">&lsaquo; Siman 634</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/635.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="636.html">Siman 636 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>La souka doit être faite pour l’ombre ; soukot de non-Juifs, femmes, bergers et gardiens ; « tu feras » et non de ce qui est déjà fait ; ordre des parois et du sékhakh.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Ganvakh</dt><dd>acronyme : soukot de non-Juifs, de femmes, de bêtes et de Koutim</dd></div><div class="gl"><dt>Rakvash</dt><dd>acronyme : soukot de bergers, de gardiens de figues, de bourganin et de gardiens des champs</dd></div><div class="gl"><dt>kayatsim</dt><dd>gardiens des figues sèches étendues au champ</dd></div><div class="gl"><dt>bourganin</dt><dd>gardiens de la ville</dd></div><div class="gl"><dt>tu feras et non de ce qui est déjà fait</dt><dd>taassé vélo min ha-assouï : la souka doit être confectionnée par un acte, non extraite d’un existant</dd></div><div class="gl"><dt>tente</dt><dd>ohel : un téfah de vide sous un toit suffit à donner le nom de tente</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) שתהיה עשויה לצל - דאע&quot;ג דסוכה לשם חג לא בעינן לשם סוכה בעינן כדכתיב חג הסוכות תעשה כלומר תעשה לשם סוכה להגין תחת צילה דבשביל צל הוא דמקריא סוכה שסוככת מן החורב ולאפוקי אם עושה אותה לצניעות בעלמא להשתמש שם לפעמים שלא יראו אותו או לדור בה כל השנה או לאוצר דזה אינה בכלל סוכה ומנין אנו יודעין בכל הני דקחשיב לקמן שעשיית הסכך לצל היתה להגין משרב ושמש ולא לצניעות בעלמא אם אנו רואין שמסוככת יפה שאין עושין כן בשביל צניעות מוכחא מלתא שעשייתה הראשונה לצל היתה:</p></div><div class="fr"><p>Qu’elle soit faite pour l’ombre - car bien que l’on n’exige pas une souka au nom de la fête, l’on exige qu’elle soit au nom de souka, ainsi qu’il est écrit : « Tu feras la fête des Cabanes », c’est-à-dire tu feras au nom de souka, pour protéger sous son ombre ; car c’est à cause de l’ombre qu’elle s’appelle souka, elle qui abrite de la chaleur. Cela écarte le cas où on la fait pour la seule pudeur, afin de s’en servir parfois sans être vu, ou pour y habiter toute l’année, ou pour un grenier : cela n’entre pas dans le nom de souka. Et d’où savons-nous, dans tous les cas énumérés plus loin, que la confection du sékhakh était pour l’ombre, afin de protéger de la chaleur et du soleil, et non pour la seule pudeur ? Si nous voyons qu’elle abrite bien, ce que l’on ne fait pas pour la pudeur, la chose est claire que sa première confection était pour l’ombre.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) כגון סוכת נכרים וכו&#x27; - בגמרא אמרינן דבארבעה ראשונים איכא ריעותא מחמת שאינם בני חיוב וריעותא דרקב&quot;ש הוא משום דלא קביעי ואפ&quot;ה סוכתן כשרה ואפילו אם היו שתי ריעותות כגון שהיו רועים נכרים ג&quot;כ סוכתן כשרה [אחרונים]:</p></div><div class="fr"><p>Par exemple la souka des non-Juifs, etc. - dans le Talmud on dit que dans les quatre premiers il y a un défaut, parce qu’ils ne sont pas tenus à l’obligation, et que le défaut de Rakvash est qu’elles ne sont pas stables ; et néanmoins leur souka est kasher. Et même s’il y avait deux défauts, par exemple des bergers non-Juifs, leur souka aussi est kasher [Aharonim].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) רועים - שעשו סוכה בשדה לישב בתוכה מפני השרב ושומרים צאנם:</p></div><div class="fr"><p>Bergers - qui ont fait une souka dans le champ pour s’y asseoir à cause de la chaleur et garder leur troupeau.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) קייצים - שומרי קציעות השטוח בשדה לייבש:</p></div><div class="fr"><p>Kayatsim - gardiens des figues sèches étendues dans le champ pour sécher.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) בורגנין - שומרי העיר וכולן ישראלים הם אכן סוכתן לא לשם חג נעשית:</p></div><div class="fr"><p>Bourganin - gardiens de la ville ; et tous sont des Israélites, seulement leur souka n’a pas été faite au nom de la fête.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) ולא מן העשוי - שהסיכוך הוא מאליו ואינו נוגע בו לעשות שום מעשה אלא פוחת אחת מדפנותיו ונכנס לעומקו ונוטל העומרים ומשליך והסוכה נעשית מאליה:</p></div><div class="fr"><p>Et non de ce qui est déjà fait - c’est que le recouvrement se fait de lui-même, et que l’on n’y touche pour aucun acte : on perce seulement l’une de ses parois, on entre dans sa profondeur, on prend les gerbes et on les jette, et la souka se fait d’elle-même.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) חלל טפח במשך שבעה וכו&#x27; - הטעם דכיון שהניח חלל טפח במשך ז&#x27; על ז&#x27; שהוא שיעור סוכה שם סכך עליו דכל טפח מקרי אהל וכשחטט אח&quot;כ אין זה עשיית הסכך אלא תיקון הדפנות ובדפנות לא אמרינן תעשה ולא מן העשוי והוי כסוכה שאינה גבוה עשרה וחקק בה להשלימה לעשרה דכשר:</p></div><div class="fr"><p>Un vide d’un téfah sur une longueur de sept, etc. - la raison est que, puisqu’on a laissé un vide d’un téfah sur une longueur de sept sur sept, qui est la mesure de souka, le nom de sékhakh est sur lui, car tout téfah s’appelle tente ; et lorsque l’on creuse ensuite, ce n’est pas une confection du sékhakh mais une réparation des parois, et pour les parois on ne dit pas « tu feras » et non de ce qui est déjà fait. Et c’est comme une souka qui n’a pas dix de haut et où l’on a creusé pour la compléter à dix, qui est kasher.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) וחטט בה וכו&#x27; - בין שהיתה מתחלה החלל טפח בגובה ומאותו טפח עד הארץ היה מלא עומרים וחטט בה מלמעלה למטה עד שעשה חלל י&quot;ט ובין שהיתה חללה טפח למטה סמוך לארץ וממנה עד למעלה בגובה היה מלא עומרים וחטט מלמטה למעלה עד שנעשה החלל גבוה י&quot;ט בכל גווני כשרה:</p></div><div class="fr"><p>Et l’on y a creusé, etc. - que le vide d’un téfah fût d’abord en hauteur, et que de ce téfah jusqu’à terre fût plein de gerbes, et que l’on y ait creusé de haut en bas jusqu’à faire un vide de dix téfahim ; ou que son vide d’un téfah fût en bas, près de terre, et que de là jusqu’en haut fût plein de gerbes, et que l’on ait creusé de bas en haut jusqu’à ce que le vide devînt haut de dix téfahim : dans tous les cas elle est kasher.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) ואין לעשות הסכך קודם וכו&#x27; - דבעינן בשעה שהוא עושה הסכך יהיה נעשה לשם צל דהיינו אוהל וכל שאין מחיצות אלא גג לחוד אין קרוי אהל ואם יעשה אח&quot;כ המחיצות הוי ולא מן העשוי:</p></div><div class="fr"><p>Et l’on ne fera pas le sékhakh avant, etc. - car il faut qu’au moment où l’on fait le sékhakh, il soit fait pour l’ombre, c’est-à-dire une tente ; et tout ce qui n’a pas de cloisons mais un toit seulement n’est pas appelé tente ; et si l’on fait ensuite les cloisons, c’est « et non de ce qui est déjà fait ».</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(י) הדפנות - ובדיעבד אם עשה קודם הב&quot;ח מכשיר והרבה אחרונים חולקין עליו ודעתם דאף בדיעבד פסול:</p></div><div class="fr"><p>Les parois - et bediavad (après coup), si l’on a fait auparavant, le Ba’h déclare kasher, et beaucoup d’Aharonim le contestent, leur avis étant que même bediavad c’est pasoul.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יא) טפח - רוחב באורך כל הסוכה ונתן עליו הסכך ואח&quot;כ גמר המחיצות דהוי כחוטט בגדיש ומוסיף על האהל שהיה מעיקרא דכל שיש מחיצה טפח מקרי אהל ושם סוכה על הסכך:</p></div><div class="fr"><p>Un téfah - de largeur sur toute la longueur de la souka, et l’on a posé dessus le sékhakh, puis l’on a achevé les cloisons : c’est comme celui qui creuse dans une meule et ajoute à la tente qui était là dès l’origine, car toute cloison d’un téfah s’appelle tente, et le nom de souka est sur le sékhakh.</p></div></div>
+<nav class="dafnav"><a href="634.html">&lsaquo; Siman 634</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/635.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="636.html">Siman 636 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

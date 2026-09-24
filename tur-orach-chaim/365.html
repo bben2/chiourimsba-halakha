@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 365</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 365</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Loi du mavoï percé d’une brèche</div></header>
+<nav class="dafnav"><a href="364.html">&lsaquo; Siman 364</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="366.html">Siman 366 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Brèche latérale : si le public y passe, déjà quatre téfa’him exigent un aménagement ; sinon, jusqu’à dix ammot sans aménagement, à condition qu’il reste quatre téfa’him vers l’extrémité. Brèche à l’extrémité : dès quatre téfa’him. Mavoï ouvert en pleine largeur sur une cour elle-même percée vers le domaine public : la cour reste souvent permise, le mavoï dépend de l’érouv et de l’alignement des brèches. Usage sous la qora et face au lehi permis vers le domaine public, interdit vers une karmelit. Si qora ou lehi tombe le Chabbat, interdit dès lors.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>pirtza / brèche</dt><dd>ouverture irrégulière dans le mur, distincte d’une porte</dd></div><div class="gl"><dt>bak’ei rabbim</dt><dd>le public y circule</dd></div><div class="gl"><dt>gedoudi / rebords</dt><dd>restes de soubassement du mur sur la largeur de la brèche</dd></div><div class="gl"><dt>guipoufin / piédroits</dt><dd>pans de mur restés de part et d’autre d’une ouverture</dd></div><div class="gl"><dt>séa / deux séa</dt><dd>mesure de superficie (aire d’ensemencement)</dd></div><div class="gl"><dt>ra’hava / place</dt><dd>esplanade découverte, distincte d’une cour d’habitation</dd></div><div class="gl"><dt>houkefa le-dira</dt><dd>entourée pour l’habitation</dd></div><div class="gl"><dt>hekker / signe distinctif</dt><dd>marque visuelle qui sépare le mavoï du domaine public</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>מבוי שנפרץ מצדו כזה אי בקעי רבים במקום הפירצה אפילו לא נפרץ אלא פירצה של ד&#x27; טפחים לא חשיב כפתח וצריך תיקון ואי לא בקעי ביה רבים עד פירצת י&#x27; א&quot;צ תיקון אפי&#x27; אי ליכא גדודי וה&quot;מ שנשאר ממנו ד&#x27; טפחים כלפי ראשו אבל לא נשאר ארבעה טפחים אפילו לא נפרץ אלא בג&#x27; צריך תיקון פחות מג&#x27; א&quot;צ תיקון ואם נפרץ מראשו פירצתו בארבעה: מבוי שנפרץ במילואו לחצר ונפרץ החצר מצד השני לר&quot;ה כזה לא עירבו בני החצר עם בני המבוי חצר מותרת אפילו אם נפרץ נגד פירצת המבוי ואפילו בקעי בה רבים ובלבד שלא יהא בפירצה יותר מעשר ומבוי אסור אפי&#x27; אינו כנגד פירצת החצר דכיון שלא עירבו עם המבוי אוסרת עליו וכגון שנכנסו כותלי המבוי בחצר בענין שאין הגיפופין שנשארו לחצר נראין למי שעומד במבוי הלכך אין עולין להתירו אבל אם נראין עולין לו לשם לחי ומותר ואם עירבו בני החצר עם בני המבוי והפירצה שבמבוי לחצר אינו מצד החצר ופירצת החצר מצד השני אינן מכוונות כנגד פירצת המבוי כזה והחצר של רבים גם המבוי מותר אבל אם לא עירבו או אפי&#x27; עירבו ופרצת המבוי לחצר מצדו כזה או אפי&#x27; באמצע ופרצת החצר מצד השני כנגדה כזה או אפילו אינו כנגדה והחצר הוא של יחיד אסור ואם נפרץ לרחבה פחות מסאתים או יותר על סאתים והוקפה לדירה דינו כאילו נפרץ לחצר אבל אם יתירה על סאתים ולא הוקפה לדירה הוי כאילו נפרץ לכרמלית וצריך תיקון: מותר להשתמש תחת הקורה וכנגד הלחי וה&quot;מ בפתוח לר&quot;ה אבל בפתוח לכרמלית אסור בין תחת הקורה ובין כנגד הלחי מפני שמצטרף לכרמלית שאצלו והראב&quot;ד התיר כנגד הלחי אף בפתוח לכרמלית וא&quot;א הרא&quot;ש ז&quot;ל לא כתב כן: ואע&quot;ג דמותר להשתמש תחת הקורה מ&quot;מ לא ישב אדם בראש המבוי שמא יפול לו החפץ מידו לר&quot;ה ויביאנו אליו כיון שאין היכר בינו לר&quot;ה אבל על פתח החצר מותר שיש בו הכירא: מבוי שניטל קורתו או לחיו בשבת אע&quot;פ שהותר למקצת השבת אסור משם ואילך:</p></div><div class="fr"><p>Un mavoï percé sur le côté, ainsi : si le public passe à l’endroit de la brèche, même si elle n’a que quatre téfa’him, elle n’est pas considérée comme une porte et il faut un aménagement. Si le public n’y passe pas, jusqu’à une brèche de dix ammot on n’a pas besoin d’aménagement, même s’il n’y a pas de rebords (gedoudi). Cela n’est vrai que s’il reste quatre téfa’him du côté de son extrémité. Mais s’il n’en reste pas quatre téfa’him, même si la brèche n’est que de trois, il faut un aménagement ; moins de trois, pas besoin d’aménagement. S’il est percé par son extrémité, sa brèche disqualifie dès quatre téfa’him.
+Un mavoï percé en toute sa largeur sur une cour, et la cour percée de l’autre côté sur le domaine public, ainsi : si les gens de la cour n’ont pas fait d’érouv avec ceux du mavoï, la cour est permise, même si elle est percée vis-à-vis de la brèche du mavoï et même si le public y passe, pourvu que la brèche n’ait pas plus de dix ammot. Le mavoï est interdit, même s’il n’est pas vis-à-vis de la brèche de la cour : du moment qu’ils n’ont pas fait d’érouv avec le mavoï, la cour le rend interdit. C’est lorsque les murs du mavoï s’avancent dans la cour de sorte que les piédroits (guipoufin) restés à la cour ne sont pas visibles pour qui se tient dans le mavoï ; dès lors ils ne comptent pas pour le permettre. Mais s’ils sont visibles, ils lui comptent pour lehi et il est permis.
+Si les gens de la cour ont fait l’érouv avec ceux du mavoï, que la brèche du mavoï vers la cour n’est pas sur le flanc de la cour, que la brèche de la cour de l’autre côté n’est pas alignée vis-à-vis de celle du mavoï, ainsi, et que la cour est à plusieurs, le mavoï aussi est permis. Mais s’ils n’ont pas fait d’érouv, ou même s’ils en ont fait et que la brèche du mavoï vers la cour est sur le flanc, ainsi, ou même au milieu et que la brèche de la cour de l’autre côté lui fait face, ainsi, ou même si elle ne lui fait pas face mais que la cour est à un particulier — c’est interdit.
+S’il est percé sur une place de moins de deux séa, ou de plus de deux séa mais entourée pour l’habitation, son statut est comme s’il était percé sur une cour. Mais si elle dépasse deux séa et n’a pas été entourée pour l’habitation, c’est comme s’il était percé sur une karmelit et il faut un aménagement.
+Il est permis de se servir sous la qora et face au lehi. Cela n’est vrai que s’il s’ouvre sur le domaine public ; mais s’il s’ouvre sur une karmelit, c’est interdit tant sous la qora que face au lehi, parce que cet espace s’adjoint à la karmelit voisine. Le Raavad a permis face au lehi même lorsqu’il s’ouvre sur une karmelit ; mon maître et père le Roch z&quot;l n’a pas écrit ainsi.
+Bien qu’il soit permis de se servir sous la qora, qu’un homme ne s’asseye pourtant pas à l’extrémité du mavoï, de peur qu’un objet ne lui tombe de la main dans le domaine public et qu’il ne le ramène vers lui, puisqu’il n’y a pas de signe distinctif entre lui et le domaine public. Mais à l’entrée de la cour, c’est permis, car il y a un signe distinctif.
+Un mavoï dont la qora ou le lehi a été enlevé le Chabbat : bien qu’il ait été permis une partie du Chabbat, il est interdit à partir de là.</p></div></div>
+<nav class="dafnav"><a href="364.html">&lsaquo; Siman 364</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="366.html">Siman 366 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

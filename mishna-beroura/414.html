@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 414</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 414</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Ne faire un érouv que de son aveu</div></header>
+<nav class="dafnav"><a href="413.html">&lsaquo; Siman 413</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/414.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="415.html">Siman 415 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On ne fait d&#x27;érouv de téhoumin pour autrui qu&#x27;avec son accord, sauf les enfants mineurs et les esclaves cananéens. Le silence après information vaut consentement ; la protestation ou un érouv propre l&#x27;annule. L&#x27;enfant de six ans ou moins sort par l&#x27;érouv de sa mère.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>zikkouy</dt><dd>faire acquérir l&#x27;érouv à autrui par l&#x27;intermédiaire d&#x27;un tiers</dd></div><div class="gl"><dt>kenaanim</dt><dd>esclaves cananéens, dont la main est comme celle du maître</dd></div><div class="gl"><dt>mé&#x27;haa</dt><dd>protestation qui empêche l&#x27;érouv fait pour autrui</dd></div><div class="gl"><dt>samoukh al choul&#x27;hano</dt><dd>à la charge de sa table, nourri chez lui</dd></div><div class="gl"><dt>chevita</dt><dd>résidence shabbatique</dd></div><div class="gl"><dt>téhoum</dt><dd>limite des deux mille amot</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) באותו רוח - כדי שלא להפסיד עי&quot;ז האלפים שבעבר השני שלצד ביתו כמו שנתבאר לעיל בסימן ת&quot;ח:</p></div><div class="fr"><p>Dans cette direction - Afin de ne pas perdre par là les deux mille de l&#x27;autre côté, du côté de sa maison, comme exposé plus haut au siman 408.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) אפילו אינם סמוכין - והטעם דהא קי&quot;ל דאין מערבין אלא לדבר מצוה וע&quot;כ מערב תמיד עליהם דהיינו שמזכה להם ע&quot;י אחר את העירוב כדי לחנכם במצות:</p></div><div class="fr"><p>Même s&#x27;ils ne sont pas à sa charge - Et la raison : on ne fait d&#x27;érouv que pour une mitsva ; aussi fait-il toujours l&#x27;érouv pour eux, c&#x27;est-à-dire qu&#x27;il leur fait acquérir l&#x27;érouv par un autre, afin de les éduquer aux mitsvot.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) הכנענים - מפני שידן כידו:</p></div><div class="fr"><p>Les Cananéens - Parce que leur main est comme sa main.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) ושמעו ושתקו וכו&#x27; - דמסתמא נתרצה העבד והשפחה ליד אדוניהם וכן הבנים לאביהן והאשה לדעת בעלה ואפילו לא הודיעם מן העירוב עד שתחשך ג&quot;כ מהני אף דזמן קניית עירוב הוא בין השמשות משום דמסתמא עומד העירוב להתקיים וכמש&quot;כ ולא להתבטל:</p></div><div class="fr"><p>Et ils ont entendu et se sont tus, etc. - Car selon toute vraisemblance l&#x27;esclave et la servante se sont accordés à la main de leur maître, et de même les fils à leur père et la femme à l&#x27;avis de son mari. Et même si on ne les a informés de l&#x27;érouv qu&#x27;après la tombée de la nuit, cela est aussi valable, bien que le moment d&#x27;acquisition de l&#x27;érouv soit le bein hachemashot : selon toute vraisemblance l&#x27;érouv est destiné à subsister, comme il est écrit, et non à être annulé.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) אבל אם מיחו - ר&quot;ל מיד ששמעו לאפוקי ששתקו ואח&quot;כ מיחו לא מהני מחאתן דתיכף כששתקו הוי כהודאה שמסכימים למעשיו ונתקיים העירוב וכ&quot;ז דוקא כששמעו משחשיכה ושתקו אבל אם שמעו בצהרים ושתקו ומיחו קודם חשיכה נתבטל העירוב כיון שבזמן קניית העירוב דהוא בין השמשות כבר היתה מחאה:</p></div><div class="fr"><p>Mais s&#x27;ils ont protesté - C&#x27;est-à-dire aussitôt qu&#x27;ils ont entendu ; pour exclure s&#x27;ils se sont tus puis ont protesté ensuite : leur protestation n&#x27;est pas valable, car dès qu&#x27;ils se sont tus c&#x27;est comme un aveu qu&#x27;ils consentent à ses actes, et l&#x27;érouv s&#x27;est établi. Et tout cela seulement s&#x27;ils ont entendu après la tombée de la nuit et se sont tus ; mais s&#x27;ils ont entendu à midi, se sont tus, et ont protesté avant la tombée de la nuit, l&#x27;érouv est annulé, puisqu&#x27;au moment d&#x27;acquisition de l&#x27;érouv, qui est le bein hachemashot, la protestation existait déjà.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) או שעירבו וכו&#x27; - אפילו אם עירובן היה בתר עירובו דכיון שעירבו אין לך מחאה גדולה מזו והולכין לאותו רוח שעירבו הם:</p></div><div class="fr"><p>Ou qu&#x27;ils ont fait un érouv, etc. - Même si leur érouv était après le sien : puisqu&#x27;ils ont fait un érouv, il n&#x27;y a pas de protestation plus grande que celle-là, et l&#x27;on va dans la direction où eux ont fait l&#x27;érouv.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) בן שש שנים - אבל אם נכנס בתוך שבע אפילו יום אחר צריך לערב עליו בפני עצמו ואינו יוצא לא בעירוב אמו ולא בעירוב אביו. והנה השו&quot;ע סתם בזה כהפוסקים דעד בן ששה וששה בכלל יוצא בעירוב אמו באין חילוק אם אביו בעיר או לא אמנם בא&quot;ר מצדד כדעת כמה פוסקים דאם אביו בעיר אפילו בן ד&#x27; שנים או בן חמש שנים [באינו חריף כ&quot;כ] אינו יוצא בעירוב אמו משום דאז אינו נמשך כ&quot;כ אחר אמו אא&quot;כ היה זיכוי בשבילו:</p></div><div class="fr"><p>Fils de six ans - Mais s&#x27;il est entré dans la septième année, même d&#x27;un seul jour, il faut faire un érouv pour lui à part, et il ne sort ni par l&#x27;érouv de sa mère ni par celui de son père. Or le Choulhan Aroukh a tranché ici comme les décisionnaires selon lesquels jusqu&#x27;à six ans, six inclus, il sort par l&#x27;érouv de sa mère, sans distinction que le père soit en ville ou non. Toutefois l&#x27;Eliya Rabba penche comme l&#x27;avis de plusieurs décisionnaires : si le père est en ville, même un fils de quatre ans ou de cinq ans [s&#x27;il n&#x27;est pas particulièrement éveillé] ne sort pas par l&#x27;érouv de sa mère, parce qu&#x27;alors il n&#x27;est plus autant attiré après sa mère, à moins qu&#x27;il n&#x27;y ait eu zikkouy pour lui.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) בעירוב אמו - דעד אותה העת הוא כרוך אחריה וכגופה דמיא ואף דאין מערבין אלא לדבר מצוה וקטן לאו בר מצוה הוא מ&quot;מ כיון דלא אפשר לו בלא אמו יוצא עמה ואם לא עירבה אמו אלא אביו אינו יוצא בעירובו ונ&quot;ל דאף אם זיכה עליו אביו ג&quot;כ לא מהני דעד אותה העת צוותא דאמו ניחא ליה והיא הלא לא עירבה לשם:</p></div><div class="fr"><p>Par l&#x27;érouv de sa mère - Car jusqu&#x27;à ce moment il est attaché à elle et est comme son corps. Et bien qu&#x27;on ne fasse d&#x27;érouv que pour une mitsva et que le mineur n&#x27;est pas sujet à la mitsva, néanmoins, puisqu&#x27;il ne peut se passer de sa mère, il sort avec elle. Et si ce n&#x27;est pas sa mère qui a fait l&#x27;érouv mais son père, il ne sort pas par l&#x27;érouv de celui-ci. Il me semble que même si le père a fait zikkouy pour lui, cela n&#x27;aide pas non plus : jusqu&#x27;à ce moment, c&#x27;est la compagnie de sa mère qui lui convient, et elle, elle n&#x27;a pas fait l&#x27;érouv à cette intention.</p></div></div>
+<nav class="dafnav"><a href="413.html">&lsaquo; Siman 413</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/414.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="415.html">Siman 415 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

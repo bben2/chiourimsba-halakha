@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 290</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 290</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Le Chabbat, on complète les cent berakhot par des fruits</div></header>
+<nav class="dafnav"><a href="289.html">&lsaquo; Siman 289</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/290.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="291.html">Siman 291 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On multiplie fruits, mets fins et senteurs pour atteindre cent berakhot ; après le repas du matin on fixe un enseignement, et il est interdit d’y fixer un repas.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>méa berakhot</dt><dd>cent bénédictions quotidiennes</dd></div><div class="gl"><dt>&#x27;hidouchim</dt><dd>renouvellements, interprétations nouvelles</dd></div><div class="gl"><dt>aggada</dt><dd>enseignement narratif</dd></div><div class="gl"><dt>midrach</dt><dd>enseignement / maison d’étude</dd></div><div class="gl"><dt>talmidé &#x27;hakhamim</dt><dd>érudits de Torah</dd></div><div class="gl"><dt>séouda chelichit</dt><dd>troisième repas</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) ירבה בפירות וכו&#x27; - וגם בליל ש&quot;ק טוב שישלים בם המאה ברכות:</p></div><div class="fr"><p>Il multipliera les fruits etc. - et aussi le vendredi soir, il est bon de compléter par eux les cent berakhot.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) מנין מאה ברכות - כי בכל יום מברך אדם מאה ברכות וכדאיתא לעיל בסימן רמ&quot;ו ס&quot;ג עי&quot;ש במ&quot;ב ועתה שנחסר לו כמה ברכות שבתפלת שבת יש רק ז&#x27; ברכות וע&quot;כ ישתדל להשלימם:</p></div><div class="fr"><p>Le compte de cent berakhot - car chaque jour l’homme bénit cent berakhot, comme il est dit plus haut au siman 46 seif 3, voir là-bas dans la Michna Beroura ; et maintenant que plusieurs berakhot lui manquent, car dans la tefila de Chabbat il n’y a que sept berakhot, il s’efforcera donc de les compléter.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) אל יבטלנו - ומ&quot;מ לא ירבה בו יותר מדאי שלא יביאנו לידי ביטול תורה שאפילו ת&quot;ח שלומדים כל השבוע שמצוה שיתענגו ביותר וכדלקמיה בהג&quot;ה אין הפי&#x27; שיבלו כל היום בתענוגים רק ימשכו יותר בתענוג משאר בני אדם. כתבו הספרים בשם הזוהר שמצוה על האדם לחדש חידושי תורה בשבת. ומי שאינו בר הכי לחדש ילמוד דברים שלא למד עד הנה:</p></div><div class="fr"><p>Qu’il ne le néglige pas - et néanmoins il n’en abusera pas trop, de peur que cela ne l’amène à négliger la Torah ; car même les talmidé &#x27;hakhamim qui étudient toute la semaine, dont c’est une mitsva qu’ils se délectent davantage, comme plus bas dans la glose, le sens n’est pas qu’ils passent tout le jour dans les délices, seulement qu’ils s’attardent plus au délice que le reste des hommes. Les livres ont écrit au nom du Zohar qu’il est une mitsva pour l’homme de renouveler des &#x27;hidouchim de Torah le Chabbat. Et qui n’est pas de taille à renouveler étudiera des choses qu’il n’a pas étudiées jusqu’ici.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) כי עונג וכו&#x27; - אבל לא יאמר נלך ונישן כדי שנוכל לעשות מלאכתנו במו&quot;ש שמראה בזה שנח וישן בשביל ימות החול:</p></div><div class="fr"><p>Car c’est un délice etc. - mais il ne dira pas : « allons dormir afin de pouvoir faire notre travail à la sortie du Chabbat », car il montre par là qu’il se repose et dort pour les jours de semaine.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) קובעים מדרש וכו&#x27; - דאיתא במדרש אמרה תורה לפני הקב&quot;ה רבש&quot;ע כשיכנסו ישראל לארץ זה רץ לכרמו וזה רץ לשדהו אני מה תהא עלי אמר לה יש לי זוג שאני מזווג לך ושבת שמו שהם בטלים ממלאכתם ויכולים לעסוק בך [טור]:</p></div><div class="fr"><p>On fixe un midrach etc. - car il est dit dans le Midrach : la Torah dit devant ה&#x27; : « Maître du monde, quand Israël entrera dans le pays, celui-ci courra à sa vigne et celui-là à son champ, moi que deviendrai-je ? » Il lui dit : « J’ai un couple que Je te destine, et son nom est Chabbat, où ils sont oisifs de leur travail et peuvent s’occuper de toi » [Tour].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) ולדרוש וכו&#x27; - והעיקר יהיה אז ללמד לרבים את חקי האלהים ואת תורותיו להורות הלכות שבת והאסור והמותר גם להמשיך לב השומעים באגדה המדריכים את האדם ליראת שמים וכדאיתא בילקוט ר&quot;פ ויקהל אמר הקב&quot;ה למשה עשה לך קהלות גדולות ודרוש לפניהם ברבים הלכות שבת וכו&#x27; להורות לישראל איסור והיתר וכו&#x27; ולא כמו שנוהגין עכשיו [ב&quot;ח ומ&quot;א]:</p></div><div class="fr"><p>Et à exposer etc. - et l’essentiel sera alors d’enseigner au public les statuts de D.ieu et Ses Lois, pour enseigner les lois du Chabbat, l’interdit et le permis, et aussi d’attirer le cœur des auditeurs par l’aggada qui conduit l’homme à la crainte du Ciel, comme il est dit dans le Yalkout au début de Vayaqhel : ה&#x27; dit à Moïse : « Fais-toi de grandes assemblées et expose devant eux en public les lois du Chabbat etc., pour enseigner à Israël l’interdit et le permis etc. » — et non comme l’on se conduit maintenant [Ba&#x27;h et Magen Avraham].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) ואסור לקבוע וכו&#x27; - בגמרא איתא בתלת מילי נחתי בע&quot;ב מנכסייהו וחד מנייהו דקבעי סעודתא בשבתא בעידן בי מדרשא והענין כדאיתא בירושלמי [הובא בב&quot;י רפ&quot;ח] לא ניתנו שבתות ויו&quot;ט לישראל אלא כדי לעסוק בהם בתורה מפני שכל ימות החול הם טרודים במלאכתם ואין להם פנאי לעסוק בה בקביעות ובשבת הם פנוים ממלאכה ויכולים לעסוק בה כראוי לפיכך אסור לו לפנות עצמו מד&quot;ת ולקבוע סעודתו בשעה שדורשין בבהמ&quot;ד דברי תורה ברבים אלא יקדים אותה או יאחר אותה. וזהו תוכחת מגולה לאותן האנשים שמטיילין בעת ההיא בשוקים וברחובות כי אפילו סעודת שבת שהיא מצוה אסור אז מפני בטול תורה וכ&quot;ש לטייל ולהרבות אז בשיחה בטלה שאסור:</p></div><div class="fr"><p>Et il est interdit de fixer etc. - dans la Guémara il est dit : par trois choses les maîtres de maison déclinent de leurs biens, et l’une d’elles est qu’ils fixent le repas du Chabbat à l’heure de la maison d’étude. Et le sens est comme il est dit dans le Yerouschalmi [rapporté dans le Beit Yossef au début du siman 288] : les Chabbats et les Yom Tov n’ont été donnés à Israël que pour s’occuper en eux de Torah, parce que tous les jours de semaine ils sont occupés à leur travail et n’ont pas le loisir de s’en occuper avec assiduité, et le Chabbat ils sont libres du travail et peuvent s’en occuper comme il faut ; c’est pourquoi il lui est interdit de se détourner des paroles de Torah et de fixer son repas à l’heure où l’on expose dans la maison d’étude des paroles de Torah en public ; il l’avancera ou le retardera. Et c’est un reproche manifeste à ces hommes qui se promènent à cette heure dans les marchés et les rues, car même le repas de Chabbat, qui est une mitsva, est alors interdit à cause de l’abandon de la Torah, et à plus forte raison se promener et multiplier alors la conversation oiseuse, qui est interdit.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) סעודה באותה שעה - ולאכול בלי קביעות סעודה כמו שרגיל בימות השבת נראה שמותר וכנ&quot;ל בסימן רמ&quot;ט ס&quot;ב לענין ע&quot;ש עיין שם. והנה כיון שהטעם שאסרו חז&quot;ל קביעות סעודה אז הוא מפני שיתבטל עי&quot;ז מתורה וכנ&quot;ל ממילא נשמע דמכ&quot;ש שצריך ליזהר שלא יגרום עי&quot;ז ביטול ת&quot;ת דרבים כגון מה שמצוי בעו&quot;ה לאיזה אנשים שמזרזין להעולם בשבת בקיץ אף שעוד היום גדול להתפלל מנחה ולקיים הסעודה ג&#x27; וגורמים שכל אנשי בהמ&quot;ד יפסיקו מלמודם וכבר אחז&quot;ל [בשבת קי&quot;ח] אמר ר&#x27; יוסי יהא חלקי ממושבי בהמ&quot;ד ולא ממעמידי בהמ&quot;ד אם לא שלא ישאר זמן להתפלל מנחה ולקיים הסעודה שלישית ביום כדין אז בודאי נכון לזרז לזה. אין להמשיך הדרשה שיבטל עי&quot;ז סעודה שלישית:</p></div><div class="fr"><p>Un repas à cette heure - et manger sans fixer de repas, comme on en a l’habitude les jours de Chabbat, il apparaît que c’est permis, comme plus haut au siman 249 seif 2 au sujet de la veille du Chabbat, voir là-bas. Et voici : puisque la raison pour laquelle les Sages ont interdit de fixer alors un repas est qu’on s’en trouverait détourné de la Torah, comme plus haut, il s’ensuit à plus forte raison qu’il faut prendre garde de ne pas causer par là l’abandon de l’étude de Torah du public, comme ce qui arrive, par nos nombreux péchés, que certains pressent le monde le Chabbat en été, alors que le jour est encore grand, de dire minha et d’accomplir le troisième repas, et font que tous les gens de la maison d’étude interrompent leur étude. Et déjà nos Sages ont dit [Chabbat 118] : Rabbi Yossé a dit : « Que ma part soit parmi ceux qui s’asseyent dans la maison d’étude, et non parmi ceux qui les font lever. » Sauf s’il ne resterait pas de temps pour dire minha et accomplir le troisième repas de jour selon la loi : alors il est certainement juste de presser pour cela. On n’allongera pas l’exposé au point d’annuler par là le troisième repas.</p></div></div>
+<nav class="dafnav"><a href="289.html">&lsaquo; Siman 289</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/290.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="291.html">Siman 291 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

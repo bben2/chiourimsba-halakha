@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 48</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 48</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Lecture de la parasha du tamid et ordre de la maarakha</div></header>
+<nav class="dafnav"><a href="047.html">&lsaquo; Siman 47</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="049.html">Siman 49 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On a fixé de lire la parasha du tamid, comptée comme l’offrande elle-même. Le Sidour de Rav Amram place Birkat Kohanim avant elle. Il est bon d’ajouter l’ordre de la maarakha (Abayé selon Abba Chaoul) et la tefila Ribon haolamim. Qui ne peut la dire avec le tsibbour la dit seul, puis relit la parasha du tamid avec eux. Le Chabbat on ajoute le moussaf du jour ; en Ashkenaz aussi celui de Roch Hodesh — le Manhig objecte, le Tour écarte l’objection.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>tamid</dt><dd>offrande perpétuelle quotidienne</dd></div><div class="gl"><dt>korbanot</dt><dd>offrandes, sacrifices</dd></div><div class="gl"><dt>maarakha</dt><dd>arrangement du bûcher sur l’autel</dd></div><div class="gl"><dt>ketoret</dt><dd>encens</dd></div><div class="gl"><dt>dishoun</dt><dd>enlèvement des cendres</dd></div><div class="gl"><dt>hatava</dt><dd>préparation des lampes de la menora</dd></div><div class="gl"><dt>minha</dt><dd>oblation de farine (ici celle du tamid, non l’office)</dd></div><div class="gl"><dt>havitin</dt><dd>oblation quotidienne du grand prêtre</dd></div><div class="gl"><dt>nessakhim</dt><dd>libations</dd></div><div class="gl"><dt>moussafim</dt><dd>offrandes supplémentaires</dd></div><div class="gl"><dt>bazikhin</dt><dd>coupes d’encens des pains de proposition</dd></div><div class="gl"><dt>chélamim</dt><dd>offrandes pacifiques</dd></div><div class="gl"><dt>doukhan</dt><dd>estrade des Lévites</dd></div><div class="gl"><dt>maamad</dt><dd>poste des Israélites lors du service du Temple</dd></div><div class="gl"><dt>Rav Amram</dt><dd>Rav Amram Gaon, auteur du Sidour</dd></div><div class="gl"><dt>Manhig</dt><dd>Sefer ha-Manhig, R. Avraham ben Nathan ha-Yarhi</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>וקבעו לקרות פרשת התמיד כדאי&#x27; במדרש בזמן שאין בהמ&quot;ק קיים מה תהא עליהם אמר לו כבר הקדמתי להם סדר הקרבנות כ&quot;ז שעוסקין בהן מעלה אני עליהם כאילו הקריבום לפני ובסידור ר&quot;ע כתוב פרשת ברכת כהנים אחר ברכת התורה קודם פרשת התמיד ויש נוהגין לומר אחריה פסוק וערבה לה&#x27; מנחת יהודה וגו&#x27; וטוב לומר אחריה סדר המערכה שזה נוסחה אביי מסדר סדר המערכה משמיה דגמרא ואליבא דאבא שאול מערכה גדולה קודמת למערכה שנייה של קטורת ומערכה שנייה של קטרת קודמת לסדור שני גזרי עצים וסדור שני גזרי עצים קודם לדישון מזבח הפנימי ודישון מזבח הפנימי קודם להטבת חמש נרות והטבת חמש נרות קודם לדם תמיד ודם תמיד קודם להטבת שתי נרות והטבת שתי נרות קודם לקטרת וקטרת קודם לאברים ואברים קודמין למנחה ומנחה לחביתין וחביתין לנסכים ונסכים קודמין למוספין ומוספין קודמין לבזיכין ובזיכין קודמין לתמיד של בין הערבים שנאמר והקטיר עליה חלבי השלמים עליה השלם כל הקרבנות כולם וטוב לומר אחר זה רבון העולמים אתה צויתנו להקריב קרבן התמיד במועדו ולהיות כהנים בעבודתם ולויים בדוכנם וישראל במעמדם ועתה בעונותינו חרב המקדש ובטל התמיד ואין לנו כהן בעבודתו ולא לוי בדוכנו ולא ישראל במעמדו ואתה אמרת ונשלמה פרים שפתינו לכן יה&quot;ר מלפניך שיהא זה חשוב ומקובל לפניך כאילו קרב התמיד במועדו ועמדתי על מעמדו ואם אין יכול לאומרו מפני שהוא עם הציבור טוב הוא שיקרא פרשת התמיד לבדו ויאמר אותו ואין לחוש אם יקרא פרשת התמיד שנית עם הציבור ולרווחא דמלתא יכוין בקריאה שנייה כקורא בתורה. ובשבת מוסיפין וביום השבת שני כבשים וגו&#x27; ונוהגין באשכנז לקרות בר&quot;ח ובראשי חדשיכם ובעל המנהיג השיב על המנהג מפני שאין נכון להזכיר קרבן מוסף עם תמיד של שחר ואינו קשה שמוסף זמנו כל היום:</p></div><div class="fr"><p>On a fixé de lire la parasha du tamid, comme il est dit dans le midrash : au temps où le Temple n’existe plus, que sera-t-il d’eux ? Il lui dit : Je leur ai déjà préparé l’ordre des korbanot ; tant qu’ils s’en occupent, Je le leur compte comme s’ils les avaient offerts devant Moi. Dans le Sidour de Rav Amram est écrite la parasha de Birkat Kohanim après la berakha de la Torah, avant la parasha du tamid. Certains ont l’usage de dire après elle le verset : « Et l’offrande de Yehouda sera agréable à ה&#x27;, etc. » Il est bon de dire après elle l’ordre de la maarakha, dont voici la formule : Abayé ordonne l’ordre de la maarakha au nom de la Guemara, selon Abba Chaoul. La grande maarakha précède la seconde maarakha de la ketoret ; la seconde maarakha de la ketoret précède la disposition des deux bûches ; la disposition des deux bûches précède le dishoun de l’autel intérieur ; le dishoun de l’autel intérieur précède l’hatava des cinq lampes ; l’hatava des cinq lampes précède le sang du tamid ; le sang du tamid précède l’hatava des deux lampes ; l’hatava des deux lampes précède la ketoret ; la ketoret précède les membres ; les membres précèdent la minha ; la minha, les havitin ; les havitin, les nessakhim ; les nessakhim précèdent les moussafim ; les moussafim précèdent les bazikhin ; les bazikhin précèdent le tamid de l’après-midi — comme il est dit : « Il fera fumer sur elle les graisses des chélamim » : sur elle, achève tous les korbanot. Il est bon de dire ensuite : Ribon haolamim, Tu nous as ordonné d’offrir le korban tamid en son temps, et que les kohanim soient à leur service, les Lévites sur leur doukhan et Israël à leur maamad. Et maintenant, par nos fautes, le Temple est détruit et le tamid a cessé ; nous n’avons ni kohen à son service, ni Lévi sur son doukhan, ni Israël à son maamad. Et Tu as dit : « Nous acquitterons les taureaux par nos lèvres. » C’est pourquoi, que telle soit Ta volonté que ceci soit considéré et agréé devant Toi comme si le tamid avait été offert en son temps et que je me sois tenu à mon maamad. S’il ne peut le dire parce qu’il est avec le tsibbour, il est bon qu’il lise la parasha du tamid seul et la dise ; et il n’y a pas à craindre s’il lit la parasha du tamid une seconde fois avec le tsibbour. Par surcroît, qu’il ait l’intention, à la seconde lecture, comme s’il lisait dans la Torah. Le Chabbat, on ajoute : « Et au jour du Chabbat, deux agneaux, etc. » On a l’usage, en Ashkenaz, de lire à Roch Hodesh : « Et aux commencements de vos mois. » L’auteur du Manhig a objecté à cet usage, parce qu’il n’est pas correct de mentionner le korban moussaf avec le tamid du matin. Ce n’est pas une difficulté, car le temps du moussaf est tout le jour.</p></div></div>
+<nav class="dafnav"><a href="047.html">&lsaquo; Siman 47</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="049.html">Siman 49 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

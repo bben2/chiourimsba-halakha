@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 604</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 604</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Ordre de la veille de Yom Kippour</div></header>
+<nav class="dafnav"><a href="603.html">&lsaquo; Siman 603</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/604.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="605.html">Siman 605 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Mitsva de manger et de boire la veille de Yom Kippour ; jeûne de rêve ; on ne dit pas Néfilat Apayim ni Lamnatseah ni Mizmor letoda ; Avinou Malkénou le matin seulement, jamais à Minha.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>seouda hamafseket</dt><dd>repas de séparation, dernier repas avant le jeûne</dd></div><div class="gl"><dt>taanit &#x27;halom</dt><dd>jeûne de rêve, jeûne fait après un mauvais rêve</dd></div><div class="gl"><dt>nefilat apayim</dt><dd>prosternation face contre terre, office de tahanoun</dd></div><div class="gl"><dt>tahanoun</dt><dd>prières de supplication quotidiennes, omises les jours semi-festifs</dd></div><div class="gl"><dt>Lamnatseah</dt><dd>Psaume 20, « Au chef des chantres »</dd></div><div class="gl"><dt>Mizmor letoda</dt><dd>Psaume 100, « Psaume pour le sacrifice de gratitude »</dd></div><div class="gl"><dt>Avinou Malkénou</dt><dd>« Notre Père, notre Roi », litanie des jours de pénitence</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) מצוה לאכול וכו&#x27; - דכתיב ועניתם את נפשותיכם בתשעה לחודש בערב היה לו לכתוב בתשעה לחודש בערב תענו את נפשותיכם עד ערב וכו&#x27; ומדכתיב ועניתם וכו&#x27; בתשעה לחודש משמע שיתענו בתשעה ובאמת יוה&quot;כ אינו אלא בעשרה לחודש וקבלו חז&quot;ל דאדרבא מצוה מן התורה לאכול בעיו&quot;כ ורצה הקב&quot;ה ליתן שכר בעד האכילה כאלו התענו שאינו דומה מצוה שיש בו צער כמו שאמרו לפום צערא אגרא אילו כתב בט&#x27; לחודש תאכלו לא היה לנו שכר אלא כמקיים מצותו ע&quot;י אכילה ולכן שינה הכתוב וכתב מצות אכילה בלשון תענית שיהיה נחשב אכילה זו לפני הקב&quot;ה כאילו היה תענית כדי ליתן שכר כמקיים מצוה בצער עינוי ויש לאדם למעט בלימודו בעיה&quot;כ כדי לאכול ולשתות:</p></div><div class="fr"><p>C&#x27;est une mitsva de manger etc. - Car il est écrit : « Vous affligerez vos âmes le neuf du mois, au soir. » Le verset aurait dû dire : « Le neuf du mois, au soir, vous affligerez vos âmes jusqu&#x27;au soir, etc. » Puisqu&#x27;il est écrit « vous affligerez… le neuf du mois », on pourrait croire que l&#x27;on jeûne le neuf ; or Yom Kippour n&#x27;est que le dix du mois. Nos Sages ont reçu qu&#x27;au contraire c&#x27;est une mitsva de la Torah de manger la veille de Yom Kippour. Le Saint, béni soit-Il, a voulu donner une récompense pour cette nourriture comme si l&#x27;on avait jeûné : une mitsva qui comporte de la peine n&#x27;est pas comparable [à une mitsva aisée], comme ils ont dit « selon la peine, le salaire ». Si l&#x27;Écriture avait écrit « le neuf du mois vous mangerez », nous n&#x27;aurions eu de récompense que comme qui accomplit Son commandement par le manger. C&#x27;est pourquoi elle a changé et a formulé la mitsva de manger dans le langage du jeûne, afin que cette nourriture soit comptée devant le Saint, béni soit-Il, comme un jeûne, pour donner une récompense comme à qui accomplit une mitsva dans la peine de l&#x27;affliction. On diminuera son étude la veille de Yom Kippour afin de manger et de boire.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) אפילו תענית חלום - אכן אם מתירא לנפשו ורוצה להתענות יתענה עד סעודה המפסקת דודאי מן הדין סגי כשיאכל פ&quot;א. ואם אינו מתענה היום כלל טוב שיתענה איזה יום אחר יוה&quot;כ ואם חל עיו&quot;כ באחד בשבת ובשבת שלפניו התענה תענית חלום שצריך למיתב תענית לתעניתו אחר השבת אין לו להתענות עיוה&quot;כ אלא ידחה עד אחר עבור המועד ולפי דעת הט&quot;ז לעיל בסימן רפ&quot;ח סק&quot;ג א&quot;צ שוב להתענות אחר יו&quot;כ דיוה&quot;כ כיפר גם על זה ומי שקשה לו התענית יכול לסמוך ע&quot;ז. מי שנדר שלא לאכול בשר חוץ מיו&quot;ט נתבאר בסימן תק&quot;ע שמותר לאכול בעיו&quot;כ דבלשון ב&quot;א מקרי יו&quot;ט ולא מיבעי בסעודה המפסקת אלא אף גם בשחרית דאנן רגילין לאכול בשר גם בשחרית וכל הנודר אדעתא דמנהגא נדר אבל בלילה של עיו&quot;כ אסור. ודוקא בנודר ממש אבל מי שלא נדר בהדיא אלא שנוהג כך שלא לאכול בשר כ&quot;א בימים שא&quot;א בהם תחנון אזי אפילו בלילה של עיוה&quot;כ מותר לאכול ודוקא בלילה ממש אבל לא מקודם לזה אע&quot;פ שהתפלל ערבית:</p></div><div class="fr"><p>Même un jeûne de rêve - Toutefois, s&#x27;il craint pour sa personne et veut jeûner, il jeûnera jusqu&#x27;à la seouda hamafseket, car du point de vue de la loi il suffit certainement qu&#x27;il mange une fois. S&#x27;il ne jeûne pas du tout ce jour-là, il est bon qu&#x27;il jeûne un jour après Yom Kippour. Si la veille de Yom Kippour tombe un dimanche et que le Chabbat précédent il a jeûné un jeûne de rêve — qu&#x27;il doit « payer » par un jeûne après le Chabbat —, il ne jeûnera pas la veille de Yom Kippour, mais le reportera après la fête. Selon l&#x27;avis du Taz ci-dessus, siman 288 sk 3, il n&#x27;a plus à jeûner après Yom Kippour, car Yom Kippour a aussi expié cela ; celui pour qui le jeûne est pénible peut s&#x27;appuyer là-dessus. Celui qui a fait vœu de ne pas manger de viande hors des Yom Tov : il a été expliqué au siman 570 qu&#x27;il est permis de manger la veille de Yom Kippour, car dans le langage des gens ce jour est appelé Yom Tov ; et non seulement à la seouda hamafseket, mais aussi le matin, car nous avons l&#x27;habitude de manger de la viande aussi le matin, et quiconque fait un vœu le fait selon l&#x27;usage. Mais la nuit de la veille de Yom Kippour, c&#x27;est interdit. Cela ne vaut que pour un vœu explicite ; celui qui n&#x27;a pas fait vœu expressément et a seulement l&#x27;habitude de ne manger de la viande que les jours où l&#x27;on ne dit pas tahanoun pourra manger même la nuit de la veille de Yom Kippour — et seulement la nuit même, pas avant, même s&#x27;il a déjà prié Arvit.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) אין נופלים על פניהם - דנוהגין לעשותו קצת כמו יו&quot;ט:</p></div><div class="fr"><p>On ne tombe pas sur sa face - Car on a l&#x27;habitude de traiter ce jour un peu comme un Yom Tov.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) למנצח ומזמור לתודה - למנצח משום דכתיב ביה ביום צרה ומזמור לתודה דבזמן הבית היה אסור להקריב שום קרבן הנאכל בעיוה&quot;כ דממעט זמן אכילתו שהרי עכ&quot;פ כל הקרבנות נאכלין ליום ולילה שלאחריו וביוה&quot;כ א&quot;א לאכול ונמצא מביא לידי פסול:</p></div><div class="fr"><p>Lamnatseah et Mizmor letoda - Lamnatseah, parce qu&#x27;il y est écrit « au jour de détresse » ; et Mizmor letoda, car au temps du Temple il était interdit d&#x27;offrir tout sacrifice consommé la veille de Yom Kippour, cela diminuant le temps de sa consommation : tous les sacrifices se mangent au moins un jour et la nuit suivante, et à Yom Kippour on ne peut pas manger, ce qui amènerait à une invalidité.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) ערב יום כפור שחרית - אבל במנחה אין אומרים אותו בכל גווני:</p></div><div class="fr"><p>La veille de Yom Kippour, le matin - Mais à Minha on ne le dit [Avinou Malkénou] en aucun cas.</p></div></div>
+<nav class="dafnav"><a href="603.html">&lsaquo; Siman 603</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/604.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="605.html">Siman 605 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

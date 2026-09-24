@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 330</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 330</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Rabbi Yaakov ben Asher (Baal HaTour)</div></header>
+<nav class="dafnav"><a href="329.html">&lsaquo; Siman 329</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="331.html">Siman 331 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p></p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>חכמה</dt><dd>sage-femme</dd></div><div class="gl"><dt>לשנות</dt><dd>modifier le geste habituel pour alléger la profanation</dd></div><div class="gl"><dt>משבר</dt><dd>siège d’enfantement</dd></div><div class="gl"><dt>חיה</dt><dd>femme en couches</dd></div><div class="gl"><dt>חזקת חי</dt><dd>présomption de vie déjà établie</dd></div><div class="gl"><dt>רשות הרבים</dt><dd>domaine public</dd></div><div class="gl"><dt>שליא</dt><dd>placenta, que l’on recouvre afin que l’enfant ait chaud</dd></div><div class="gl"><dt>א&quot;א ז&quot;ל</dt><dd>Adoni Avi, le Roch, père du Tour</dd></div><div class="gl"><dt>נולד לח&#x27;</dt><dd>enfant du huitième mois, tenu pour non viable sauf si cheveux et ongles sont formés</dd></div><div class="gl"><dt>אסובי ינוקא</dt><dd>redressement des membres du nouveau-né le jour de la naissance</dd></div><div class="gl"><dt>ערלת הגרון</dt><dd>chair qui obture le larynx (luette ou épiglotte)</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>יולדת היא כחולה שיש בו סכנה ומחללין עליה השבת לכל מה שצריכה קורין לה חכמה ממקום למקום ומיילדין אותה ומדליקין לה הנר אפי&#x27; היא סומא ומ&quot;מ כל מה שיכולין לשנות משנין אבל נכרית אין מילדין אותה בשבת אפילו בשכר אפילו בדבר שאין בו חילול שבת ובחול מיילדין אותה בשכר אבל לא בחנם ונקראת יולדת משתשב על המשבר והדם שותת ויורד אבל הרמב&quot;ן כתב דאיזה שקודם מחללין אם יושבת על המשבר קודם או הדם שותת קודם מיד מחללין וכל ג&#x27; ימים הראשונים אפילו אמרה אין צריכה אני מחללין עליה השבת אם חברותיה אומרות שצריכה והרמב&quot;ן כתב אפילו ליכא חכמה ולא רופא שאומר צריכה עושין לה שהדברים שעושין לחיה בחול ידועים הם: כל ז&#x27; ימים הראשונים פירוש מג&#x27; עד ז&#x27; אמרה אינה צריכה אין מחללין עליה סתמא מחללין מכאן ואילך עד ל&#x27; יום אפי&#x27; אמרה צריכה אני אין מחללין עליה אלא הרי היא כשאר חולה שאין בו סכנה שאומרים לעכו&quot;ם ועושה: היושבת על המשבר ומתה מביאין סכין בשבת אפילו דרך רשות הרבים וקורעין בטנה ומוציאין הולד שמא ימצא חי שאפילו ספק כזה שלא היה בחזקת חי דוחה שבת ועושין מדורה ליולדת או לשאר חולה ואפילו למי שהקיז דם ונצטנן ואפילו בתקופת תמוז: הולד לאחר הלידה עושין לו כל צרכו מרחיצין אותו ומולחין אותו וטומנין השליא כדי שיחם הולד וקושרין הטיבור וא&quot;א ז&quot;ל פסק שאין חותכין אותו אא&quot;כ הם תאומים וטבורם דבוקים זה בזה והרמב&quot;ם ז&quot;ל התיר לחתוך אף באחד וה&quot;מ בנולד לתשעה או לשבעה אבל נולד לח&#x27; או אפי&#x27; ספק נולד לז&#x27; או לח&#x27; אין מחללין עליו אא&quot;כ גמרו שערו וצפרניו ואסור לטלטלו אבל אמו שוחה עליו ומניקתו מפני צער החלב וכן היא בעצמה יכולה להוציא בידה החלב המצער אותה אסובי ינוקא שרי פי&#x27; שמיישרין איבריו שנתפרקו מחמת צער הלידה ודוקא ביום הלידה אבל אח&quot;כ אסור אבל לכרכו בבגדיו שלא יתעקמו איבריו שרי לעולם ור&quot;ח פי&#x27; כשנופלת ערלת הגרון של תינוק משימה החיה אצבעה לתוך פיו ומסלקת הערלה למקומה ומותר אע&quot;פ שפעמים שמקיא התינוק:</p></div><div class="fr"><p>L’accouchée est comme un malade dont la vie est en danger, et l’on profane pour elle le Chabbat pour tout ce dont elle a besoin. On appelle une sage-femme de lieu en lieu, on l’accouche, et l’on allume pour elle la lampe même si elle est aveugle. Toutefois, tout ce que l’on peut modifier, on le modifie. Mais une non-Juive, on ne l’accouche pas le Chabbat, même contre salaire, même par un acte sans profanation du Chabbat ; en semaine on l’accouche contre salaire, mais non à titre gratuit. Elle est dite accouchée dès qu’elle s’assied sur le machber (siège d’enfantement) et que le sang coule et descend. Mais le Ramban a écrit : dès celui des deux signes qui vient le premier, on profane — qu’elle s’asseye d’abord sur le siège ou que le sang coule d’abord, on profane aussitôt. Tous les trois premiers jours, même si elle dit « je n’ai pas besoin », on profane pour elle le Chabbat si ses compagnes disent qu’elle a besoin. Et le Ramban a écrit : même s’il n’y a ni sage-femme ni médecin qui dise qu’elle a besoin, on agit pour elle, car les soins que l’on donne à la ‘hayya (femme en couches) en semaine sont connus. Tous les sept premiers jours — c’est-à-dire du troisième au septième — si elle dit qu’elle n’a pas besoin, on ne profane pas pour elle ; si elle n’a rien dit, on profane. De là jusqu’au trentième jour, même si elle dit « j’ai besoin », on ne profane pas pour elle : elle est comme tout autre malade sans danger de mort, pour qui l’on dit à un non-Juif et il agit. Celle qui est sur le siège d’enfantement et meurt : on apporte un couteau le Chabbat, même par le domaine public, on fend son ventre et l’on retire l’enfant, peut-être le trouvera-t-on vivant ; car même un doute de cette sorte, qui n’avait pas ‘hezqat ‘haï (présomption de vie), l’emporte sur le Chabbat. On fait un feu pour l’accouchée ou pour tout autre malade, même pour qui a été saigné et s’est refroidi, même en saison de Tamouz. Pour l’enfant après la naissance, on fait tout ce dont il a besoin : on le lave, on le sale, on recouvre le chilya (placenta) afin que l’enfant ait chaud, et l’on noue le cordon. Mon maître mon père, de mémoire bénie, a tranché que l’on ne le coupe que s’ils sont jumeaux et que leurs cordons sont collés l’un à l’autre ; le Rambam, de mémoire bénie, a permis de couper même pour un seul. Cela ne vaut que pour l’enfant né au neuvième ou au septième mois ; mais né au huitième, ou même doute né au septième ou au huitième, on ne profane pas pour lui à moins que ses cheveux et ses ongles soient achevés. Il est interdit de le déplacer ; mais sa mère se penche sur lui et l’allaite à cause de la douleur du lait, et elle-même peut extraire de sa main le lait qui la fait souffrir. Assouyei yenouqa (redresser les membres du nourrisson) est permis : on replace ses membres disloqués par la douleur de l’enfantement, et seulement le jour de la naissance ; ensuite c’est interdit. Mais l’envelopper de ses langes pour que ses membres ne se déforment pas est toujours permis. Rabbenou ‘Hananel a expliqué : lorsque l’orla de la gorge du petit s’affaisse, la sage-femme met son doigt dans sa bouche et ramène l’orla à sa place ; c’est permis, bien que parfois l’enfant vomisse.</p></div></div>
+<nav class="dafnav"><a href="329.html">&lsaquo; Siman 329</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="331.html">Siman 331 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

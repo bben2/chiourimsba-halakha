@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 98</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 98</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Comment doit être la pensée dans la tefila</div></header>
+<nav class="dafnav"><a href="097.html">&lsaquo; Siman 97</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="099.html">Siman 99 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Le priant vise le sens des mots, se tient comme devant la Chekhina, écarte toute pensée étrangère, et ne prie ni dans un lieu ni à une heure qui brise la kavana. Il prie en suppliant, comme un pauvre à la porte. La tefila tient lieu du korban : kavana, debout, pieds joints, lieu fixe, sans hatsitsa, vêtements propres. Il demande par la grâce, non par mérite.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Chekhina</dt><dd>Présence divine</dd></div><div class="gl"><dt>hassidim</dt><dd>pieux</dd></div><div class="gl"><dt>harssana</dt><dd>plat de petits poissons frits</dd></div><div class="gl"><dt>korban</dt><dd>sacrifice, offrande du Temple</dd></div><div class="gl"><dt>avoda</dt><dd>service du Temple</dd></div><div class="gl"><dt>kodachim</dt><dd>offrandes consacrées</dd></div><div class="gl"><dt>hatsitsa</dt><dd>interposition</dd></div><div class="gl"><dt>kehouna</dt><dd>prêtrise</dd></div><div class="gl"><dt>réah nihoah</dt><dd>agréable odeur</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>מחשבתו כיצד דתניא המתפלל צריך שיכוין לבו שנאמר תכין לבם תקשיב אזניך פירוש שיכוין פי&#x27; המלות שמוציא בשפתיו ויחשוב כאילו שכינה כנגדו שנא&#x27; שויתי ה&#x27; לנגדי תמיד ויעיר הכוונה ויסיר כל המחשבות הטורדות אותו עד שתשאר מחשבתו וכוונתו זכה בתפלתו ויחשוב כי אילו היה מדבר לפני מלך ב&quot;ו שהיום כאן ולמחר בקבר היה מסדר דבריו ומכוין בהם יפה לבל יכשל ק&quot;ו לפני מלך מלכי המלכים הקב&quot;ה שצריך לכוין אף מחשבתו כי לפניו המחשבה כדיבור כי כל המחשבות הוא חוקר וכן היו עושין חסידים ואנשי מעשה שהיו מתבודדים ומכוונין בתפלתן עד שהיו מגיעים להתפשטות הגשמיות ולהתגברות רוח השכלית עד שהיו מגיעים קרוב למעלת הנבואה ואם תבא לו מחשבה אחרת בתוך התפלה ישתוק עד שתתבטל המחשבה ולא יתפלל לא במקום שיש בו דבר שמבטל כוונתו ולא בשעה המבטלת כוונתו דא&quot;ר חייא בר אשי אמר רב כל שאין דעתו מיושבת עליו אל יתפלל רבי חנינא ביומא דרתח פירוש ביום שהיה כועס לא הוה מצלי רבי אליעזר אומר הבא מן הדרך אל יתפלל תוך ג&#x27; ימים ר&#x27; אליעזר בנו של רבי יוסי הגלילי אומר אף המיצר שמואל לא הוה מצלי בביתא דאית ביה שכרא מפני הריח שטורדו רב פפא לא הוה מצלי בביתא דאית ביה הרסנא וכתב הר&quot;ם מרוטנבורק אין אנו נזהרין עתה בכל זה שאין אנו מכוונין כל כך בתפלה ויתפלל דרך תחנונים כרש המבקש בפתח ובנחת ושלא תראה עליו כמשוי ומבקש ליפטר ממנה ואחר שיעשה כל זה מובטח לו שתתקבל תפלתו שהתפלה היא במקום הקרבן דכתיב ונשלמה פרים שפתינו (הושע יד) וכתיב ולעבדו בכל לבבכם וכי יש עבודה בלב אלא איזו היא עבודה שהיא בלב הוי אומר זו תפלה ולכך צריך ליזהר שתהא דוגמת הקרבן בכוונה ולא יערב בה מחשבה אחרת כמו מחשבה שפוסלת בקדשים ומעומד דומיא דעבודה דכתיב לעמוד לשרת והשוואת הרגלים ככהנים בשעת העבודה וקביעות מקום כמו הקרבנות שכל אחד קבוע מקומו לשחיטתו ומתן דמיו ושלא יחוץ דבר בינו לבין הקיר ובינו לקרקע דוגמת הקרבן שחציצה פוסלת בינו לבין הכלי ובינו לרצפה וראוי הוא שיהיו לו מלבושים נאים מיוחדים לתפלה כגון בגדי כהונה אלא שאין כל אדם יכול לבזבז על זה ומ&quot;מ טוב הוא שיהיו לו מכנסים מיוחדים לתפלה משום נקיות ואחר שיעשה דוגמת הקרבן עולה לריח ניחוח למקום שהקרבן עולה והמלאך עושה אותו כתר לקונו ואל יחשוב ראוי הוא שיעשה הקב&quot;ה את בקשתי כיון שכוונתי בתפלתי דאדרבה זהו המזכיר עונותיו אלא יחשוב שיעשה הקב&quot;ה בקשתו בחסדו ויאמר בלבו מי אני דל ונבזה בא לבקש מאת ממ&quot;ה הקב&quot;ה אם לא מרוב חסדיו שהוא מתנהג בהם עם בריותיו:</p></div><div class="fr"><p>Comment doit être sa pensée ? Il a été enseigné : celui qui prie doit diriger son cœur, ainsi qu’il est dit : « Tu prépares leur cœur, Ton oreille est attentive » — c’est-à-dire qu’il vise le sens des mots qu’il fait sortir de ses lèvres. Qu’il pense comme si la Chekhina était en face de lui, ainsi qu’il est dit : « J’ai placé ה&#x27; devant moi constamment ». Qu’il éveille la kavana et écarte toutes les pensées qui le distraient, jusqu’à ce que sa pensée et sa kavana restent pures dans sa tefila. Qu’il se représente que s’il parlait devant un roi de chair et de sang — qui aujourd’hui est ici et demain dans la tombe — il ordonnerait ses paroles et s’y appliquerait bien, pour ne pas trébucher ; à plus forte raison devant le Roi des rois des rois, le Saint béni soit-Il, faut-il diriger même sa pensée, car devant Lui la pensée est comme la parole, puisqu’Il sonde toutes les pensées. Ainsi faisaient les hassidim et les hommes d’œuvre : ils s’isolaient et s’appliquaient dans leur tefila jusqu’à parvenir au dépouillement du corporel et au renforcement de l’esprit intellectuel, jusqu’à approcher le degré de la prophétie. Si une autre pensée lui vient au milieu de la tefila, qu’il se taise jusqu’à ce que cette pensée s’annule. Qu’il ne prie ni dans un lieu où il y a quelque chose qui annule sa kavana, ni à une heure qui l’annule. Car Rabbi &#x27;Hiya bar Ashi a dit au nom de Rav : quiconque n’a pas l’esprit posé, qu’il ne prie pas. Rabbi &#x27;Hanina, le jour où il s’emportait — c’est-à-dire le jour où il était en colère — ne priait pas. Rabbi Eliézer dit : celui qui revient de voyage ne prie pas pendant trois jours. Rabbi Eliézer, fils de Rabbi Yossé le Galiléen, dit : de même celui qui est dans la détresse. Chemouel ne priait pas dans une maison où il y avait de la bière, à cause de l’odeur qui le distrait. Rav Papa ne priait pas dans une maison où il y avait du harssana. Et le Maharam de Rottenbourg a écrit : nous ne prenons plus garde aujourd’hui à tout cela, car nous n’avons pas tant de kavana dans la tefila. Qu’il prie sur le mode des supplications, comme un pauvre qui demande à la porte, avec calme, et que cela ne paraisse pas sur lui comme un fardeau dont il cherche à se débarrasser. Après qu’il aura fait tout cela, il est assuré que sa tefila sera reçue. Car la tefila tient lieu du korban, ainsi qu’il est écrit : « Nous acquitterons des taureaux par nos lèvres » (Hochéa 14), et il est écrit : « et pour Le servir de tout votre cœur » — y a-t-il un service dans le cœur ? Quelle est donc l’avoda qui est dans le cœur ? Dis : c’est la tefila. C’est pourquoi il faut prendre garde qu’elle soit à l’image du korban, avec kavana, et qu’on n’y mélange pas une autre pensée, comme une pensée qui disqualifie les kodachim. Debout, à l’instar de l’avoda, ainsi qu’il est écrit : « pour se tenir afin de servir » ; les pieds joints comme les kohanim à l’heure de l’avoda ; un lieu fixe, comme les korbanot dont chacun a son lieu fixé pour l’abattage et l’aspersion du sang ; et que rien ne s’interpose entre lui et le mur, ni entre lui et le sol, à l’image du korban dont la hatsitsa disqualifie entre lui et l’ustensile, et entre lui et le dallage. Il convient qu’il ait de beaux vêtements réservés à la tefila, comme les vêtements de la kehouna ; seulement, tout homme ne peut pas dépenser pour cela. Néanmoins il est bon d’avoir un caleçon réservé à la tefila, pour la propreté. Après qu’il a fait à l’image du korban, la tefila monte en agréable odeur vers le Lieu où monte le korban, et l’ange en fait une couronne pour son Maître. Qu’il ne pense pas : « Il est juste que le Saint béni soit-Il fasse ma demande, puisque j’ai eu la kavana dans ma tefila » — au contraire, c’est cela même qui rappelle ses fautes. Qu’il pense plutôt que le Saint béni soit-Il fera sa demande par Sa bonté, et qu’il dise en son cœur : qui suis-je, pauvre et méprisé, pour venir demander au Roi des rois des rois, le Saint béni soit-Il, si ce n’est par l’abondance de Ses bontés dont Il use avec Ses créatures.</p></div></div>
+<nav class="dafnav"><a href="097.html">&lsaquo; Siman 97</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="099.html">Siman 99 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 111</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 111</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Loi de l&#x27;accolement de la Gueoula à la tefila</div></header>
+<nav class="dafnav"><a href="110.html">&lsaquo; Siman 110</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/111.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="112.html">Siman 112 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On n&#x27;interrompt pas entre la bénédiction de la rédemption et l&#x27;Amida ; délai, amen, versets ; particularités de Chabbat et de Yom Tov.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Gueoula</dt><dd>bénédiction de la rédemption (Gaal Israël) qui précède l&#x27;Amida</dd></div><div class="gl"><dt>semikhat gueoula li-tefila</dt><dd>accolement immédiat de la rédemption à la tefila</dd></div><div class="gl"><dt>kdei dibbour</dt><dd>temps d&#x27;une parole : celui d&#x27;une question d&#x27;élève à son maître</dd></div><div class="gl"><dt>hefsek</dt><dd>interruption entre deux parties de la tefila</dd></div><div class="gl"><dt>Kedoucha</dt><dd>sanctification collective</dd></div><div class="gl"><dt>Barekhou</dt><dd>appel à la bénédiction lancé par l&#x27;officiant</dd></div><div class="gl"><dt>Amen yehé cheméh rabba</dt><dd>réponse principale du kaddish</dd></div><div class="gl"><dt>ה&#x27; sefataï tiftah</dt><dd>verset d&#x27;ouverture de l&#x27;Amida</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) צריך לסמוך - אבל במוסף ומנחה מותר לומר פסוקים קודם ד&#x27; שפתי תפתח אבל לא אח&quot;כ דפסוק זה מכלל תפלה הוא דהא מהאי טעמא נוכל לומר אותו בין גאולה לתפילה מפני דכיון דקבעוהו רבנן בתפלה יש לו דין תפלה א&quot;כ אין להפסיק בינו לתפלת י&quot;ח:</p></div><div class="fr"><p>Il faut accoler — Mais à Moussaf et à Minha il est permis de dire des versets avant « ה&#x27; sefataï tiftah », mais pas après, car ce verset fait partie de la tefila : c&#x27;est d&#x27;ailleurs pour cette raison qu&#x27;on peut le dire entre Gueoula et tefila, parce que, les Sages l&#x27;ayant fixé dans la tefila, il a statut de tefila ; dès lors on n&#x27;interrompra pas entre lui et la tefila des dix-huit.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) ביניהם - ואפילו בשהייה בעלמא יותר מכדי דיבור יש לזהר לכתחלה [כדי דבור הוא כדי שאילת תלמיד לרב]:</p></div><div class="fr"><p>Entre eux — Même un simple délai plus long que kdei dibbour : il faut y prendre garde lekhathila (a priori). [Kdei dibbour est le temps d&#x27;une question d&#x27;élève à maître.]</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) אפילו באמן וכו&#x27; - וה&quot;ה דקדיש וקדושה אין לענות וכדלעיל בסימן ס&quot;ו ס&quot;ט ונקט אמן משום דשם סליק ענינא של הברכות ק&quot;ש וה&quot;א דיכול לענות אמן אפילו אחר עצמו וכדלקמן בסימן רט&quot;ו ס&quot;א קמ&quot;ל דאסור משום הפסק ואפילו אחר הש&quot;ץ לא יענה:</p></div><div class="fr"><p>Même par amen, etc. — Il en va de même pour le kaddish et la Kedoucha : on n&#x27;y répondra pas, comme ci-dessus siman 66 seif 9. Il a mentionné amen parce que là s&#x27;achève le sujet des bénédictions du Chema, et l&#x27;on aurait pu penser qu&#x27;on peut répondre amen même après soi-même, comme plus loin siman 215 seif 1 ; il nous enseigne que c&#x27;est interdit à cause de l&#x27;interruption, et même après l&#x27;officiant on ne répondra pas.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) ולא בשום פסוק - ואפילו בערבית קודם תפילת י&quot;ח ג&quot;כ יש לזהר בזה:</p></div><div class="fr"><p>Ni par aucun verset — Même à Arvit avant la tefila des dix-huit, il faut aussi y prendre garde.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) אמן - אבל לאיש&quot;ר וקדושה אינו מפסיק דאמן שייך לברכה ולא הוי הפסק משא&quot;כ באלו:</p></div><div class="fr"><p>Amen — Mais pour « Amen, yehé cheméh rabba » et la Kedoucha, il n&#x27;interrompt pas pour y répondre : car amen appartient à la bénédiction et n&#x27;est pas une interruption, ce qui n&#x27;est pas le cas de ceux-là.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) וכן נוהגין - היינו אחר החזן ולא אחר עצמו ועיין לעיל בסימן ס&quot;ו בהג&quot;ה ובמ&quot;ב שם:</p></div><div class="fr"><p>Et ainsi est l&#x27;usage — C&#x27;est-à-dire après l&#x27;officiant et non après soi-même. Voir ci-dessus siman 66 dans la glose et le Michna Beroura là-bas.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) ושבת וכו&#x27; - ויו&quot;ט כיון דיום זה הוי בשאר ימים יום צרה שייך ביה ג&quot;כ הפסוק דיענך ה&#x27; וגו&#x27; אחר הפסוק יהיו לרצון דמיירי בגאולה:</p></div><div class="fr"><p>Et Chabbat, etc. — Et Yom Tov : puisque ce jour-là, les autres jours, est un jour de détresse, le verset « Yaankha ה&#x27;… » lui convient aussi, après le verset « Yihyou leratson », qui traite de la rédemption.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) לאו זמן צרה - והב&quot;י חולק ע&quot;ז וס&quot;ל דההוא קרא סמך בעלמא ועיקר סמיכת גאולה לתפלה הוא מדברי חכמים שדימו י&quot;ח ברכות אחר ברכת גאולה לאוהבו של מלך שבא ודפק על פתח המלך ויצא המלך לקראתו ואם רואהו המלך שהפליג והלך לו אף הוא מפליג ושוב אינו מתקרב אליו כשחוזר ודופק כך הוא במפסיק בין גאולה לתפלה וע&quot;כ כתב רמ&quot;א וטוב להחמיר:</p></div><div class="fr"><p>Ce n&#x27;est pas un temps de détresse — Le Beit Yossef conteste cela et tient que ce verset n&#x27;est qu&#x27;un simple appui, et que l&#x27;essentiel de l&#x27;accolement de Gueoula à la tefila vient des Sages, qui ont comparé les dix-huit bénédictions après la bénédiction de Gueoula à l&#x27;ami du roi qui vient frapper à la porte du roi : le roi sort à sa rencontre ; s&#x27;il le voit s&#x27;éloigner et s&#x27;en aller, lui aussi s&#x27;éloigne et ne s&#x27;approche plus lorsqu&#x27;il revient frapper. Ainsi en est-il de qui interrompt entre Gueoula et tefila. C&#x27;est pourquoi le Rema a écrit : et il est bon d&#x27;être strict.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) שצריך לכך - היינו דמותר לענות איש&quot;ר וקדושה וברכו בין גאולה לתפלה דשבת אף בשחרית כ&quot;כ הא&quot;ר ופמ&quot;ג ושלמי צבור ועיין בבה&quot;ל:</p></div><div class="fr"><p>Qu&#x27;il le faut — C&#x27;est-à-dire qu&#x27;il est permis de répondre « Amen, yehé cheméh rabba », Kedoucha et Barekhou entre Gueoula et tefila de Chabbat, même à Chaharit. Ainsi l&#x27;Eliya Rabba, le Pri Megadim et Chalmè Tsibbour. Voir le Biour Halakha.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(י) חוזר וכו&#x27; - דפסוק זה הוא שייך לתפלה וכנ&quot;ל וטוב שיאמרנו בלחש אבל שאר פסוקים א&quot;צ לומר ואם רצה לומר רשאי. כתב בפמ&quot;ג דהש&quot;ץ אינו רשאי להפסיק לאחר שהתפלל בלחש רק לדבר מצוה כגון לענות איש&quot;ר וכדומה אבל לדבר הרשות נראה דלא:</p></div><div class="fr"><p>Il revient, etc. — Car ce verset appartient à la tefila, comme ci-dessus. Il est bon de le dire à voix basse ; mais les autres versets, on n&#x27;a pas besoin de les dire, et si l&#x27;on veut les dire on le peut. Le Pri Megadim a écrit que l&#x27;officiant n&#x27;est pas autorisé à interrompre après avoir prié à voix basse, sinon pour une parole de mitsva, par exemple répondre « Amen, yehé cheméh rabba » et semblables ; mais pour une parole profane, il semble que non.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(יא) קורא ק&quot;ש - ר&quot;ל עם ברכותיה. וכ&quot;ז בשחרית אבל בערבית יתפלל עמהם ואח&quot;כ קורא ק&quot;ש כמש&quot;כ בסימן רל&quot;ו ס&quot;ג ע&quot;ש:</p></div><div class="fr"><p>Il lit le Chema — C&#x27;est-à-dire avec ses bénédictions. Et tout cela à Chaharit ; mais à Arvit il priera avec eux puis lira le Chema, comme il est écrit au siman 236 seif 3, voir là-bas.</p></div></div>
+<nav class="dafnav"><a href="110.html">&lsaquo; Siman 110</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/111.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="112.html">Siman 112 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

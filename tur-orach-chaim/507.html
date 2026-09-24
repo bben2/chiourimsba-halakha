@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 507</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 507</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Cuisson au four, bois tombés, raclage et enduit le Yom Tov</div></header>
+<nav class="dafnav"><a href="506.html">&lsaquo; Siman 506</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="508.html">Siman 508 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On cuit dans un fourni s’il n’est pas neuf, et l’on chauffe l’eau dans une antiki. Bois tombés du palmier dans le four le Yom Tov : on les annule par adjonction de bois préparés, sans les toucher avant le bitoul. Tombés le Chabbat : R. Ye&#x27;hiel les interdit le Yom Tov suivant, même par bitoul, à cause de la hakhana. Interdit de prendre un bois pour attiser (metaken mana). Raclage du four selon qu’il s’agit de leurs fours ou des nôtres. Four et réchauds neufs : portables, mais on ne les durcit pas à l’huile, au linge ou à l’eau froide ; premier allumage permis. Four plein de pains : permis chez eux, pas chez nous. Argile de berge si désignée la veille ; cendre : Rachi, le Ri et Rabbenou Tam divergent.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>fourni</dt><dd>grand four à bouche latérale</dd></div><div class="gl"><dt>antiki</dt><dd>grande chaudière, chaudron</dd></div><div class="gl"><dt>kalia le-isureih</dt><dd>l’interdit se consume (le bois brûle et disparaît)</dd></div><div class="gl"><dt>bitoul be-rov</dt><dd>annulation dans la majorité</dd></div><div class="gl"><dt>hakhana</dt><dd>préparation d’un jour saint pour le suivant</dd></div><div class="gl"><dt>metaken mana</dt><dd>façonner un ustensile</dd></div><div class="gl"><dt>metia&#x27;h ha-tit</dt><dd>enduit d’argile, crépi tombé dans le four</dd></div><div class="gl"><dt>gerifa</dt><dd>raclage, vidage du four</dd></div><div class="gl"><dt>kirayim</dt><dd>réchauds, fourneaux</dd></div><div class="gl"><dt>mapigin be-tsonen</dt><dd>refroidir à l’eau froide pour durcir</dd></div><div class="gl"><dt>mekhabedet</dt><dd>balai ou torchon dont on balaie le four</dd></div><div class="gl"><dt>gibel tit</dt><dd>délayer de l’argile</dd></div><div class="gl"><dt>efer / afar</dt><dd>cendre / terre</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>אופין בפורני ולא חיישי&#x27; לטרחא ובלבד שלא תהא חדשה דחיישינן שמא תפחת וימנע משמחת י&quot;ט ומחממין חמין באנטיכי אף על פי שעצים שנשרו מן הדקל בי&quot;ט או בשבת שלפניו אסור להסיקן אם נשרו בתוך התנור מרבה עליהם עצים מוכנים ומבטלן כיון דקליא לאיסוריה מותר לבטל איסור דרבנן ובלבד שלא יגע בהן עד שיתבטלו ברוב ואחי ה&quot;ר יחיאל ז&quot;ל כתב שאם נפלו בתנור בשבת אסור להסיקן בי&quot;ט שלאחריו אפילו על ידי ביטול ברוב ולא דמי לנשרו בי&quot;ט דבההיא ליכא אלא איסור דרבנן גזירה שמא יעלה ויתלוש אבל הנך שנשרו בשבת אסורין מדאורייתא בי&quot;ט משום הכנה ובאיסור דאורייתא אין מבטלין איסור: אסור ליקח עץ מבין העצים לחתות בו האש בתנור דהו&quot;ל מתקן מנא: תנור שנפל לתוכו מטיח הטיט אם אפשר לאפות ולצלות בו בלא גריפה אסור לגורפו אבל מותר להשכיב האש והאפר שבו כדי שיהא חלק ולא יגע בפת אבל אם צריך לגורפו אפילו אם אפשר לאפות ולצלות בו בלא גריפה ואינו גורפו אלא כדי ליפות הפת או הצלי שלא יגע בו הטיח ויחרך שרי ודוקא בתנורים שלהן שהיו מדבקין הפת סביבם ואין צריכין לגורפן אלא מהטיח שנופל לתוכו אבל בתנורים שלנו שמכבין הגחלים בגריפתן אם אפשר לאפות זולתה אלא שרוצה לגרוף כדי ליפות הפת אסור אבל אם א&quot;א לאפות בלא גריפה מותר: תנור וכיריים חדשים הרי הן ככל הכלים הניטלין בחצר אבל אין סכין אותן בשמן ולא טחין אותן במטלית ולא מפיגין אותן בצונן כדי לחזק אבל היסק ראשון מותר אע&quot;פ שהוא חדש שאינו נגמר להתחזק עד שיפיגנו ואם צריך להפיגו כדי לאפות בו כגון שהוסק יותר מדאי יכול להפיגו בצונן ולכך היה אומר הר&quot;ר מאיר מרוטנבורק שמותר לשרות במים המכבדת שמכבדין בו התנור אע&quot;פ שמכבה: מותר לאפות תנור מלא פת אע&quot;פ שא&quot;צ אלא פת אחד ופירש&quot;י דוקא להם שתנוריהם היו קטנים והיו מדבקין הפת בדפנותיהן ומתוך שהוא מלא אין מקום לחומו להתפשט והפת נאפה יפה אבל בתנורים שלנו אין לאפות יותר ממה שצריך אסור לגבל טיט לטוח בו פי התנור אבל יכול ליקח מהטיט שעל שפת הנהר לטוח בו ובלבד שייחדו לכך מעי&quot;ט שיציין אותו ואפר מותר לרש&quot;י לגבלו ולטוח בו ולר&quot;י אסור אא&quot;כ נתן עליו מים מאתמול ור&quot;ת פי&#x27; דאפר נמי אסור לגבלו ופירש הוא אפר מותר פי&#x27; להניחו על פי התנור כדי שישמור חומו אבל עפר אסור להניח עליו:</p></div><div class="fr"><p>On cuit dans un fourni et l’on ne craint pas la peine, pourvu qu’il ne soit pas neuf : l’on craint qu’il ne se fende et que l’on ne soit privé de la joie du Yom Tov. On chauffe de l’eau dans une antiki. Bien qu’il soit interdit de brûler les bois tombés du palmier le Yom Tov ou le Chabbat qui le précède, s’ils sont tombés dans le four, on ajoute sur eux des bois préparés et on les annule. Puisque l’interdit se consume, il est permis d’annuler un interdit rabbinique, à condition de ne pas les toucher jusqu’à ce qu’ils soient annulés dans la majorité. Mon frère, R. Ye&#x27;hiel z&quot;l, a écrit que s’ils sont tombés dans le four le Chabbat, il est interdit de les brûler le Yom Tov suivant, même par annulation dans la majorité. Cela ne ressemble pas à ceux qui sont tombés le Yom Tov : pour ceux-là, il n’y a qu’un interdit rabbinique — un décret de peur que l’on monte et que l’on cueille. Mais ceux qui sont tombés le Chabbat sont interdits par la Torah le Yom Tov à cause de la hakhana, et l’on n’annule pas un interdit de la Torah. Il est interdit de prendre un bois parmi les bois pour attiser le feu dans le four, car ce serait façonner un ustensile. Four dans lequel est tombé de l’enduit d’argile : s’il est possible d’y cuire et d’y rôtir sans le racler, il est interdit de le racler. Mais il est permis d’aplanir le feu et la cendre qui s’y trouvent afin que ce soit uni et que cela ne touche pas le pain. Toutefois, s’il a besoin de le racler — même s’il est possible d’y cuire et d’y rôtir sans raclage — et qu’il ne le racle que pour embellir le pain ou le rôti afin que l’enduit n’y touche pas et ne le brûle, c’est permis. Cela ne vaut que pour leurs fours, où l’on collait le pain tout autour et où l’on n’avait à racler que l’enduit qui tombait dedans. Mais dans nos fours, où le raclage éteint les braises : s’il est possible de cuire sans cela et que l’on ne veut racler que pour embellir le pain, c’est interdit ; mais s’il est impossible de cuire sans raclage, c’est permis. Un four et des réchauds neufs sont comme tous les ustensiles que l’on peut porter dans la cour. Mais on ne les oint pas d’huile, on ne les frotte pas avec un linge et on ne les refroidit pas à l’eau froide afin de les durcir. Cependant le premier allumage est permis, bien qu’il soit neuf et que son durcissement ne soit achevé qu’après qu’on l’ait refroidi. S’il faut le refroidir pour y cuire, par exemple s’il a été trop chauffé, on peut le refroidir à l’eau froide. C’est pourquoi R. Méir de Rothenbourg disait qu’il est permis de tremper dans l’eau le balai avec lequel on balaie le four, bien que cela éteigne. Il est permis de cuire un four plein de pain, même si l’on n’a besoin que d’un seul pain. Rachi a expliqué : seulement pour eux, dont les fours étaient petits et où l’on collait le pain aux parois ; du fait qu’il est plein, la chaleur n’a pas d’espace pour se disperser et le pain cuit bien. Mais dans nos fours, on ne doit pas cuire plus que le nécessaire. Il est interdit de délayer de l’argile pour en enduire la bouche du four. Mais on peut prendre de l’argile du bord du fleuve pour en enduire, à condition de l’avoir destinée à cela dès la veille du Yom Tov et de l’avoir marquée. Quant à la cendre, Rachi permet de la délayer et d’en enduire ; le Ri l’interdit, à moins d’y avoir mis de l’eau la veille. Rabbenou Tam a expliqué que la cendre aussi est interdite à délayer, et il a interprété « la cendre est permise » : la poser sur la bouche du four afin qu’elle en garde la chaleur ; mais la terre, il est interdit d’en poser dessus.</p></div></div>
+<nav class="dafnav"><a href="506.html">&lsaquo; Siman 506</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="508.html">Siman 508 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Choulhan Aroukh Orah Haim — Siman 10</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">שולחן ערוך, אורח חיים</div>
+<h1>Choulhan Aroukh — Orah Haim, siman 10</h1>
+<div class="sub">Rabbi Yossef Karo · Rema : Rabbi Moche Isserles · coins du talit · 12 seifim</div></header>
+<nav class="dafnav"><a href="009.html">&lsaquo; Siman 9</a><a class="home" href="index.html">📖 Sommaire</a><a href="../mishna-beroura/010.html">Michna Beroura →</a><a href="../index.html">🏠 Accueil</a><a href="011.html">Siman 11 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Un talit est tenu s’il a au moins quatre coins ; au-delà, on met les tsitsit aux coins les plus éloignés. Plier ou coudre les coins n’exempte pas. L’ordre de pose compte : un coin ajouté après coup invalide (taassé velo min ha-assouy).</p><div class="pratique"><p class="warn">Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.</p><div class="pgrid"><div class="pbox sujet"><b>SUJET</b>Coins du talit — quatre coins, pose des tsitsit, exemptions — 12 seifim</div><div class="pbox faire"><b>À FAIRE</b>Quatre coins les plus éloignés<br>Sans quatre coins : exempt. Plus de quatre : tenu ; on met les tsitsit aux quatre coins les plus éloignés les uns des autres</div><div class="pbox faire"><b>À FAIRE</b>Coins carrés et dépliés<br>Les coins doivent être carrés, non arrondis ; poser les tsitsit aux quatre coins simples, non pliés</div><div class="pbox eviter"><b>À ÉVITER</b>Quatrième coin après coup<br>Trois coins déjà garnis puis un quatrième ajouté : pasoul (taassé velo min ha-assouy)</div><div class="pbox eviter"><b>À ÉVITER</b>Plier pour poser<br>On ne plie pas le talit pour y mettre les tsitsit sur les coins tels qu’ils sont pliés — sauf s’il est cousu entièrement, même d’un seul côté</div><div class="pbox oui"><b>OUI</b>Coins repliés, noués ou cousus<br>Même s’il paraît n’avoir plus de coins : pas exempt</div><div class="pbox oui"><b>OUI</b>Tissu, cuir, coupe diagonale<br>Tissu à coins de cuir : tenu. Cuir à coins de tissu : exempt. Un coin coupé en diagonale en deux : cinq coins, tenu</div><div class="pbox oui"><b>OUI</b>Ouvert en bas, fermé en haut<br>Majorité fermée : exempt. Majorité ouverte : tenu. Moitié-moitié : houmra, tenu, et l’on n’en sort pas le Chabbat</div><div class="pbox non"><b>NON</b>Coiffe, foulard, vêtements régionaux<br>Mitsnefet, soudar (chid), bika, gouhach et vêtements d’Égypte ou de Turquie : exempts, même à quatre coins — l’essentiel n’est pas un vêtement de corps à deux coins devant et deux derrière</div><div class="pbox non"><b>NON</b>Kapa fermée par un cordon<br>Un ashtringa n’exempte que s’il est fixé depuis la moitié vers le bas et sous la ceinture, majorité fermée visible ; sinon interdit pour marit ayin</div><div class="pbox rema"><b>REMA</b>Poser aux coins dépliés. Certains tiennent un talit plié même sans couture : bon d’y mettre des tsitsit sans berakha. Tsitsit sur tsitsit : si l’intention était d’annuler les premières, on les coupe et c’est valide ; avant de couper, invalide dans tous les cas — certains valident toujours, et c’est l’essentiel. Vêtements ashkenazim et sefaradim dont les coins ne sont pas deux devant et deux derrière alignés : exempts.</div></div><div class="psynth">Quatre coins carrés tiennent le talit ; au-delà de quatre, on prend les plus éloignés. Plier, nouer ou coudre les coins n’exempte pas. Un coin ajouté après les tsitsit est pasoul. Coiffe, foulard et vêtements dont les coins ne sont pas deux devant et deux derrière sont exempts.</div></div></details>
+<div class="seg"><div class="he" dir="rtl"><p>טלית שאין לה ד&#x27; כנפו&#x27; פטורה יש לה יותר מארבע חייבת ועושה לה ארבע ציציות בארבע כנפו&#x27; המרוחקות זו מזו יותר.</p></div><div class="fr"><p>Un talit qui n&#x27;a pas quatre coins est exempt. S&#x27;il en a plus de quatre, il est tenu, et l&#x27;on y met quatre tsitsit aux quatre coins les plus éloignés les uns des autres.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>יש לה ארבע וחתך א&#x27; באלכסון ועשהו שנים הרי נעשית בעלת ה&#x27; וחייבת.</p></div><div class="fr"><p>S&#x27;il en a quatre et qu&#x27;il en a coupé un en diagonale et en a fait deux, le voilà devenu à cinq coins, et il est tenu.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>כפל קרנות טליתו וקשרם או תפרם ודומה כאילו קיצען ואין לה כנפות אעפ&quot;כ לא נפטרה.</p></div><div class="fr"><p>S&#x27;il a replié les coins de son talit et les a noués ou coudus, et qu&#x27;il paraît comme s&#x27;il les avait coupés et qu&#x27;il n&#x27;a plus de coins : même ainsi, il n&#x27;est pas exempt.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>טלית של בגד וכנפיה של עור חייבת היא של עור וכנפיה של בגד פטורה.</p></div><div class="fr"><p>Un talit de tissu dont les coins sont de cuir est tenu. S&#x27;il est de cuir et que ses coins sont de tissu, il est exempt.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>היו לה ג&#x27; כנפו&#x27; ועשה בהם ג&#x27; ציציות ושוב עשה לה כנף ד&#x27; ועשה גם בו ציצי&#x27; פסולה משום תעשה ולא מן העשוי.</p></div><div class="fr"><p>S&#x27;il avait trois coins et qu&#x27;il y a mis trois tsitsit, puis qu&#x27;il lui a fait un quatrième coin et y a mis aussi des tsitsit : il est pasoul (invalide) à cause de « taasseh velo min ha-assouy » (tu feras, et non à partir de ce qui est déjà fait).</p></div></div><div class="seg"><div class="he" dir="rtl"><p>אין כופלין את הטלית ומטילים ציצי&#x27; על כנפיה כמו שהיא כפולה. הגה: אבל צריך להטיל בד&#x27; כנפיה הפשוטים (בית יוסף). אא&quot;כ תפרה כולה ואפי&#x27; מרוח אחת. הגה: וי&quot;א דחייבין אפי&#x27; בלא תפיר&#x27; וטוב לעשו&#x27; לה ציצית אבל לא לברך עליה (הרי&quot;ף והרא&quot;ש והטור). הטיל ציצית על ציצית אם נתכוין לבטל הראשונה חותך הראשונה וכשרה ואם נתכוין להוסיף אע&quot;פ שחתך אחת משתיהן פסולה. הגה: ויש מכשירים בכל ענין וכן עיקר (טור בשם הרא&quot;ש ורבי&#x27; ירוחם ני&quot;ח ח&quot;ג). וקודם שחתך מראשונה פסול בכל ענין (ב&quot;י).</p></div><div class="fr"><p>On ne plie pas le talit pour y mettre les tsitsit sur ses coins tels qu&#x27;ils sont pliés.
+Rema : mais il faut les mettre aux quatre coins simples (dépliés) (Beth Yossef).
+À moins qu&#x27;il ne l&#x27;ait cousu entièrement, même d&#x27;un seul côté.
+Rema : et certains disent qu&#x27;ils sont tenus même sans couture, et il est bon d&#x27;y mettre des tsitsit mais de ne pas réciter de berakha dessus (Rif, haRoch et le Tour).
+S&#x27;il a mis des tsitsit sur des tsitsit : s&#x27;il avait l&#x27;intention d&#x27;annuler les premières, il coupe les premières et c&#x27;est valide ; s&#x27;il avait l&#x27;intention d&#x27;ajouter, même s&#x27;il a coupé l&#x27;une des deux, c&#x27;est invalide.
+Rema : et certains valident dans tous les cas, et c&#x27;est l&#x27;essentiel (Tour au nom du Roch et de Rabbenu Yerouham, netiv 18 helek 3).
+Et avant qu&#x27;il ait coupé des premières, c&#x27;est invalide dans tous les cas (Beth Yossef).</p></div></div><div class="seg"><div class="he" dir="rtl"><p>מלבושים שהם פתוחים מן הצדדין למטה ויש להם ד&#x27; כנפות לצד מטה ולמעלה הם סתומים אם רובו סתום פטור ואם רובו פתוח חייב ואם חציו סתום וחציו פתוח מטילין אותו לחומרא וחייב בציצית ואין יוצאין בו בשבת.</p></div><div class="fr"><p>Les vêtements ouverts par les côtés en bas et qui ont quatre coins vers le bas, et en haut sont fermés : si la plus grande partie est fermée, il est exempt ; si la plus grande partie est ouverte, il est tenu ; si la moitié est fermée et la moitié ouverte, on le penche vers la houmra (rigueur) et il est tenu à la tsitsit, et l&#x27;on n&#x27;en sort pas le Chabbat.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>קאפ&quot;ה שהיא פתוחה בענין שיש לה ד&#x27; כנפות אם יקבעו בה אשטרינג&quot;ה לעשותה כסתומה כדי לפוטרה מציצית אינו מועיל תיקון זה אם לא תהיה קבוע מחצי ארכה למטה לכל הפחות וגם שתהיה קבוע למטה מהחגור למען יהיה הרוב הסתום רוב הנראה לעינים דאל&quot;כ יאסר משום מראית העין.</p></div><div class="fr"><p>Une kapa (cape) ouverte de sorte qu&#x27;elle a quatre coins : si l&#x27;on y fixe une ashtringa (cordon) pour la rendre comme fermée afin de l&#x27;exempter de tsitsit, cette réparation n&#x27;est d&#x27;aucun secours, à moins qu&#x27;elle ne soit fixée au moins depuis la moitié de sa longueur vers le bas, et aussi qu&#x27;elle soit fixée en dessous de la ceinture, afin que la majorité fermée soit une majorité visible aux yeux ; sinon, ce sera interdit à cause de marit ayin (l&#x27;apparence).</p></div></div><div class="seg"><div class="he" dir="rtl"><p>הכנפים צריך שיהיו מרובעות ולא שיהיו עגולות.</p></div><div class="fr"><p>Les coins doivent être carrés, et non arrondis.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>מצנפת פטורה אפי&#x27; של ארצות המערב שב&#x27; ראשיה מושלכים על כתפיהם וגופם ואע&quot;פ שמתכסה בה ראשו ורובו פטור כיון שעיקרה לכסות הראש דכסותך אמר רחמנא ולא כסות הראש.</p></div><div class="fr"><p>Une mitsnefet (coiffe, turban) est exempte, même celles des pays d&#x27;Occident dont les deux bouts sont jetés sur leurs épaules et leur corps ; et même s&#x27;il s&#x27;en couvre la tête et la plus grande partie de lui, elle est exempte, puisque son essentiel est de couvrir la tête : « kesoutekha » (ton vêtement), a dit le Miséricordieux, et non un vêtement de la tête.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>סודר שנותנין על הצואר במלכות א&quot;י שנקרא בערבי שי&quot;ד וכן ביק&quot;א שהיו נותנין בספרד על כתפיהם פטורים.</p></div><div class="fr"><p>Un soudar (foulard) que l&#x27;on met sur le cou dans le royaume d&#x27;Erets Yisrael, appelé en arabe chid, et de même la bika que l&#x27;on mettait en Sefarad sur les épaules : ils sont exempts.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>מלבושים שבמצרים הנקראים גוח&quot;ש וכן מינטי&quot;ני ודולאפאני&quot;ש וקפטאני&quot;ש ופידוני&quot;ש שבתורגמה אע&quot;פ שיש להם ד&#x27; כנפים פטורים. הגה: וה&quot;ה מלבושים של גלילות בני אשכנז וספרד הואיל ואין כנפיהם עשוין שיהיו ב&#x27; לפניהם וב&#x27; לאחריהם מכוונים זו כנגד זו (פטורים) (בית יוסף לפי סברת מהרי&quot;ק).</p></div><div class="fr"><p>Les vêtements d&#x27;Égypte appelés gouhach, et de même mintini, dolapanish, kaftanish et pidonish en Tourgema (Turquie), même s&#x27;ils ont quatre coins, sont exempts.
+Rema : et de même les vêtements des régions des Bene Ashkenaz et Sefarad, puisque leurs coins ne sont pas faits de sorte que deux soient devant et deux derrière, alignés l&#x27;un vis-à-vis de l&#x27;autre (ils sont exempts) (Beth Yossef selon l&#x27;avis du Mahariq).</p></div></div>
+<nav class="dafnav"><a href="009.html">&lsaquo; Siman 9</a><a class="home" href="index.html">📖 Sommaire</a><a href="../mishna-beroura/010.html">Michna Beroura →</a><a href="../index.html">🏠 Accueil</a><a href="011.html">Siman 11 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

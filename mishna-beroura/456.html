@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 456</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 456</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Mesure de la quantité du pétrissage des matsot</div></header>
+<nav class="dafnav"><a href="455.html">&lsaquo; Siman 455</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/456.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="457.html">Siman 457 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On ne pétrit pas une pâte plus grande que la mesure de halla : quarante-trois œufs, soit un issaron. On mesure au volume, sans tasser. Bediavad une pâte plus grande est permise. De nos jours beaucoup sont indulgents grâce aux aides et aux grands fours, mais le craignant D.ieu s’en tient à la mesure.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>issaron</dt><dd>dixième d’éfa, mesure de halla : quarante-trois œufs</dd></div><div class="gl"><dt>quarte</dt><dd>unité de capacité (trois quartes ≈ un issaron)</dd></div><div class="gl"><dt>mil</dt><dd>temps de marche d’un mil, environ dix-huit minutes</dd></div><div class="gl"><dt>halla</dt><dd>prélèvement dû sur la pâte</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) אין לשין וכו&#x27; - לפי ששיערו חכמים שהעסק שאדם אחד מתעסק בידו בעיסה בלישה ועריכה אינו מצילה מחימוץ כשהיא גדולה ביותר מהשיעור המוזכר כאן לפי שאין הידים מספיקות להתעסק בה מכל צדדיה מתוך גדלה:</p></div><div class="fr"><p>On ne pétrit etc. - Car les Sages ont évalué que le travail qu’un seul homme exerce de ses mains sur la pâte, au pétrissage et au façonnage, ne la préserve pas de la fermentation lorsqu’elle dépasse la mesure mentionnée ici : les mains ne suffisent pas à s’en occuper de tous les côtés, vu sa grandeur :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) מ&quot;ג ביצים - כמו שהן עם הקליפות:</p></div><div class="fr"><p>Quarante-trois œufs - Tels qu’ils sont, avec les coquilles :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) ישער אותה וכו&#x27; - ולא ע&quot;י משקל וכתבו האחרונים שהוא שיעור ג&#x27; קוואר&quot;ט לערך:</p></div><div class="fr"><p>On la mesurera etc. - Et non au poids. Les derniers décisionnaires ont écrit que c’est environ la mesure de trois quartes :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) ולא ידחק וכו&#x27; - היינו אף אם כמות הקמח אינו מחזיק אלא עשרון או פחות מזה ומשום דא&quot;כ לא ילוש יפה בכמה מקומות שלא יכנוס לשם מים ויתחמץ כשיבוא בתבשיל וימדוד בפזור כדרך שמודדים למכור ואפילו להניח ידו על הקמח אין נכון לכתחלה:</p></div><div class="fr"><p>Et l’on ne tasse pas etc. - Même si la quantité de farine ne remplit qu’un issaron ou moins. Car autrement on ne pétrira pas bien en plusieurs endroits, où l’eau n’entrera pas, et cela fermentera lorsqu’on le mettra dans un plat. On mesure en versant de façon lâche, comme on mesure pour vendre. Même poser la main sur la farine n’est pas correct lekhathila (a priori) :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) בשעת נתינת וכו&#x27; - עיין לקמן בסימן ת&quot;ס במ&quot;ב ס&quot;ק ב&#x27;:</p></div><div class="fr"><p>Au moment de verser etc. - Voir plus loin au siman 460, dans le Michna Beroura seif katan 2 :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) אם לש וכו&#x27; - והטעם דאף שאנו אומרים דאין עסק מועיל בעיסה גדולה כזו לא תבא לידי חימוץ מ&quot;מ לא גרע מאם הניח עיסה בלי עסק כלל דקיי&quot;ל דאין לאסור כ&quot;ז שלא שהה שיעור מיל:</p></div><div class="fr"><p>S’il a pétri etc. - La raison : même si nous disons que le travail n’est pas efficace pour une pâte aussi grande, elle n’en viendra pas pour autant à fermenter ; cela n’est pas pire que d’avoir laissé une pâte sans aucun travail, dont la règle établie est qu’on n’interdit pas tant qu’elle n’a pas séjourné le temps d’un mil :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) מותר בדיעבד - אפילו עבר ולש יותר במזיד. ובשהה שיעור מיל בלישתו קודם שיתחילו העוזרים לסייע בשעת עריכה צידדו כמה אחרונים דלסברא הנ&quot;ל יש לאסור גם בדיעבד דכיון דשיערו חכמים דמרוב גודלה א&quot;א לאדם אחד לעסוק בכל העיסה כראוי הו&quot;ל כמונחת בלי עסק כלל. ויש פוסקים שהקילו בעיקר דין זה בימינו ולדעתם לא חששו חכמים בזה רק בימיהם שאדם אחד היה לש ועורך והיו עורכין בידים בלי עמילין של עץ והיה הדבר משתהה הרבה וגם תנוריהם היו קטנים שלא היו יכולים לרדות לתוך התנור הרבה מצות בב&quot;א והיה משתייר הרבה מצות על הדף בלי עסק ולהכי מנעו חכמים מללוש שיעור גדול בפ&quot;א אבל בימינו שאופין מצות בעוזרים רבים וגם תנורינו גדולים מאד ולשין ועורכין ואופין בזריזות גדול אין להחמיר אפילו בלשים במדה גדולה בפעם אחת שבודאי לא יבא לידי חימוץ והעולם נהגו לכתחלה כדעה זו ואין למחות בידם מאחר שיש להם על מי לסמוך מ&quot;מ כל ירא שמים יראה להחמיר כדעה ראשונה אף בימינו ובפרט בישובים קטנים שאין להם מתעסקים הרבה בודאי יש ליזהר שלא ללוש יותר מכשיעור המבואר בכאן. כתבו הפוסקים כי קפדינן שלא ללוש יותר משיעור זה כשהוא לש עיסות הרבה שאפשר לצרפן לחלה אח&quot;כ וכדלקמן בסימן תנ&quot;ז אבל אם בא ללוש רק עיסה אחת אין לצמצם כ&quot;כ שמא לא יהיה בו כשיעור וכשיברך יהיה לבטלה:</p></div><div class="fr"><p>C’est permis bediavad (après coup) - Même s’il a transgressé et pétri davantage mezid (volontairement). Si, pendant son pétrissage, il a laissé passer le temps d’un mil avant que les aides commencent à aider au façonnage, plusieurs derniers décisionnaires ont penché, d’après le raisonnement ci-dessus, pour interdire aussi bediavad : puisque les Sages ont évalué que, du fait de sa trop grande taille, un seul homme ne peut s’occuper de toute la pâte comme il faut, c’est comme si elle était posée sans aucun travail. Il est des décisionnaires qui ont été indulgents sur le fond de cette règle de nos jours ; selon eux, les Sages n’ont craint cela qu’à leur époque, où un seul homme pétrissait et façonnait, où l’on façonnait à la main sans rouleaux de bois, où l’affaire se prolongeait beaucoup, et où leurs fours étaient petits, de sorte qu’on ne pouvait enfourner beaucoup de matsot d’un coup et que beaucoup de matsot restaient sur la planche sans travail ; c’est pourquoi les Sages ont empêché de pétrir une grande mesure en une fois. Mais de nos jours, où l’on cuit les matsot avec de nombreux aides, où nos fours sont très grands, et où l’on pétrit, façonne et cuit avec une grande rapidité, il n’y a pas lieu d’être rigoureux même si l’on pétrit une grande mesure en une fois, car cela ne viendra certainement pas à fermenter. Le monde a coutume lekhathila de suivre cet avis, et l’on n’a pas à les en empêcher, puisqu’ils ont sur qui s’appuyer. Néanmoins tout craignant D.ieu veillera à être rigoureux selon le premier avis, même de nos jours ; et surtout dans les petites localités où l’on n’a pas beaucoup de travailleurs, il faut certainement prendre garde de ne pas pétrir plus que la mesure exposée ici. Les décisionnaires ont écrit que l’on est pointilleux à ne pas pétrir plus que cette mesure lorsqu’on pétrit beaucoup de pâtes que l’on pourra ensuite joindre pour la halla, comme plus loin au siman 457 ; mais si l’on ne vient pétrir qu’une seule pâte, on ne doit pas trop resserrer, de peur qu’il n’y ait pas la mesure et que, lorsqu’on bénira, la bénédiction soit vaine :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) אע&quot;פ שאין מודדים - כדמבואר לקמן סימן תק&quot;ו ס&quot;א:</p></div><div class="fr"><p>Bien que l’on ne mesure pas - Comme exposé plus loin, siman 506 seif 1 :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) גדולה מעשרון - ובפחות מעשרון אין כדאי למדוד כדי שיוכל להפריש חלה בברכה:</p></div><div class="fr"><p>Plus grande qu’un issaron - Et en deçà d’un issaron, il ne vaut pas la peine de mesurer afin de pouvoir prélever la halla avec bénédiction :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(י) ולא ירבה וכו&#x27; - ולענין ברכה יקרב עיסה זו לעיסה אחרת וכדלקמן ר&quot;ס תנ&quot;ז דשמא אין בה עשרון:</p></div><div class="fr"><p>Et qu’il n’augmente pas etc. - Et pour la bénédiction, on rapprochera cette pâte d’une autre pâte, comme plus loin au début du siman 457, car peut-être n’y a-t-il pas un issaron :</p></div></div>
+<nav class="dafnav"><a href="455.html">&lsaquo; Siman 455</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/456.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="457.html">Siman 457 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

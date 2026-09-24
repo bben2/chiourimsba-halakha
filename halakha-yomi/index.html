@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halakha Yomi — la portion du jour</title>
+<style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.45rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.35rem}
+header.top .sub{color:var(--muted);font-size:.92rem}
+.pill{display:inline-block;background:#eef2ff;color:#1e3a5f;border-radius:999px;padding:4px 12px;font-size:.85rem;margin:6px 4px}
+.nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:12px 0 18px}
+.nav a{color:var(--navy);text-decoration:none;font-size:.95rem}
+.nav a:hover{text-decoration:underline}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:14px 0}
+.card h2{margin:0 0 6px;font-size:1.15rem;color:var(--navy)}
+.card .meta{color:var(--muted);font-size:.9rem;margin-bottom:10px}
+.seg{border-top:1px solid var(--line);padding:14px 0}
+.seg:first-of-type{border-top:0}
+.seg .num{font-weight:700;color:var(--gold);font-size:.85rem;margin-bottom:6px}
+.seg .he{direction:rtl;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.15rem;margin:0 0 8px}
+.seg .fr{margin:0;font-size:1.02rem}
+.err{color:#b91c1c;background:#fef2f2;border:1px solid #fecaca;padding:12px;border-radius:10px}
+.hint{color:var(--muted);font-size:.88rem;text-align:center;margin-top:22px}
+button.linkish{background:none;border:0;color:var(--navy);cursor:pointer;text-decoration:underline;font:inherit;padding:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="he">הלכה יומית</div>
+  <h1>Halakha Yomi</h1>
+  <div class="sub">3 seifim par jour · Choulhan Aroukh Orah Haim · cycle mondial</div>
+</header>
+<nav class="nav">
+  <a href="../">← Accueil</a>
+  <a href="../orach-chayim/">Orah Haim</a>
+  <a id="link-siman" href="#">Siman du jour</a>
+</nav>
+<div id="status" class="card"><p>Chargement de la portion du jour…</p></div>
+<div id="content"></div>
+<p class="hint">Fuseau : Europe/Paris. Aligné sur le calendrier Halakhah Yomit (Sefaria / programme Sztencl).</p>
+</div>
+<script>
+(async function () {
+  const status = document.getElementById('status');
+  const content = document.getElementById('content');
+  const linkSiman = document.getElementById('link-siman');
+
+  function parisYMD(d = new Date()) {
+    const fmt = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit'
+    });
+    // en-CA → YYYY-MM-DD
+    return fmt.format(d);
+  }
+  function parseYMD(s) {
+    const [y, m, d] = s.split('-').map(Number);
+    return Date.UTC(y, m - 1, d);
+  }
+  function addDaysYMD(ymd, delta) {
+    const t = parseYMD(ymd) + delta * 86400000;
+    const dt = new Date(t);
+    const y = dt.getUTCFullYear();
+    const m = String(dt.getUTCMonth() + 1).padStart(2, '0');
+    const d = String(dt.getUTCDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  }
+  function hebrewDateLabel(ymd) {
+    try {
+      const [y, m, d] = ymd.split('-').map(Number);
+      const dt = new Date(Date.UTC(y, m - 1, d, 12));
+      return new Intl.DateTimeFormat('fr-FR', {
+        timeZone: 'UTC', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+      }).format(dt);
+    } catch (e) { return ymd; }
+  }
+
+  const params = new URLSearchParams(location.search);
+  let ymd = params.get('date') || parisYMD();
+
+  const sched = await fetch('schedule.json').then(r => r.json());
+  const anchor = sched.anchor;
+  const perDay = sched.per_day || 3;
+  const nSeif = sched.n_seifim;
+  const counts = sched.counts;
+
+  // rebuild flat indices from counts
+  const flat = [];
+  for (let s = 1; s <= counts.length; s++) {
+    for (let e = 1; e <= counts[s - 1]; e++) flat.push([s, e]);
+  }
+
+  const delta = Math.round((parseYMD(ymd) - parseYMD(anchor)) / 86400000);
+  let idx = sched.anchor_idx + delta * perDay;
+  // stay within Orah Haim corpus (site content); wrap for continuity
+  idx = ((idx % nSeif) + nSeif) % nSeif;
+  const portion = [];
+  for (let k = 0; k < perDay; k++) portion.push(flat[(idx + k) % nSeif]);
+
+  // group by siman
+  const bySiman = new Map();
+  for (const [s, e] of portion) {
+    if (!bySiman.has(s)) bySiman.set(s, []);
+    bySiman.get(s).push(e);
+  }
+  const simanim = [...bySiman.keys()];
+  const rangeLabel = (() => {
+    const a = portion[0], b = portion[portion.length - 1];
+    if (a[0] === b[0]) return `Orah Haim ${a[0]}:${a[1]}–${b[1]}`;
+    return `Orah Haim ${a[0]}:${a[1]} – ${b[0]}:${b[1]}`;
+  })();
+
+  status.innerHTML = `
+    <h2>Portion du ${hebrewDateLabel(ymd)}</h2>
+    <div class="meta">${rangeLabel}</div>
+    <span class="pill">${ymd}</span>
+    <span class="pill">3 seifim</span>
+    <div style="margin-top:10px">
+      <button class="linkish" id="prev">← veille</button>
+      · <button class="linkish" id="today">aujourd’hui</button>
+      · <button class="linkish" id="next">lendemain →</button>
+    </div>`;
+
+  document.getElementById('prev').onclick = () => { location.search = '?date=' + addDaysYMD(ymd, -1); };
+  document.getElementById('next').onclick = () => { location.search = '?date=' + addDaysYMD(ymd, 1); };
+  document.getElementById('today').onclick = () => { location.search = ''; };
+  linkSiman.href = '../orach-chayim/' + String(simanim[0]).padStart(3, '0') + '.html';
+  linkSiman.textContent = 'Siman ' + simanim[0];
+
+  const blocks = [];
+  for (const s of simanim) {
+    const data = await fetch('data/' + String(s).padStart(3, '0') + '.json').then(r => r.json());
+    const seifim = bySiman.get(s);
+    let segs = '';
+    for (const e of seifim) {
+      const he = (data.he && data.he[e - 1]) || '';
+      const fr = (data.fr && data.fr[e - 1]) || '';
+      segs += `<div class="seg">
+        <div class="num">Seif ${e}</div>
+        <p class="he">${he}</p>
+        <p class="fr">${fr}</p>
+      </div>`;
+    }
+    blocks.push(`<article class="card">
+      <h2>Siman ${s}${data.heading_fr ? ' — ' + data.heading_fr : ''}</h2>
+      <div class="meta"><a href="../orach-chayim/${String(s).padStart(3,'0')}.html">Ouvrir le siman complet →</a></div>
+      ${segs}
+    </article>`);
+  }
+  content.innerHTML = blocks.join('');
+})().catch(err => {
+  document.getElementById('status').innerHTML = '<div class="err">Impossible de charger la portion : ' + err + '</div>';
+});
+</script>
+</body>
+</html>

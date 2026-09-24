@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michna Beroura — Siman 289</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">משנה ברורה</div>
+<h1>Michna Beroura — siman 289</h1>
+<div class="sub">Rabbi Yisrael Meir Kagan (Hafets Haim) · Ordre du repas du matin de Chabbat</div></header>
+<nav class="dafnav"><a href="288.html">&lsaquo; Siman 288</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/289.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="290.html">Siman 290 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>On dresse la table, on dit le Kidoucha Rabba sur le vin, on se lave les mains et l’on rompt sur deux pains ; à défaut de vin on use du &#x27;hmar medina, sinon l’on mange sans kidouch.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Kidoucha Rabba</dt><dd>grand kidouch (kidouch du matin)</dd></div><div class="gl"><dt>&#x27;hmar medina</dt><dd>boisson du pays</dd></div><div class="gl"><dt>le&#x27;hem michné</dt><dd>deux pains</dd></div><div class="gl"><dt>Hamotsi</dt><dd>bénédiction du pain</dd></div><div class="gl"><dt>sagué nahor</dt><dd>euphémisme (lit. « beaucoup de lumière » pour un aveugle)</dd></div><div class="gl"><dt>zemirot</dt><dd>chants de Chabbat</dd></div><div class="gl"><dt>Mé&#x27;haber</dt><dd>l’auteur du Choulhan Aroukh</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>(א) ומטה מוצעת - היינו מע&quot;ש או כדי שיישן בה בשבת או שהוא בחדר שדר שם ואיכא בזיון אם לא יציע המטות אבל בלא&quot;ה אסור [אחרונים] ומה שכתב ומפה פרוסה עיין לעיל ברע&quot;א מ&quot;ב סקמ&quot;א:</p></div><div class="fr"><p>Et un lit fait - c’est-à-dire depuis la veille du Chabbat, ou afin qu’il y dorme le Chabbat, ou que ce soit dans la chambre où il demeure et qu’il y ait un déshonneur à ne pas faire les lits ; mais autrement, c’est interdit [Aharonim]. Et ce qu’il a écrit « et une nappe étendue », voir plus haut au siman 271, Michna Beroura seif katan 41.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ב) ויברך וכו&#x27; - יש נוהגין לפתוח מתחלה פסוק ושמרו בני ישראל וגו&#x27; או זכור את יום השבת עד ויקדשהו ויש מההמון שפותחין מעל כן ברך וגו&#x27; ושלא כדין הוא דכל פסוקא דלא פסקיה משה אנן לא פסקינן:</p></div><div class="fr"><p>Et il bénira etc. - certains ont l’usage d’ouvrir d’abord par le verset « Les enfants d’Israël observeront etc. » ou « Souviens-toi du jour du Chabbat » jusqu’à « et Il l’a sanctifié ». Et il y a des gens du commun qui ouvrent par « C’est pourquoi Il a béni etc. », et ce n’est pas selon la loi, car tout verset que Moïse n’a pas coupé, nous ne le coupons pas.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ג) קידושא רבא - ונקרא בלשון זה שהוא כמו שקורין סגי נהור מפני שזה הקידוש אינו כלל דאורייתא רק שתקנוהו לכבוד שבת ואסמכוהו אקרא כדאיתא בגמרא:</p></div><div class="fr"><p>Kidoucha Rabba - et on l’appelle de ce langage, comme on dit « sagué nahor », parce que ce kidouch n’est pas du tout de la Torah, on l’a seulement institué en l’honneur du Chabbat et on l’a appuyé sur un verset, comme il est dit dans la Guémara.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ד) וע&quot;ל סימן רע&quot;א סי&quot;ב וכו&#x27; - היינו דשם מבואר בהג&quot;ה דנוטלים לידים קודם קידוש ועיין שם במ&quot;ב דכמה אחרונים כתבו שם דטוב יותר לנהוג כדעת המחבר:</p></div><div class="fr"><p>Et voir plus haut siman 271 seif 12 etc. - c’est-à-dire que là-bas il est exposé dans la glose qu’on se lave les mains avant le kidouch ; et voir là-bas dans la Michna Beroura que plusieurs Aharonim ont écrit qu’il est mieux de se conduire selon l’avis du Mé&#x27;haber.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ה) ויסעוד - כתב ברוקח סימן נ&quot;ד אחר שאכלו כל צרכן יש מזמרים זמירות ושבח להקב&quot;ה. וטוב ללמוד תורה במקצת קודם אכילה [א&quot;ר]:</p></div><div class="fr"><p>Et il prendra son repas - le Rokea&#x27;h siman 54 a écrit : après qu’ils ont mangé à satiété, certains chantent des zemirot et une louange à ה&#x27;. Et il est bon d’étudier un peu de Torah avant de manger [Élia Rabba].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ו) ושלא יטעום קודם לו וכו&#x27; - וגם הנשים שייכים בענין זה דכל מילי דשבת איש ואשה שוין [אחרונים]:</p></div><div class="fr"><p>Et de ne rien goûter avant lui etc. - et les femmes aussi sont concernées en cela, car pour toutes les choses du Chabbat l’homme et la femme sont égaux [Aharonim].</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ז) לא חל עליו וכו&#x27; - דקידוש אין שייך אלא בזמן הסעודה ומשום קודם התפלה לא שייך במים וכדלעיל בסימן פ&quot;ט:</p></div><div class="fr"><p>L’obligation n’a pas encore pesé sur lui etc. - car le kidouch n’a lieu que dans le temps du repas, et à cause de « avant la tefila » cela ne s’applique pas à l’eau, comme plus haut au siman 89.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ח) במקום שאין יין מצוי - משמע דבמקום שהוא מצוי אין לקדש על השכר ושאר משקין ועיין לעיל בסי&#x27; רע&quot;ב סקכ&quot;ט במ&quot;ב מה שכתבנו שם דנוהגין להקל בזה בשחרית במדינותינו ומ&quot;מ מצוה מן המובחר על היין הוא ולענין יי&quot;ש ע&quot;ש בד&quot;ה על שכר:</p></div><div class="fr"><p>Là où le vin ne se trouve pas - il en ressort que là où il se trouve, on ne kidouchera pas sur la bière et les autres boissons. Et voir plus haut au siman 272 seif katan 29 dans la Michna Beroura ce que nous y avons écrit : on a l’usage d’être indulgent en cela le matin dans nos pays ; néanmoins la mitsva par excellence est sur le vin. Et quant à l’eau-de-vie, voir là-bas au paragraphe « sur la bière ».</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(ט) חמר מדינה - ומשקה שאינו חמר מדינה הסכימו הרבה אחרונים דאין מקדשין אפילו בשחרית דדומיא דקידוש הלילה תקנוה ופרטי הדין של חמר מדינה מבואר לקמן בסימן רצ&quot;ו במ&quot;ב לענין הבדלה וה&quot;ה כאן:</p></div><div class="fr"><p>&#x27;Hmar medina - et pour une boisson qui n’est pas &#x27;hmar medina, beaucoup d’Aharonim sont d’accord qu’on ne kidouche pas même le matin, car on l’a institué à l’image du kidouch de la nuit. Et le détail de la loi du &#x27;hmar medina est exposé plus bas au siman 296 dans la Michna Beroura au sujet de la havdala, et de même ici.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>(י) אוכל בלא קידוש - פי&#x27; כשיש לו פת [ואפילו חתיכת פת ולא פת שלם] אומר המוציא על הפת ואסור לאכול דבר אחר קודם לכן לדעת קצת פוסקים ואם אין לו גם פת אוכל בלא קידוש ואין לו לבטל מצות עונג שבת בשביל זה ובלילה אם אין לו חתיכת פת ויין ושאר משקין לקדש עליו ויש לו תבשיל ופירות וכיוצא בו י&quot;א דאם מצפה שיביאו לו איזה דבר לקדש עליו ימתין איזה שעות ועכ&quot;פ א&quot;צ להמתין יותר מחצות ואם הוא אדם חלש א&quot;צ להמתין ויאכל מה שיש לו בלא קידוש ויסמוך על מה שהזכיר קדושת היום בתפלה ולכשיביאו לו אח&quot;כ בלילה פת או יין אומר עליו כל נוסח הקידוש ויסעוד כזית עכ&quot;פ:</p></div><div class="fr"><p>Il mange sans kidouch - c’est-à-dire que s’il a du pain [et même un morceau de pain, et non un pain entier], il dit Hamotsi sur le pain, et il est interdit de manger autre chose auparavant selon l’avis de certains décisionnaires. Et s’il n’a pas non plus de pain, il mange sans kidouch, et il n’a pas à annuler la mitsva du délice du Chabbat pour cela. Et la nuit, s’il n’a pas un morceau de pain, ni vin, ni d’autres boissons sur lesquelles kidoucher, et qu’il a un mets cuit et des fruits et analogues : certains disent que s’il s’attend à ce qu’on lui apporte quelque chose sur quoi kidoucher, il attendra quelques heures, et en tout cas il n’a pas à attendre plus que midi ; et s’il est un homme faible, il n’a pas à attendre, il mangera ce qu’il a sans kidouch et s’appuiera sur ce qu’il a mentionné la sainteté du jour dans la tefila ; et lorsqu’on lui apportera ensuite, la nuit, du pain ou du vin, il en dira tout le texte du kidouch et prendra son repas d’au moins un kézayit.</p></div></div>
+<nav class="dafnav"><a href="288.html">&lsaquo; Siman 288</a><a class="home" href="index.html">📖 Sommaire</a><a href="../orach-chayim/289.html">← Choulhan Aroukh</a><a href="../index.html">🏠 Accueil</a><a href="290.html">Siman 290 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Choulhan Aroukh Yoré Déa — Siman 180</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">שולחן ערוך, יורה דעה</div>
+<h1>Choulhan Aroukh — Yoré Déa, siman 180</h1>
+<div class="sub">Rabbi Yossef Karo · Rema : Rabbi Moche Isserles · Interdit du tatouage et de la tonsure sur un mort</div></header>
+<nav class="dafnav"><a href="179.html">&lsaquo; Siman 179</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="181.html">Siman 181 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Le tatouage est une entaille remplie d’encre ou de couleur. Le destinataire est quitte s’il n’a pas aidé. Cendre de four sur une plaie : permis. Marquer un esclave : quitte, mais interdit a priori. Entaille sur un mort : interdite même hors de sa présence ; cinq entailles font cinq fautes. Karcha : arracher les cheveux sur un mort ; le taux est un gris à découvert. Femmes aussi concernées.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>ketovet kaaka</dt><dd>tatouage (entaille remplie de couleur)</dd></div><div class="gl"><dt>karcha</dt><dd>tonsure, arrachement des cheveux pour un mort</dd></div><div class="gl"><dt>lekhathila</dt><dd>a priori</dd></div><div class="gl"><dt>mezid</dt><dd>volontairement</dd></div><div class="gl"><dt>shogeg</dt><dd>par erreur</dd></div><div class="gl"><dt>gris</dt><dd>surface d’une fève large</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>איסור כתובת קעקע וקריחה על מת. ובו י&quot;ב סעיפים:כתובת קעקע היינו ששורט על בשרו וממלא מקום השריטה בחול או דיו או שאר צבעונים הרושמים:</p></div><div class="fr"><p>Ketovet kaaka (tatouage), c’est entailler sa chair et remplir l’entaille de poussière, d’encre ou d’autres couleurs qui marquent.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>אם עושה כן על בשר חבירו אותו שנעשה לו פטור אא&quot;כ סייע בדבר:</p></div><div class="fr"><p>S’il le fait sur la chair de son prochain, celui à qui c’est fait est quitte, à moins qu’il n’ait aidé à la chose.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>מותר ליתן אפר מקלה על מכתו:</p></div><div class="fr"><p>Il est permis de mettre de la cendre de four sur sa plaie.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>הרושם על עבדו שלא יברח פטור (ונראה דלכתחילה מיהא אסור) (ד&quot;ע):</p></div><div class="fr"><p>Qui marque son esclave pour qu’il ne s’enfuie pas est quitte.
+Rema : Il semble toutefois que lekhathila (a priori) ce soit interdit.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>השורט בבשרו אינו חייב אא&quot;כ עושה כן על מתו או לעבודת כוכבים אלא שעל מתו חייבים בין ביד בין בכלי ולעבודת כוכבים אינו חייב אלא בכלי:</p></div><div class="fr"><p>Qui entaille sa chair n’est passible que s’il le fait pour un mort ou pour l’idolâtrie. Pour un mort, on est passible que ce soit à la main ou par un outil ; pour l’idolâtrie, on n’est passible que par un outil.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>גדידה ושריטה על מת אסור אפילו שלא בפני המת (ועל צער אחר שרי) (ב&quot;י מפי&#x27; הטור):</p></div><div class="fr"><p>Inciser et entailler pour un mort est interdit, même hors de la présence du mort. (Pour une autre douleur, c’est permis.)</p></div></div><div class="seg"><div class="he" dir="rtl"><p>יש מי שאומר דדוקא שריטה אבל אם מכה בידו על בשרו עד שדמו שותת מותר ויש מי שאוסר:</p></div><div class="fr"><p>Il y a qui disent : seulement l’entaille ; mais frapper de la main sur sa chair jusqu’à ce que le sang coule, c’est permis. Et il y a qui l’interdisent.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>המשרט ה&#x27; שריטות על מת אחד או על ה&#x27; מתים שריטה אחת חייב ה&#x27;:</p></div><div class="fr"><p>Qui fait cinq entailles sur un seul mort, ou une entaille sur cinq morts, est passible de cinq châtiments.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>קרחה הוא שתולש משער ראשו על המת בכל מקום בראש בין ביד בין בסם ושיעורו כדי שיראה מראשו כגריס פנוי בלא שיער וי&quot;א שתי שערות ויש מי שאומר דאיסורא איכא אפי&#x27; בשער א&#x27;:</p></div><div class="fr"><p>Karcha (tonsure), c’est arracher les cheveux de sa tête pour le mort, en tout endroit de la tête, que ce soit à la main ou par un onguent. Le taux : qu’on voie de sa tête l’espace d’un gris dégarni, sans cheveu. Certains disent : deux cheveux. Et il y a qui disent qu’il y a interdit même pour un seul cheveu.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>קרח קרחה אחת על ה&#x27; מתים אינו חייב אלא אחת אבל אם קרח ה&#x27; קרחות על מת א&#x27; חייב על כל או&quot;א:</p></div><div class="fr"><p>Qui fait une seule tonsure pour cinq morts n’est passible que d’une ; mais qui fait cinq tonsures pour un seul mort est passible pour chacune.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>הקורח בראשו של חבירו והמשרט בבשר חבירו וחבירו מסייע אם שניהם מזידים שניהם לוקים אחד שוגג ואחד מזיד המזיד לוקה:</p></div><div class="fr"><p>Qui tonsure la tête de son prochain, ou entaille la chair de son prochain, et que celui-ci aide : si tous deux sont mezid (volontairement), tous deux sont flagellés ; l’un shogeg (par erreur) et l’autre mezid, le mezid est flagellé.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>גם הנשים מוזהרות בבל יקרחו: הגה וכל שכן בבל ישרטו (טור) ויש להזהירם שלא תתלשנה בשעריהן על מת שלא תבאנה לידי קרחה (טור בשם הירושלמי) וכן בשריטה:</p></div><div class="fr"><p>Les femmes aussi sont averties de « vous ne vous ferez pas de tonsure ».
+Rema : À plus forte raison de « vous ne vous ferez pas d’entaille ». Il faut les avertir de ne pas s’arracher les cheveux sur un mort, afin qu’elles n’en viennent pas à la karcha. De même pour l’entaille.</p></div></div>
+<nav class="dafnav"><a href="179.html">&lsaquo; Siman 179</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="181.html">Siman 181 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>

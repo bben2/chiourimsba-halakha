@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour Orah Haim — Siman 502</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.pratique{margin:0 14px 14px;padding:12px 14px;border-top:1px dashed #decf9d;color:#44403c;font-size:.9rem;line-height:1.6}
+.pratique .warn{margin:0 0 10px;padding:8px 10px;background:#fff7ed;border:1px solid #fdba74;border-radius:8px;font-size:.84rem;color:#9a3412}
+.pratique ul,.pratique ol{margin:6px 0 8px;padding-left:1.2em}.pratique li{margin:3px 0}
+.pratique .prat-h{margin:12px 0 4px;font-weight:700;color:var(--navy);font-size:.88rem}
+.pratique .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.pratique .pbox{border-radius:8px;padding:10px 11px;border:1.5px solid #d6d3d1;background:#fff;font-size:.84rem;line-height:1.45}
+.pratique .pbox b{display:block;font-size:.78rem;margin-bottom:4px;letter-spacing:.02em}
+.pratique .pbox.faire{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.eviter,.pratique .pbox.non{background:#fef2f2;border-color:#b91c1c;color:#7f1d1d}
+.pratique .pbox.oui{background:#dcfce7;border-color:#15803d;color:#14532d}
+.pratique .pbox.rema{background:#f5f3ff;border-color:#7c3aed;color:#4c1d95}
+.pratique .pbox.sujet{background:#fffbeb;border-color:#d97706;color:#92400e;grid-column:1/-1}
+.pratique .psynth{margin-top:10px;padding:11px 13px;border-radius:10px;background:#fef9c3;border:1px solid #ca8a04;color:#713f12;font-size:.88rem;line-height:1.55}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+.glossary{margin:12px 0 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 14px 12px}
+.glossary h2{margin:0 0 8px;font-size:.9rem;color:var(--navy)}
+.glossary dl{margin:0}
+.glossary .gl{margin:0 0 .4em;font-size:.93rem;line-height:1.5}
+.glossary .gl:last-child{margin-bottom:0}
+.glossary dt{font-weight:700;display:inline;color:var(--navy)}
+.glossary dd{display:inline;margin:0 0 0 .4em;color:#44403c}
+</style></head>
+<body><div class="wrap">
+<header class="top"><div class="he">טור אורח חיים</div>
+<h1>Tour Orah Haim — siman 502</h1>
+<div class="sub">Rabbi Yaakov ben Asher (Baal HaTour) · Lois concernant l&#x27;allumage et l&#x27;installation du foyer</div></header>
+<nav class="dafnav"><a href="501.html">&lsaquo; Siman 501</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="503.html">Siman 503 &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary>
+<p>Interdiction de créer un feu nouveau, règles pour ériger une structure (médoura, marmite, lit) sans construire, et utilisation des ustensiles.</p></details>
+<section class="glossary"><h2>Glossaire</h2><dl><div class="gl"><dt>Roch</dt><dd>Rabbeinou Acher ben Yehiel, père de l&#x27;auteur du Tour</dd></div><div class="gl"><dt>Rachi</dt><dd>Rabbi Chlomo Yits&#x27;haki, commentateur classique</dd></div><div class="gl"><dt>Ri</dt><dd>Rabbi Yits&#x27;hak de Dampierre, un des maîtres des Tossafot</dd></div><div class="gl"><dt>Rabbeinou Chlomo ben Adret</dt><dd>Le Rachba, éminent décisionnaire médiéval</dd></div></dl></section>
+<div class="seg"><div class="he" dir="rtl"><p>אין מוציאין האש לא מן העצים ולא מן האבנים ולא מן העפר ולא מן המים כגון שנותנין מים בזכוכית זכה כנגד השמש והנעורת נדלק בה ואין עושין פחמין ואין נופחין במפוח מפני שדומה למלאכת אומן אלא בשפופרת כתב א&quot;א הרא&quot;ש ז&quot;ל במפוח קטן של בעל הבית שרי דלא דמי למלאכת אומן ולא לנפחים ולא לצורפי זהב ומיהו אין להקל מדלא אשכחן היתירא אלא בשפופרת מכלל דכל מפוח אסור. כשעושה האש ונותן עליה הקדירה צריך ליזהר בסידור העצים ובנתינת הקדירה עליהן שלא יהא דומה לבנין דאמר רב יהודה מדורתא מלמעלה למטה שרי ממטה למעלה אסור וכן פוריא וכן חביתא פי&#x27; כשעושין מדורה גדולה עושין ד&#x27; שורות של עצים כעין ד&#x27; דופני התיבה ונותנין עליה עצים ובהא קאמר שלא יעשה הדפנות תחלה אלא אחד יאחז העליונה בידו ואחד יעשה הדפנות תחתיהם שלא יהא דרך בניין מדורה העשויה מעצים דקים מותר להסיר מהם כל זמן שלא אחז בהן האור וכן הקדירה כששופתין אותה לא יניח אבנים תחלה ויתן אותה עליהם אלא יאחזנה באויר ויתן האבנים תחתיה וכן ביצים כשצולין אותם ומניחין אחד ע&quot;ג ב&#x27; והאש ביניהם יאחזנה העליונה בידו ויתן האחרות תחתיה וכן פוריא כשרוצה להעמיד המטה אוחז הקרשים למעלה ומכניס הרגלים תחתיהן אבל לא יתן הרגלים תחלה והקרשים עליהן ודווקא כשהדפנות מחוברות כגון דופני התיבה הא לאו הכי שרי דאין עשיית אהל עראי כזה אסור בלא עשיית מחיצות וע&quot;כ א&quot;צ ליזהר כשמשימין השולחן שישימו השולחן ואח&quot;כ הרגלים דכיון שאין לו מחיצות אין לחוש וכן חביתא כשרוצין להטותה על אבנים מטין אותה תחלה ואח&quot;כ נותנים אבנים תחתיה או כשמסדרין חביות זו על זו אחד ע&quot;ג ב&#x27; יאחזנה העליונה בידו ומסדר התחתונות תחלה אבל אבנים של בה&quot;כ מותר לצדדן רש&quot;י פירש דכל זה דלא כהלכתא דקי&quot;ל כר&quot;ש דדבר שאין מתכוין מותר אבל ר&quot;י פירש דחשיב שפיר מתכוין שהרי מכוין למה שעושה כתב הרב רבינו שלמה בן אדרת בשם התוספות שלא אסרו אלא כי האי גוונא שצריך לאויר שלמטה אבל אם אינו צריך לאויר מותר ע&quot;כ מותר להניח ספר מכאן ואחד מכאן ואחד על גביהן כיון שאינו צריך לאויר שלמטה אין סומכין הקדירה בבקעת עץ לחה דכיון שהיא לחה ואינה ראויה להסקה אסור לטלטלה לצורך שום דבר אבל יבישה שראויה להסקה מותרת לכל דבר אין מבשלין בקדירות של חרס חדשות אא&quot;כ הרתיחן תחלה מעי&quot;ט מפני שהבישול הראשון מחזקן והוא גמר תיקונם:</p></div><div class="fr"><p>On ne produit pas de feu à partir du bois, ni des pierres, ni de la terre, ni de l&#x27;eau, comme placer de l&#x27;eau dans un verre transparent face au soleil pour que l&#x27;étoupe s&#x27;y enflamme. On ne fabrique pas de charbon et on ne souffle pas avec un soufflet, car cela ressemble au travail d&#x27;un artisan, mais seulement avec un tube. Mon père, le Roch (que sa mémoire soit bénie), a écrit : avec un petit soufflet de maison, c&#x27;est permis, car cela ne ressemble ni au travail d&#x27;un artisan, ni aux forgerons, ni aux orfèvres. Cependant, il ne faut pas se montrer indulgent, car nous n&#x27;avons trouvé d&#x27;autorisation qu&#x27;avec un tube, ce qui implique que tout soufflet est interdit. Lorsque l&#x27;on prépare le feu et qu&#x27;on y place la marmite, il faut faire attention, en disposant le bois et en posant la marmite dessus, à ce que cela ne ressemble pas à une construction. En effet, Rav Yehouda a dit : un bûcher fait de haut en bas est permis, de bas en haut est interdit. Il en va de même pour un lit et pour un tonneau. C&#x27;est-à-dire que lorsqu&#x27;on fait un grand bûcher, on dispose quatre rangées de bois comme les quatre parois d&#x27;une caisse et on met du bois dessus ; à ce sujet, il dit qu&#x27;il ne faut pas faire les parois en premier, mais plutôt que l&#x27;un tienne la partie supérieure dans sa main et que l&#x27;autre forme les parois en dessous, afin que ce ne soit pas fait à la manière d&#x27;une construction. Un bûcher constitué de bois fins, il est permis d&#x27;en retirer tant que le feu n&#x27;y a pas pris. De même pour la marmite, lorsqu&#x27;on la pose, il ne faut pas placer les pierres d&#x27;abord puis la mettre dessus, mais on la maintient en l&#x27;air et on place les pierres en dessous. De même pour les œufs, lorsqu&#x27;on les rôtit et qu&#x27;on en place un sur deux avec le feu au milieu, on tient celui du haut dans la main et on met les autres en dessous. Il en va de même pour un lit, lorsqu&#x27;on veut le dresser, on tient les planches en haut et on insère les pieds en dessous, mais on ne met pas les pieds en premier pour y poser les planches. Ceci s&#x27;applique précisément lorsque les parois sont reliées, comme les parois d&#x27;une caisse ; sinon, c&#x27;est permis, car faire une tente provisoire de la sorte n&#x27;est pas interdit si on ne fait pas de cloisons. C&#x27;est pourquoi il n&#x27;est pas nécessaire de faire attention, lorsqu&#x27;on installe la table, à placer le plateau puis les pieds, car puisqu&#x27;elle n&#x27;a pas de cloisons, il n&#x27;y a rien à craindre. De même pour un tonneau, lorsqu&#x27;on veut l&#x27;incliner sur des pierres, on l&#x27;incline d&#x27;abord puis on place les pierres en dessous, ou lorsqu&#x27;on empile des tonneaux l&#x27;un sur l&#x27;autre, on tient le supérieur dans sa main et on arrange les inférieurs d&#x27;abord. Mais pour les pierres des toilettes, il est permis de les aligner. Rachi a expliqué que tout cela n&#x27;est pas la loi retenue, car nous statuons comme Rabbi Chimon qu&#x27;une action non intentionnelle est permise, mais le Ri a expliqué que c&#x27;est bien considéré comme intentionnel, puisqu&#x27;il a l&#x27;intention de faire ce qu&#x27;il fait. Le Rav Rabbeinou Chlomo ben Adret a écrit au nom des Tossafot qu&#x27;ils n&#x27;ont interdit que dans un cas où l&#x27;on a besoin de l&#x27;espace vide en dessous, mais si on n&#x27;a pas besoin de l&#x27;espace vide, c&#x27;est permis. Par conséquent, il est permis de poser un livre ici, un autre là et un troisième par-dessus, puisqu&#x27;on n&#x27;a pas besoin de l&#x27;espace vide en dessous. On ne cale pas la marmite avec un morceau de bois humide, car étant humide et inapte à servir de combustible, il est interdit de le déplacer pour quelque besoin que ce soit ; mais un morceau sec, apte à servir de combustible, est permis pour tout usage. On ne cuisine pas dans des marmites en terre cuite neuves à moins de les avoir fait bouillir d&#x27;abord avant Yom Tov, car la première cuisson les renforce et c&#x27;est l&#x27;achèvement de leur fabrication.</p></div></div>
+<nav class="dafnav"><a href="501.html">&lsaquo; Siman 501</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="503.html">Siman 503 &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+</body></html>
