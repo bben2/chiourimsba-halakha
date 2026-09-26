@@ -1,0 +1,125 @@
+{
+  "siman": 374,
+  "heading_fr": "Porte ou fenêtre bouchée le Chabbat dans un lieu où l’on a fait érouv",
+  "summary": "Si l’érouv valait au début du Chabbat, il demeure (« une fois permis, c’est permis »), même si la porte se bouche. Bouchage volontaire : les Aharonim sont stricts si elle ne s’est rouverte que le Chabbat. Petite cour ouverte sur toute sa largeur dans une grande : la grande est permise, la petite interdite. Même logique pour les toits. Goud assik si les cloisons de la maison sont visibles depuis le toit.",
+  "he": [
+    "(א) ונסתם בשבת - כגון שנפלה מפולת כנגדו [רש\"י]:",
+    "(ב) מותרים להשתמש - מזו לזו בשבת זו וכ\"ש כל אחת לעצמה דמותרת אף אותה שאין העירוב מונחת בתוכה:",
+    "(ג) דרך גובה הכותל וחוריו - ר\"ל אע\"ג דעכשיו שנסתם אין ראויין להתערב יחד דהלא אין בחורין שיעור חלון אפ\"ה לא נתבטל העירוב על שבת זו דכיון שהותר בתחלת השבת הותר לכל השבת:",
+    "(ד) ונפתח בשבת - ר\"ל לא מיבעי אם נפתח קודם השבת בודאי הוי עירוב דהא בעת כניסת השבת היו כבר פתוחין מזו לזו אלא אפילו אם נפתח בשבת גופא מ\"מ כיון שבעת הנחת העירוב שהניח לכמה שבתות או לשנה היה פתח מזו לזו וחל העירוב לכן אף שבשבת אחרת היה סתום מתחלת השבת ולא היה אז העירוב מועיל לכולם מ\"מ לא נתבטל ומיד שנפתח חזר העירוב להתירו הראשון:",
+    "(ה) ואפילו סתמה במזיד - היינו בכונה. ודע דמ\"א וכמה אחרונים צידדו לאסור בזה כשחזר ונפתח בשבת דכיון שסתם הפתח שבין שתי החצרות במזיד הוי כביטל העירוב בידים דהרי גלי דעתיה שאינו חפץ בעירוב וא\"כ כיון שביה\"ש שהוא זמן חלות העירוב היה עדיין סתום לא מהני כשנפתח אח\"כ בשבת גופא ואין להקל כשסתמו במזיד אלא כשנפתח קודם השבת דאז אמרינן אף שנתבטל מעיקרא כיון שחזר ונפתח הרי עכ\"פ הם שותפין בפת של עירוב וביה\"ש שהוא זמן קניית העירוב הרי יש פתח ביניהם שראוי לערב ועיין בבה\"ל שביארנו שכן ראוי לנהוג למעשה. אכן אם בעת שסתמו היה בדעתו רק לפי שעה ואח\"כ לחזור ולפתחו מסתברא דמותר אף כשחזר ונפתח בשבת:",
+    "(ו) ולהרמב\"ם וכו' - קאי אריש הסעיף היכא שנסתם הפתח בשבת דלדעה הראשונה מותר להשתמש מזו לזו דרך חורין ולדידיה אינו מותר אלא כל חצר לעצמה והרבותא הוא דאפילו אותה חצר שאין העירוב מונח בתוכה מותרת ומ\"מ אם חזר ונפתח לכו\"ע מותר לטלטל מזו לזו כמו מתחלה. ולענין הלכה העיקר כסברא הראשונה כ\"כ האחרונים:",
+    "(ז) כל אחד בחצירו - דאף דכל חצר נפרץ עתה לרשות אחרת שאין משותפין יחד והוי נפרץ למקום האסור לו מ\"מ כיון שבין השמשות היה מותר הותר לכל השבת:",
+    "(ח) ואפי' כלי הבית - דאלו כלי החצר מותר לטלטל אף מחצר לחצר גם כשנפרץ דכל החצרות רשות אחת וכדלעיל בריש סי' שע\"ב:",
+    "(ט) אבל וכו' - לכרמלית אסור. בזה לא אמרינן כיון שהותרה הותרה כמו דאמרינן מעיקרא דשם לא נפרץ אלא לחצר שהוא רה\"י כמוהו ואין ביניהם אלא שזה הוא של יחיד זה וזה הוא של אחר אבל זה שנפרץ לרשות אחרת ממש לא אמרינן ביה הואיל והותרה הותרה ועיין בבה\"ל:",
+    "(י) שנפרצה קודם שבת - דאלו בשבת אמרינן כיון שהותרה הותרה:",
+    "(יא) במילואה לגדולה - ר\"ל שהיו סמוכין זה לזה וכותל מפסיק ביניהן ונפרץ כל הכותל הזה:",
+    "(יב) ואין בפרצה יותר מי' אמות - דאלו יותר מעשרה לא שייך לומר דקטנה היא כפתחה של גדולה דפתחא יותר מעשר אמות לא עבדי אינשי:",
+    "(יג) גדולה מותרת וכו' - ואין הקטנה אוסרת עליה דהא הגדולה יש לה גיפופין ומקום פרצה הכותל של הקטנה הרי היא כפתחה:",
+    "(יד) להוציא כלים ששבתו בבית וכו' - דאלו כלים ששבתו בחצר מותר לכתחלה להוציא אף לחצר אחרת אפילו כשלא עירבו יחד:",
+    "(טו) אם עירבה לעצמה - אבל אם לא עירבה אף היא אסורה:",
+    "(טז) וקטנה אסורה וכו' - דהרי כותל שלה נפרצה במילואה לגדולה שהיא מקום האסור לה:",
+    "(יז) והיינו וכו' - ר\"ל אימתי הקטנה אסורה בשכותליה נכנסין ובולטין לתוך הגדולה בשתים וג' אמות כזה:",
+    "(יח) מופלגים ג' טפחים וכו' - דהיינו מקום כניסת מחיצות הקטנה מופלגות מכותלי אורך הגדולה שבצדה והא דבעינן שלשה טפחים דאל\"ה אמרינן לבוד לאורך הגדולה והוי כאלו לא היה מופלג כלל:",
+    "(יט) דאל\"כ היתה קטנה ניתרת וכו' - ר\"ל דאם לא היו נכנסין ובולטין כותלי קטנה לתוך הגדולה היתה גם קטנה מותרת דאע\"ג דשוה מבפנים שהעומד בתוכה רואה כל כותלי אורכה שוין שאין שם מכותל רחבה לפאותיה כלום והוי הפרצה בכל מלואה הרי מבחוץ בתוך הגדולה נראין לה שיורי כותל מכאן ומכאן [והיינו אותו עודף שהגדולה עודפת על הקטנה וניתרת בהם תשתרי גם הקטנה] משא\"כ כשבולטין כותלי קטנה לתוך הגדולה ניכר שאותן שיורי כותל של הגדולה העומדין מאחורי פרצת הקטנה אין שייך לה:",
+    "(כ) גג קטן וכו' - אבל אם שני הגגין שוין אוסרין זה על זה אפילו אם אינם יותר מעשר אמות דהרי נפרצו במילואן זה לזה:",
+    "(כא) שנפרץ וכו' - לאו דוקא והכונה שהיה פתוח לגג הסמוך לו דבגג לא איירי בשהיה מתחלה מחיצה ונקט לשון נפרץ איידי דסעיף ג':",
+    "(כב) קודם שבת - דאי בשבת אמרינן כיון שהותרה הותרה וכנ\"ל:",
+    "(כג) במילואו לגג גדול - היינו שכל גג הקטן היה מכוון נגד גג הגדול הסמוך לו ומיירי נמי שלא עירבו בעליהם יחד וגם שאין גג הקטן מחזיק יותר מעשר אמות וכנ\"ל בס\"ג:",
+    "(כד) קטן אסור להעלות וכו' - דהרי נפרץ לרשות חבירו האסור לו:",
+    "(כה) ששבתו בבית - דאלו כלים ששבתו על הגג מותר לטלטלם אפילו לגג חבירו בלי עירוב כלל וכנ\"ל בסימן שע\"ב ס\"א:",
+    "(כו) וגדול מותר - להוציא כלי הבית על גגו דגג הקטן לגביה נחשב כפתח בעלמא כיון שאין בו יותר מעשר אמות:",
+    "(כז) מחיצות הבית ניכרות וכו' - שכל גגות שלהן חלקין היו ולא משופעין וכשאין בולט הגג מן הכתלים ולחוץ נראין מחיצות הבית לעומדין על שפת הגג כשמסתכלין תחת רגליהם ואז אמרינן גוד אסיק מחיצתא וכאלו מוקף מחיצות למעלה סביב הגג אבל כשהגג בולט מן הכתלים ולחוץ אין מחיצות הבית נראין ואין אומרין גוד אסיק מחיצתא והוי כרמלית ואסור לטלטל בכל אחד שאין לו שום מחיצות אפילו כלים ששבתו על הגג כ\"א בתוך ד' אמות:",
+    "(כח) שהגג בולט - דוקא כשבולט ד\"ט אבל אם אין בולט ארבעה טפחים הוי כמחיצות ניכרות [מ\"א וא\"ר ועיין במה שכתבנו לעיל בסימן שמ\"ה סט\"ז בבה\"ל]:",
+    "(כט) פתוח לו וכו' - דמשתמשין בו ונחשב כל הגג כחורי רה\"י. ומ\"מ לא מהני זה אלא להתיר להשתמש על גגו בכלים ששבתו בתוכו דיש עליו עי\"ז שם רה\"י אבל להעלות עליו כלים ששבתו בבית אסור כ\"ז שלא עירבו יחד כיון שאין המחיצות ניכרות עליו:"
+  ],
+  "fr": [
+    "Et elle a été bouchée le Chabbat - par exemple qu’un éboulement est tombé en face [Rachi].",
+    "Il est permis de s’en servir - de l’une à l’autre pendant ce Chabbat ; et à plus forte raison chacune pour soi : même celle dans laquelle l’érouv n’est pas déposé est permise.",
+    "Par le haut du mur et ses trous - c’est-à-dire que bien que maintenant, une fois bouché, ils ne soient plus aptes à faire érouv ensemble — car les trous n’ont pas la mesure d’une fenêtre —, néanmoins l’érouv n’est pas annulé pour ce Chabbat : puisque cela a été permis au début du Chabbat, c’est permis pour tout le Chabbat.",
+    "Et elle s’est ouverte le Chabbat - c’est-à-dire : non seulement si cela s’est ouvert avant le Chabbat, c’est certainement un érouv, car au moment de l’entrée du Chabbat ils étaient déjà ouverts l’un vers l’autre ; mais même si cela s’est ouvert pendant le Chabbat lui-même, néanmoins, puisque au moment du dépôt de l’érouv — qu’il a déposé pour plusieurs Chabbats ou pour une année — il y avait une porte de l’un à l’autre et l’érouv a pris effet, dès lors, même si un autre Chabbat elle était bouchée dès le début du Chabbat et que l’érouv n’était alors pas efficace pour tous, néanmoins il n’a pas été annulé, et dès qu’elle s’est ouverte, l’érouv est revenu à sa permission première.",
+    "Et même s’il l’a bouchée volontairement (mezid) - c’est-à-dire intentionnellement. Sache que le Maguen Avraham et plusieurs Aharonim ont penché pour interdire en ce cas, lorsqu’elle s’est rouverte le Chabbat : puisque l’on a bouché volontairement la porte entre les deux cours, c’est comme si l’on avait annulé l’érouv de ses mains, car il a révélé son intention qu’il ne désire pas l’érouv ; dès lors, puisque au béin hachemachot — qui est le moment où l’érouv prend effet — c’était encore bouché, cela n’aide pas si cela s’est ouvert ensuite pendant le Chabbat lui-même. On ne doit pas alléger lorsque l’on a bouché volontairement, sauf si cela s’est ouvert avant le Chabbat : alors on dit que même si cela a été annulé à l’origine, puisque cela s’est rouvert, ils sont en tout cas associés dans le pain de l’érouv, et au béin hachemachot — moment de l’acquisition de l’érouv — il y a une porte entre eux propre à faire érouv. Voir le Biour Halakha, où nous avons expliqué qu’il convient de pratiquer ainsi. Toutefois, si au moment où on l’a bouchée l’intention n’était que pour un temps, et ensuite de la rouvrir, il est logique que ce soit permis même si cela s’est rouvert le Chabbat.",
+    "Et selon le Rambam, etc. - cela se rapporte au début du seif, là où la porte a été bouchée le Chabbat : selon le premier avis, il est permis de s’en servir de l’une à l’autre par les trous ; selon lui, ce n’est permis que chaque cour pour soi. La nouveauté est que même la cour dans laquelle l’érouv n’est pas déposé est permise. Toutefois, si cela s’est rouvert, selon tous les avis il est permis de transporter de l’une à l’autre comme au début. Quant à la halakha, l’essentiel est selon le premier avis, ainsi ont écrit les Aharonim.",
+    "Chacun dans sa cour - car même si chaque cour est maintenant ouverte vers un autre domaine avec lequel ils ne sont pas associés, et que c’est ouvert vers un lieu qui lui est interdit, néanmoins, puisque au béin hachemachot c’était permis, c’est permis pour tout le Chabbat.",
+    "Et même les ustensiles de la maison - car les ustensiles de la cour, il est permis de les transporter même d’une cour à l’autre aussi lorsqu’il y a brèche, car toutes les cours sont un seul domaine, comme plus haut au début du siman 372.",
+    "Mais, etc. - vers une karmélit, c’est interdit. Ici l’on ne dit pas « une fois permis, c’est permis », comme on le dit dans le cas précédent : là-bas, ce n’était ouvert que vers une cour qui est domaine privé (rechout hayahid) comme elle, et il n’y a entre elles que le fait que celle-ci est de tel individu et celle-là d’un autre ; mais celle-ci, ouverte vers un autre domaine réellement, on n’y dit pas « une fois permis, c’est permis ». Voir le Biour Halakha.",
+    "Qui s’est ouverte avant le Chabbat - car si c’était le Chabbat, on dirait : une fois permis, c’est permis.",
+    "Sur toute sa largeur vers la grande - c’est-à-dire qu’elles étaient attenantes l’une à l’autre, un mur les séparait, et tout ce mur s’est ouvert.",
+    "Et la brèche n’a pas plus de dix coudées - car si plus de dix, on ne peut pas dire que la petite est comme l’ouverture de la grande : on ne fait pas d’ouverture de plus de dix coudées.",
+    "La grande est permise, etc. - et la petite ne lui interdit pas, car la grande a des jambages, et l’endroit de la brèche du mur de la petite est comme son ouverture.",
+    "D’en sortir des ustensiles qui ont passé le début du Chabbat dans la maison, etc. - car les ustensiles qui ont passé le début du Chabbat dans la cour, il est permis a priori (lekhathila) de les sortir même vers une autre cour, même s’ils n’ont pas fait érouv ensemble.",
+    "Si elle a fait érouv pour soi - mais si elle n’a pas fait érouv, elle aussi est interdite.",
+    "Et la petite est interdite, etc. - car son mur s’est ouvert sur toute sa largeur vers la grande, qui est un lieu qui lui est interdit.",
+    "Et c’est-à-dire, etc. - c’est-à-dire : quand la petite est-elle interdite ? Lorsque ses murs pénètrent et font saillie dans la grande de deux ou trois coudées, comme ceci.",
+    "Éloignés de trois téfa’him, etc. - c’est-à-dire que l’endroit où les cloisons de la petite pénètrent est éloigné des murs de longueur de la grande qui sont à ses côtés. Et pourquoi faut-il trois téfa’him ? Car sinon on appliquerait lavoud à la longueur de la grande, et ce serait comme s’il n’y avait aucun éloignement.",
+    "Car sinon la petite serait permise, etc. - c’est-à-dire que si les murs de la petite ne pénétraient pas et ne faisaient pas saillie dans la grande, la petite aussi serait permise : bien que ce soit égal à l’intérieur — celui qui se tient dedans voit tous les murs de sa longueur égaux, sans rien du mur de largeur vers ses côtés, et la brèche est sur toute sa largeur —, toutefois de l’extérieur, à l’intérieur de la grande, apparaissent pour elle des restes de mur deçà et delà [c’est-à-dire cet excédent par lequel la grande dépasse la petite, et par eux elle est permise ; la petite aussi serait permise]. Ce qui n’est pas le cas lorsque les murs de la petite font saillie dans la grande : il est manifeste que ces restes de mur de la grande, qui se tiennent derrière la brèche de la petite, ne lui appartiennent pas.",
+    "Un petit toit, etc. - mais si les deux toits sont égaux, ils s’interdisent l’un l’autre, même s’ils n’ont pas plus de dix coudées, car ils se sont ouverts sur toute leur largeur l’un vers l’autre.",
+    "Qui s’est ouvert, etc. - ce n’est pas à prendre au pied de la lettre ; le sens est qu’il était ouvert vers le toit voisin. Car pour un toit, on ne parle pas d’une cloison qui y était d’abord ; et l’on a pris le langage « s’est ouvert » à cause du seif 3.",
+    "Avant le Chabbat - car si c’était le Chabbat, on dirait : une fois permis, c’est permis, comme plus haut.",
+    "Sur toute sa largeur vers un grand toit - c’est-à-dire que tout le petit toit était aligné face au grand toit voisin. Il s’agit aussi de ce que leurs propriétaires n’ont pas fait érouv ensemble, et que le petit toit ne mesure pas plus de dix coudées, comme plus haut au seif 3.",
+    "Le petit, il est interdit d’y monter, etc. - car il s’est ouvert vers le domaine de son voisin, qui lui est interdit.",
+    "Qui ont passé le début du Chabbat dans la maison - car les ustensiles qui ont passé le début du Chabbat sur le toit, il est permis de les transporter même vers le toit du voisin sans aucun érouv, comme plus haut siman 372 seif 1.",
+    "Et le grand est permis - de sortir les ustensiles de la maison sur son toit, car le petit toit est considéré à son égard comme une simple ouverture, puisqu’il n’a pas plus de dix coudées.",
+    "Les cloisons de la maison sont visibles, etc. - car tous leurs toits étaient plats et non pentus ; et lorsque le toit ne dépasse pas des murs vers l’extérieur, les cloisons de la maison sont visibles pour ceux qui se tiennent au bord du toit, lorsqu’ils regardent sous leurs pieds ; alors on dit goud assik mé’hitsata, comme s’il était entouré de cloisons en haut autour du toit. Mais lorsque le toit dépasse des murs vers l’extérieur, les cloisons de la maison ne sont pas visibles, et l’on ne dit pas goud assik mé’hitsata : c’est karmélit, et il est interdit de transporter dans chacun qui n’a aucune cloison, même des ustensiles qui ont passé le début du Chabbat sur le toit, sauf dans quatre coudées.",
+    "Que le toit dépasse - uniquement lorsqu’il dépasse de quatre téfa’him ; mais s’il ne dépasse pas de quatre téfa’him, c’est comme des cloisons visibles [Maguen Avraham et Eliya Rabba ; voir ce que nous avons écrit plus haut siman 345 seif 16 dans le Biour Halakha].",
+    "Ouverte vers lui, etc. - car on s’en sert, et tout le toit est considéré comme les creux d’un domaine privé. Toutefois, cela n’aide que pour permettre de se servir sur son toit des ustensiles qui ont passé le début du Chabbat à l’intérieur : par là il a le nom de domaine privé. Mais d’y monter des ustensiles qui ont passé le début du Chabbat dans la maison est interdit tant qu’ils n’ont pas fait érouv ensemble, puisque les cloisons ne sont pas visibles sur lui."
+  ],
+  "source_he": "recovered from live HTML",
+  "source_fr": "recovered from live HTML",
+  "title_he": "",
+  "glossary": [
+    {
+      "term": "מזיד",
+      "fr": "volontairement (mezid)"
+    },
+    {
+      "term": "לכתחילה",
+      "fr": "a priori (lekhathila)"
+    },
+    {
+      "term": "בין השמשות",
+      "fr": "béin hachemachot (crépuscule)"
+    },
+    {
+      "term": "מפולת",
+      "fr": "éboulement"
+    },
+    {
+      "term": "גיפופין",
+      "fr": "jambages (restes de mur de part et d’autre)"
+    },
+    {
+      "term": "מילואה",
+      "fr": "sur toute sa largeur"
+    },
+    {
+      "term": "גוד אסיק",
+      "fr": "goud assik (on prolonge les cloisons vers le haut)"
+    },
+    {
+      "term": "כרמלית",
+      "fr": "karmélit"
+    },
+    {
+      "term": "לבוד",
+      "fr": "lavoud"
+    },
+    {
+      "term": "רה\"י",
+      "fr": "domaine privé (rechout hayahid)"
+    },
+    {
+      "term": "בה\"ל",
+      "fr": "Biour Halakha"
+    },
+    {
+      "term": "מ\"א",
+      "fr": "Maguen Avraham"
+    },
+    {
+      "term": "אחרונים",
+      "fr": "Aharonim"
+    }
+  ],
+  "pratique": "[WARN] Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.\n[SUJET] Porte ou fenêtre bouchée ou ouverte le Chabbat — petite cour / petit toit vers le grand\n[FAIRE] Porte bouchée le Chabbat (éboulement) | L’érouv déjà pris reste pour tout ce Chabbat : on sert d’une cour à l’autre même par le haut du mur et les trous\n[FAIRE] Porte rouverte le Chabbat | Si l’érouv avait pris effet (porte ouverte au dépôt), la permission revient dès qu’elle s’ouvre\n[EVITER] Boucher volontairement (mezid) | Plusieurs A'haronim interdisent si elle ne se rouvre que le Chabbat : c’est comme annuler l’érouv de ses mains\n[CAS:OUI] Petite cour ouverte sur toute sa largeur vers la grande (brèche ≤ 10 ammot) | La grande reste permise si elle a fait érouv pour soi ; la petite est interdite si ses murs pénètrent dans la grande\n[CAS:OUI] Petit toit ≤ 10 ammot ouvert vers un grand toit | Le grand reste permis ; le petit interdit pour y monter les objets de la maison\n[CAS:NON] Cour ouverte vers une karmélit avant le Chabbat | On ne dit pas « une fois permis, c’est permis » : domaine réellement autre\n[CAS:NON] Toit qui dépasse les murs de 4 téfa'him | Les cloisons ne sont plus visibles : pas de goud assik ; karmélit sur le toit\n[SYNTHESE] Ce qui était permis à l’entrée du Chabbat reste permis ce Chabbat, même si la porte se bouche. Vers une karmélit ou si l’on a bouché exprès, la permission ne revient pas de la même façon. Petite cour ou petit toit ouverts sur le grand : le grand reste, le petit tombe."
+}
