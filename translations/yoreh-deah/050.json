@@ -1,0 +1,32 @@
+{
+  "siman": 50,
+  "heading_fr": "Règles générales concernant la perforation des organes.",
+  "summary": "Principes d'attribution des trous à des causes externes et statut des organes manquants ou décomposés.",
+  "he": [
+    "דינים כלליים בנקיבת האברים. ובו ג' סעיפים: כל אלו הנקבים אם יש במה לתלות כמו בטבח או בזאב שנטלן תולין בהם ואם אין דבר לתלות בו וספק אם ניקב מחיים אם לאו נוקבין נקב אצלו ומדמין זה לזה ואפילו אין דומים אם משמשו בידים בנקב הספק ימשמשו גם בנקב שעושין לדמותו בו אם דומים לאחר משמוש כשרה ואין מדמין אלא בכרס ובדקין אבל לא בלב וטחול וקורקבן: הגה ועיין לעיל סימן ל\"ו כיצד נוהגין כל מקום שאין יכולין לתלות שנעשה לאחר שחיטה אע\"פ שהוא טריפות שיש לו בדיקה אם לא בדקוהו או שאין יכולין לבדוק הרי הוא כספק טריפה ואוסרין אותה ולא אמרינן נשחטה הותרה אלא בדבר שנוכל לומר שנעשה הריעותא לאחר שחיטה דלא יצאתה מחזקתה מחיים:",
+    "כל אבר שאמרנו שאם ניקב במשהו טריפה כך אם ניטל כולו טריפה בין שניטל בחולי או ביד בין שנברא חסר וכן אם נברא בשני אברים מאותו אבר טריפה שכל היתר כנטול חשוב (חוץ מטחול שניטל כשר וניקב בסומכיה טריפה) (טור) וכל שאמרנו בו אם נברא חסר טריפה כ\"ש אם ניטל ביד וכל שאמרנו בו אם ניטל טריפה הוא הדין לנברא חסר ויש מכשירין בזה (ובהפסד מרובה יש לסמוך אמכשירין) (ד\"ע):",
+    "כל אבר שנקיבתו או חסרונו או נטילתו פוסל אם נתמסמס פסול: הגה ואנן שאין אנו בקיאין כל שנשתנה מראית הבשר לריעותא הוי כניקב שם (הגהות מיימוני ומרדכי):"
+  ],
+  "fr": [
+    "Pour toutes ces perforations, s'il y a un élément auquel on peut les attribuer (comme le boucher ou un loup ayant pris l'organe), on les leur attribue. S'il n'y a rien à qui l'attribuer et qu'on doute si la perforation a eu lieu du vivant de l'animal ou non, on fait un nouveau trou à côté pour les comparer (en manipulant l'ancien trou si nécessaire pour qu'ils soient traités de la même manière). S'ils se ressemblent, elle est cachère. On ne procède à cette comparaison que pour la panse et les intestins, mais pas pour le cœur, la rate ou le gésier. Rema : Voir plus haut siman 36. Partout où l'on ne peut affirmer que le défaut s'est produit après l'abattage (che'hita), même s'il s'agit d'une treifa nécessitant normalement vérification : si on ne l'a pas vérifiée ou si c'est impossible, elle est considérée comme un doute de treifa et est interdite.",
+    "Tout organe dont la perforation rend l'animal treifa le rend également treifa s'il est entièrement manquant, qu'il ait été retiré suite à une maladie, enlevé manuellement, ou absent de naissance. De même, si l'animal est né avec cet organe en double, il est treifa, car tout organe en surplus est considéré comme manquant (à l'exception de la rate, qui est cachère si elle est totalement retirée, mais treifa si elle est perforée dans sa partie épaisse). Et certains autorisent les cas où il manque de naissance, on peut s'y fier en cas de grande perte financière.",
+    "Tout organe dont la perforation, l'absence ou le retrait rend l'animal treifa, le rend également treifa s'il s'est décomposé. Rema : Puisque nous ne sommes pas experts en la matière, tout changement d'aspect de la chair évoquant un défaut est considéré comme une perforation."
+  ],
+  "source_he": "recovered from live HTML",
+  "source_fr": "recovered from live HTML",
+  "glossary": [
+    {
+      "term": "treifa",
+      "fr": "bête présentant une lésion mortelle la rendant impropre à la consommation"
+    },
+    {
+      "term": "cachère",
+      "fr": "apte à la consommation"
+    },
+    {
+      "term": "che'hita",
+      "fr": "abattage rituel"
+    }
+  ],
+  "pratique": "[WARN] Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.\n[SUJET] Règles générales concernant la perforation des organes\n[FAIRE] Attribuer le trou | S'il y a à qui l'attribuer (boucher, loup qui a pris l'organe), on le leur attribue.\n[FAIRE] Comparer deux trous | Rien à attribuer et doute vivant ou après che'hita : nouveau trou à côté pour comparer (même manipulation). S'ils se ressemblent : cachère.\n[EVITER] Comparaison limitée | Comparaison seulement pour la panse et les intestins, pas pour le cœur, la rate ou le gésier.\n[EVITER] Défaut non datable | On ne peut pas dire que le défaut est après la che'hita, non vérifié ou invérifiable : doute de treifa, interdit.\n[CAS:NON] Organe entièrement manquant | Organe dont la perforation rend treifa : aussi treifa s'il manque en entier (maladie, enlevé à la main, ou de naissance).\n[CAS:NON] Organe en double | Né avec cet organe en double : treifa, car tout surplus est comme manquant.\n[CAS:NON] Organe décomposé | Perforation, absence ou retrait = treifa : aussi treifa s'il s'est décomposé.\n[CAS:OUI] Rate retirée | Exception : rate totalement retirée = cachère ; percée dans sa partie épaisse = treifa.\n[CAS:OUI] Manquant de naissance | Certains autorisent s'il manque de naissance ; on peut s'y fier en cas de grande perte financière.\n[REMA] Voir siman 36. Non vérifié ou invérifiable : doute de treifa, interdit. On n'est pas experts : tout changement d'aspect de la chair évoquant un défaut compte comme une perforation.\n[SYNTHESE] On attribue un trou à une cause externe dès qu'on le peut. Sinon on compare (panse et intestins seulement). Un organe vital manquant, doublé ou décomposé est comme percé."
+}
