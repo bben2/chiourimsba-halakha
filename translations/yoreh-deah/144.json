@@ -1,0 +1,34 @@
+{
+  "siman": 144,
+  "heading_fr": "Quel est le statut de l’argent provenant des idoles",
+  "summary": "Prix d’une idole vendue par un Israélite : interdit. Vendue par un idolâtre pour ses besoins : permis. Vente à crédit d’idoles ou de vin de libation : l’argent peut être permis après coup.",
+  "he": [
+    "דמי עבודת כוכבים מה דינם. ובו ב' סעיפים:דמי האליל ביד ישראל שמכרה אסורים אבל אם מכרה עובד כוכבים אפילו מכרה כדי לעבדה הדמים מותרים ודווקא שהדבר ידוע שמכרה לעשות צרכיו בדמיה אבל אם אינו ידוע יש לחוש שמא מכרה לקנות בדמיה אלילים אחרים והרי המעות מוקצין לאלילים ואסורים (וע\"ל סוף סימן קל\"ב):",
+    "יש אומרי' שאם ביד ישראל יין נסך ואלילי' ומכרם לעובד כוכבים בהקפה (פירוש בהמתנה) ומכרם העובד כוכבים לאחר קודם שיפרע לזה הישראל הדמים מותרים בדיעבד:"
+  ],
+  "fr": [
+    "Le prix de l’idole, entre les mains d’un Israélite qui l’a vendue, est interdit. Mais si un idolâtre l’a vendue, même afin qu’on la serve, l’argent est permis ; encore faut-il qu’il soit connu qu’il l’a vendue pour pourvoir à ses besoins avec cet argent. S’il n’est pas connu, on craindra qu’il ne l’ait vendue pour acheter d’autres idoles : les pièces sont alors réservées aux idoles et interdites.",
+    "Certains disent : si un Israélite a entre les mains du yayin nesech (vin de libation idolâtre) et des idoles, qu’il les a vendus à un idolâtre à crédit (c’est-à-dire à terme) et que l’idolâtre les a revendus à un autre avant de payer cet Israélite, l’argent est permis bediavad (après coup)."
+  ],
+  "source_he": "recovered from live HTML",
+  "source_fr": "recovered from live HTML",
+  "glossary": [
+    {
+      "term": "bediavad",
+      "fr": "après coup"
+    },
+    {
+      "term": "yayin nesech",
+      "fr": "vin de libation idolâtre"
+    },
+    {
+      "term": "dmei elil",
+      "fr": "prix de l’idole"
+    },
+    {
+      "term": "muqatsim",
+      "fr": "réservés au culte"
+    }
+  ],
+  "pratique": "[WARN] Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.\n[ÉVITER] Tirer profit de l'argent provenant d'une idole vendue par un Israélite.\n[CAS:OUI] Idole vendue par un idolâtre | l'argent est permis s'il est connu que c'est pour ses propres besoins.\n[CAS:OUI] Vente par un idolâtre dont le but est inconnu | on craint l'achat d'autres idoles, l'argent est interdit.\n[CAS:OUI] Vente à crédit d'idoles ou de vin de libation par un Israélite, puis revendu par l'idolâtre | l'argent récupéré est permis après coup (bediavad)."
+}
