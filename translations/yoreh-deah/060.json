@@ -1,0 +1,32 @@
+{
+  "siman": 60,
+  "heading_fr": "Loi de la bête qui a mangé un poison mortel",
+  "summary": "Bête saisie par le sang, enfumée, refroidie, ou qui a absorbé un poison mortel pour elle : permise. Poison mortel pour l’homme ou morsure de serpent : permise au titre de la tréfa, interdite pour danger de mort. Pattes coupées : examen par rôtissage, sauf usage actuel où l’on ne craint plus le serpent.",
+  "he": [
+    "דין בהמה שאכלה סם המות. ובו ג' סעיפים: אחוזת דם והמעושנת והמצוננת או שאכלה סם המות שהורג הבהמה או ששתתה מים הרעים הרי זו מותרת: הגה בהמה שנתפטמה בדברים אסורים מותרת (מרדכי דיבמות פ' אלמנה לכ\"ג) אבל אם לא נתפטמה כל ימיה רק בדברים אסורים אסורה (תוספות דתמורה פ' כל האסורים):",
+    "אכלה סם המות של אדם או הכישה נחש וכיוצא בו מותרת משום טריפה ואסורה משום סכנת נפשות:",
+    "בהמה או חיה שנפסקו רגליה לא יאכלו ממנה אלא על ידי בדיקה שיש לחוש שמא נשכה נחש וזו בדיקתה שלא יאכלוה אלא צלי ואם היא נשוכת נחש תתפרק ותפול חתיכות חתיכות: הגה ולדידן דלא חיישינן לגלוי מים הואיל ואין נחשים מצוין לכן אין לחוש לנחש ואם הוא בדרך שלא נעשתה טריפה מותר בלא בדיקה (ב\"י בשם רבינו ירוחם וכ\"כ א\"ו הארוך):"
+  ],
+  "fr": [
+    "La bête saisie par le sang, ou enfumée, ou refroidie, ou qui a mangé un sam ha-mavet (poison mortel) qui tue la bête, ou qui a bu des eaux mauvaises, est permise.\nRema : Une bête engraissée avec des aliments interdits est permise. Mais si elle n’a été nourrie, toute sa vie, que d’aliments interdits, elle est interdite.",
+    "Si elle a mangé un sam ha-mavet de l’homme, ou si un serpent l’a piquée, et cas semblables, elle est permise au titre de la tréfa (défaut qui interdit la consommation), mais interdite à cause du danger pour la vie.",
+    "Une bête ou une bête sauvage dont les pattes ont été sectionnées : on n’en mangera qu’après bedika (examen), car on craint qu’un serpent ne l’ait mordue. Voici l’examen : on ne la mange que rôtie ; si elle a été mordue par un serpent, elle se désagrégera et tombera en morceaux.\nRema : Pour nous, qui ne craignons pas les eaux découvertes, puisque les serpents ne sont pas fréquents, on n’a pas à craindre le serpent. Et si c’est d’une manière qui n’a pas rendu [l’animal] tréfa, il est permis sans examen."
+  ],
+  "source_he": "recovered from live HTML",
+  "source_fr": "recovered from live HTML",
+  "glossary": [
+    {
+      "term": "sam ha-mavet",
+      "fr": "poison mortel"
+    },
+    {
+      "term": "tréfa",
+      "fr": "défaut qui interdit la consommation"
+    },
+    {
+      "term": "bedika",
+      "fr": "examen"
+    }
+  ],
+  "pratique": "[WARN] Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.\n[SUJET] YD 60 — Loi de la bête qui a mangé un poison mortel\n[FAIRE] Saisie par le sang, enfumée, refroidie, poison qui tue la bête, eaux mauvaises → permise.\n[FAIRE] Rema | engraissée d’aliments interdits → permise. Nourrie toute sa vie uniquement d’interdits → interdite.\n[EVITER] Poison mortel pour l’homme, ou morsure de serpent (et cas semblables) | permise au titre de la tréfa, interdite pour danger de mort.\n[FAIRE] Pattes sectionnées | ne manger qu’après bedika (crainte du serpent). Examen : rôtir ; si mordue, elle se désagrège.\n[CAS:OUI] Rema | chez nous les serpents ne sont pas fréquents — on ne craint pas. Si la coupe n’a pas rendu tréfa → permis sans examen.\n[SYNTHESE] YD 60 — Loi de la bête qui a mangé un poison mortel."
+}
