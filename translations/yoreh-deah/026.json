@@ -1,0 +1,26 @@
+{
+  "siman": 26,
+  "heading_fr": "Loi de la perforation du veshet ou des entrailles avant la fin de la che'hita",
+  "summary": "Une perforation du veshet pendant la che'hita, ou du poumon ou des entrailles entre le tranchage des deux simanim, rend treifa.",
+  "he": [
+    "דין נקב בוושט או בבני מעים קודם [גמר] השחיטה. ובו ב' סעיפים: ניקב הוושט בשעת שחיטה כנגד המקום ששחט כבר טריפה:",
+    "שחט הקנה וניקבה הריאה קודם ששחט הוושט או ששחט הוושט וניקבו בני מעים קודם ששחט הקנה טריפה:"
+  ],
+  "fr": [
+    "Si le veshet a été percé pendant la che'hita, vis-à-vis de l'endroit déjà tranché : c'est treifa.",
+    "On a tranché le kané et le poumon s'est percé avant que l'on tranche le veshet, ou l'on a tranché le veshet et les entrailles se sont percées avant que l'on tranche le kané : c'est treifa."
+  ],
+  "source_he": "recovered from live HTML",
+  "source_fr": "recovered from live HTML",
+  "glossary": [
+    {
+      "term": "nikkuv ha-veshet",
+      "fr": "perforation de l'œsophage"
+    },
+    {
+      "term": "bnei méayim",
+      "fr": "entrailles"
+    }
+  ],
+  "pratique": "[WARN] Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.\n[SUJET] YD 26  Perforation avant la fin de la che'hita\n[CAS:OUI] Veshet percé pendant la che'hita, vis-à-vis de l'endroit déjà tranché | treifa.\n[CAS:OUI] Kané tranché, puis poumon percé avant le veshet | treifa.\n[CAS:OUI] Veshet tranché, puis entrailles percées avant le kané | treifa.\n[SYNTHESE] YD 26  Perforation avant la fin de la che'hita."
+}
