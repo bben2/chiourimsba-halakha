@@ -1,0 +1,40 @@
+{
+  "siman": 227,
+  "heading_fr": "Loi de celui qui s’est interdit de tout Israël",
+  "summary": "Achat et vente selon que le bénéfice est à l’acheteur, au vendeur, ou aux deux. Prêt d’objet et d’argent. Teroumot, maasrot et dons aux pauvres pris malgré lui.",
+  "he": [
+    "דין מי שאסר עצמו מכל ישראל. ובו ג' סעיפים:מי שאסר עצמו מכל ישראל אסור לקנות מהם ולמכור להם זבינא מציעא דאית ביה הנאה ללוקח ולמוכר אלא לוקח ביותר ומוכר בפחות ואם אסר הנאתו עליהם לוקח מהם בפחות ומוכר ביותר אם ישמעו לו וזבינא חריפא הוא הנאת הלוקח ולא הנאת המוכר הילכך אם אסר עצמו מהם יקננו מהם ביותר ומוכר להם שוה בשוה ואם אסרם עליו ימכרנו להם ביותר אם ישמעו לו ויקננו מהם שוה בשוה וזבינא דרמי באפיה הוי הנאת המוכר ולא הנאת הלוקח הילכך אם אסר עצמו מהם ימכרנו להם בפחות ויקננו מהם שוה בשוה ואם אסרם עליו יקננו מהם בפחות אם ישמעו לו וימכרנו להם שוה בשוה:",
+    "אסר הנייתם עליו הרי זה משאילן ומלוה אותם אבל הוא לא ישאל ולא ילוה מהם ואם אסר הנאתו עליהם והנאתם עליו לא ישאיל ולא ילוה להם ולא הם ממנו:",
+    "מי שאסר הנאתו על הכהנים ועל הלוים באים ונוטלין תרומותיו ומעשרותיו בעל כרחו ואם אמר כהנים אלו ולוים אלו יתן לכהנים ולוים אחרים וכן הדין במתנות עניים לעניים:"
+  ],
+  "fr": [
+    "Celui qui s’est interdit de tout Israël : il lui est interdit d’acheter d’eux et de leur vendre une vente moyenne, où il y a bénéfice pour l’acheteur et pour le vendeur ; mais il achète plus cher et vend moins cher. S’il a interdit son bénéfice à eux : il achète d’eux moins cher et leur vend plus cher, s’ils l’écoutent. Une vente recherchée est le bénéfice de l’acheteur et non le bénéfice du vendeur ; dès lors, s’il s’est interdit d’eux, il l’achètera d’eux plus cher et leur vendra à prix égal ; s’il les a interdits à lui, il la leur vendra plus cher s’ils l’écoutent, et l’achètera d’eux à prix égal. Une vente qui pèse sur lui est le bénéfice du vendeur et non le bénéfice de l’acheteur ; dès lors, s’il s’est interdit d’eux, il la leur vendra moins cher et l’achètera d’eux à prix égal ; s’il les a interdits à lui, il l’achètera d’eux moins cher s’ils l’écoutent, et la leur vendra à prix égal.",
+    "Il a interdit leur bénéfice à lui : il leur prête des objets et leur prête de l’argent, mais lui n’empruntera pas d’objet et n’empruntera pas d’argent d’eux. S’il a interdit son bénéfice à eux et leur bénéfice à lui : il ne leur prêtera ni objet ni argent, et eux non plus de lui.",
+    "Celui qui a interdit son bénéfice aux kohanim et aux léviim : ils viennent et prennent ses teroumot et ses maasrot malgré lui. S’il a dit : ces kohanim-ci et ces léviim-ci, il donnera à d’autres kohanim et léviim. Il en est de même des dons aux pauvres : s’il a interdit son bénéfice aux pauvres, ils les prennent malgré lui ; s’il a désigné tels pauvres, il donne à d’autres."
+  ],
+  "source_he": "recovered from live HTML",
+  "source_fr": "recovered from live HTML",
+  "glossary": [
+    {
+      "term": "zevina metsia",
+      "fr": "vente moyenne, bénéfice des deux côtés"
+    },
+    {
+      "term": "zevina 'harifa",
+      "fr": "vente recherchée, bénéfice de l’acheteur"
+    },
+    {
+      "term": "zevina derami beapei",
+      "fr": "vente qui pèse, bénéfice du vendeur"
+    },
+    {
+      "term": "terouma",
+      "fr": "prélèvement dû au kohen"
+    },
+    {
+      "term": "maaser",
+      "fr": "dîme"
+    }
+  ],
+  "pratique": "[WARN] Attention : ceci n’est pas la halakha. C’est seulement une synthèse des points de cette page. La halakha est donnée par les rabanim.\n[SUJET] Conséquences d'un vœu interdisant le bénéfice à tout Israël ou envers tout Israël\n[EVITER] Commerce moyen | si l'on s'est interdit de tout Israël, il est interdit d'acheter et de vendre de façon équilibrée avec un bénéfice pour les deux parties\n[FAIRE] Ajuster les prix | selon qui a fait le vœu et la nature de la vente, la transaction doit systématiquement désavantager celui qui a interdit son bénéfice\n[CAS:OUI] Prêts unilatéraux | si le public est interdit de lui, il peut leur prêter de l'argent ou des objets, mais lui ne peut rien leur emprunter\n[CAS:NON] Double interdiction | si l'interdiction de bénéficier est réciproque, aucun prêt n'est permis dans les deux sens\n[CAS:OUI] Dons obligatoires aux kohanim et pauvres | si on leur a interdit son bénéfice de manière générale, ils viennent prendre leurs parts (teroumot, maasrot) malgré lui\n[CAS:NON] Destinataires ciblés | s'il a spécifiquement désigné certains kohanim, léviim ou pauvres dans son vœu, il devra donner ses obligations à d'autres\n[SYNTHESE] S'interdire ou interdire un public contraint à des échanges commerciaux toujours désavantageux pour le voueur, mais cela ne bloque pas le prélèvement des dons obligatoires non nominatifs."
+}
